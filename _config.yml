@@ -1,0 +1,13 @@
+title: "Westley Overcash"
+description: "Curiosity-driven writing, teaching, and strategy."
+baseurl: ""
+url: "https://westleyovercash.github.io"
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+collections:
+  posts:
+    output: true

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Westley Overcash</a></h1>
+    <nav>
+      <a href="/about">About</a> |
+      <a href="/blog">Blog</a> |
+      <a href="/gallery">Gallery</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p style="font-size: small;">&copy; {{ "now" | date: "%Y" }} Westley Overcash</p>
+  </footer>
+</body>
+</html>
