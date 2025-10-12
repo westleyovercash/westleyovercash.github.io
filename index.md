@@ -3,9 +3,13 @@ layout: default
 title: Home
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
+html<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px;">
     <h1 style="margin-bottom: 0;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
+    <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 1.5rem; color: #555; font-style: italic;">
+      Words carry stories.<br/>
+      Stories move people—closer to you and your brand.
+    </p>
   </div>
   <div style="flex: 0 0 250px;">
     <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
