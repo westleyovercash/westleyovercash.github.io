@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minima";
 
 /* Custom styling for Westley's site */
 
@@ -52,17 +52,6 @@ h1 {
   padding: 60px 0;
 }
 
-.post-list h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.post-meta {
-  color: #828282;
-  font-size: 0.9rem;
-}
-
-/* Newsletter form styling */
 input[type="email"] {
   padding: 12px;
   border: 2px solid #ff6b35;
@@ -87,19 +76,6 @@ input[type="submit"]:hover {
   background: #e55a2b;
 }
 
-/* Portfolio section */
-.portfolio-categories {
-  margin: 2rem 0;
-  font-size: 1.1rem;
-}
-
-.portfolio-categories strong {
-  color: #ff6b35;
-  display: block;
-  margin: 1rem 0 0.5rem 0;
-}
-
-/* Mobile responsive */
 @media (max-width: 600px) {
   h1 {
     font-size: 2.5rem;
