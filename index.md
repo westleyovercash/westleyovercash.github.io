@@ -3,10 +3,13 @@ layout: default
 title: Home
 ---
 
-<h1>I write<br/>the stories<br/>your audience<br/>retells.</h1>
-
-<div class="image-placeholder">
-  <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 400px; width: 100%;">
+<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h1 style="margin-bottom: 0;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
+  </div>
+  <div style="flex: 0 0 250px;">
+    <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
+  </div>
 </div>
 
 **I turn complex ideas into stories worth sharing.**
@@ -28,10 +31,6 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 
 ## Places Where My Words Live
 
-**B2B & Sales Strategy**  
-**Technology & Innovation**  
-**Lifestyle & Culture**  
-**Essays & Thought Pieces**  
-**Travel**
+[B2B and Sales Strategy](/portfolio) | [Technology and Innovation](/portfolio) | [Travel, Lifestyle, and Culture](/portfolio)
 
 [View Full Portfolio →](/portfolio)
