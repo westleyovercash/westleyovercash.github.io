@@ -29,7 +29,7 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
   
   <label style="display: block; margin-bottom: 1rem; font-size: 0.9rem; line-height: 1.5;">
     <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px; vertical-align: middle;">
-    I consent to receive occasional emails about writing, storytelling, and ideas. I understand I can unsubscribe at any time.
+    I consent to receive emails and that I can unsubscribe at any time.
   </label>
   
   <input type="submit" value="Subscribe">
