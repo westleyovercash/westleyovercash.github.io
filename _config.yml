@@ -1,13 +1,27 @@
-title: "Westley Overcash"
-description: "Curiosity-driven writing, teaching, and strategy."
-baseurl: ""
+title: Westley Overcash
+email: wes@wessence.com
+description: I write the stories your audience retells.
 url: "https://westleyovercash.github.io"
+baseurl: ""
+
+# Build settings
 markdown: kramdown
 theme: minima
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
 plugins:
   - jekyll-feed
-
-collections:
-  posts:
-    output: true
+  - jekyll-seo-tag
