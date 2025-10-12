@@ -20,7 +20,7 @@ I turn complex ideas into stories worth sharing. My work spans all sorts of topi
 
 ## My Newsletter
 
-Maybe we already know each other? I think we'd probably have a lot to talk about, from writing and AI to how we get by in our daily lives. I hope when I email you that it feels like a note from a friend.  
+Maybe we already know each other? I think we'd probably have a lot to talk about, from writing and AI to how we get by in our daily lives. I hope it feels like a note from a friend.  
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/YOURUSERNAME" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
