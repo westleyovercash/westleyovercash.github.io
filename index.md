@@ -20,14 +20,14 @@ I turn complex ideas into stories worth sharing. My work spans all sorts of topi
 
 ## My Newsletter
 
-Fresh insights on writing, storytelling, and ideas that matter. Delivered every few weeks like a note from a friend.
+Maybe we already know each other? I think we'd probably have a lot to talk about, from writing and AI to how we get by in our daily lives. I hope it feels like a note from a friend.  
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/YOURUSERNAME" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
   
   <label style="display: block; margin-bottom: 1rem; font-size: 0.9rem; line-height: 1.5;">
     <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px; vertical-align: middle;">
-    I consent to receive emails and understand that I can unsubscribe at any time.
+    I consent to these emails and can say "bye" whenver I want.
   </label>
   
   <input type="submit" value="Subscribe">
