@@ -15,7 +15,7 @@ I work with authors, startups, and bold brands across topics like innovation, sa
 
 ---
 
-## 📬 My Newsletter
+## My Newsletter
 
 Fresh insights on writing, storytelling, and ideas that matter. Delivered every few weeks like a note from a friend.
 
@@ -26,7 +26,7 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 
 ---
 
-## ✍️ Places Where My Words Live
+## Places Where My Words Live
 
 **B2B & Sales Strategy**  
 **Technology & Innovation**  
@@ -34,4 +34,4 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 **Essays & Thought Pieces**  
 **Travel**
 
-[→ View Full Portfolio](/portfolio)
+[View Full Portfolio →](/portfolio)
