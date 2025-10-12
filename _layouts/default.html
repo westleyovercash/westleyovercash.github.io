@@ -8,6 +8,12 @@
   <link rel="apple-touch-icon" href="/assets/css/images/westley-overcash-favicon.png">
 
   <style>
+    html {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -19,12 +25,16 @@
       line-height: 1.7;
       color: #333;
       background-color: #fff;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
     }
 
     header {
       background-color: #ff6b35;
       padding: 1rem 0;
       margin-bottom: 3rem;
+      width: 100%;
     }
 
     nav {
@@ -54,20 +64,13 @@
       text-decoration: none;
     }
 
-    /* === Main Content Width === */
-    main,
-    .wrapper,
-    .page-content,
-    body > div,
-    body > div > main {
-      max-width: 1200px !important;
-      width: 100% !important;
-      margin: 0 auto !important;
-      padding: 0 60px 4rem 60px !important;
-      box-sizing: border-box !important;
+    main {
+      max-width: 1200px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 0 60px 4rem 60px;
     }
 
-    /* === Typography === */
     h1 {
       font-size: 3.5rem;
       line-height: 1.2;
@@ -144,11 +147,12 @@
     }
 
     footer {
+      background-color: #ff6b35;
+      color: white;
+      padding: 3rem 2rem;
       text-align: center;
-      padding: 2rem;
-      color: #666;
-      border-top: 1px solid #eee;
       margin-top: 4rem;
+      width: 100%;
     }
 
     @media (max-width: 600px) {
@@ -174,29 +178,11 @@
         margin-left: 0;
       }
 
-      main,
-      .wrapper,
-      .page-content,
-      body > div,
-      body > div > main {
-        padding: 0 30px 4rem 30px !important;
+      main {
+        padding: 0 30px 4rem 30px;
       }
     }
   </style>
-
-  <!-- Override theme CSS after load -->
-  <script>
-    window.addEventListener('load', function() {
-      const elements = document.querySelectorAll('.wrapper, .page-content, body > div, body > div > main');
-      elements.forEach(el => {
-        el.style.maxWidth = '1200px';
-        el.style.width = '100%';
-        el.style.margin = '0 auto';
-        el.style.padding = '0 60px 4rem 60px';
-        el.style.boxSizing = 'border-box';
-      });
-    });
-  </script>
 
 </head>
 
@@ -216,7 +202,7 @@
     {{ content }}
   </main>
 
-  <footer style="background-color: #ff6b35; color: white; padding: 3rem 2rem; text-align: center; margin-top: 4rem; border-top: none;">
+  <footer>
     <p style="font-size: 1.1rem; margin-bottom: 1.5rem; line-height: 1.6;">
       No cookies for you! It's not that you've been bad, it's that I respect your privacy.
       I will never know what you've clicked on here.
