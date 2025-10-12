@@ -92,22 +92,25 @@ input[type="submit"]:hover {
 }
 
 /* Responsive width fix for desktop */
-body, html {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+html, body {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.container, .wrapper, .content, main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  box-sizing: border-box;
+.wrapper, .page-content, .site-content, main {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
 }
 
 @media (min-width: 1200px) {
-  .container, .wrapper, .content, main {
-    max-width: 85%;
+  .wrapper, .page-content, .site-content, main {
+    max-width: 85% !important;
+  }
+}
   }
 }
