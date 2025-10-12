@@ -1,12 +1,9 @@
 ---
 ---
 
-@import "minima";
-
 /* Custom styling for Westley's site */
-
 body {
-  font-family: Georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.7;
   color: #333;
 }
@@ -21,35 +18,6 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.2;
   margin-bottom: 2rem;
-}
-
-.site-header {
-  background-color: #ff6b35;
-  border-top: none;
-  border-bottom: none;
-}
-
-.site-title {
-  color: white !important;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.site-title:hover {
-  text-decoration: none;
-}
-
-.site-nav .page-link {
-  color: white;
-  font-weight: 500;
-}
-
-.site-nav .page-link:hover {
-  text-decoration: underline;
-}
-
-.page-content {
-  padding: 60px 0;
 }
 
 input[type="email"] {
@@ -88,29 +56,5 @@ input[type="submit"]:hover {
   
   input[type="submit"] {
     width: 100%;
-  }
-}
-
-/* Responsive width fix for desktop */
-html, body {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.wrapper, .page-content, .site-content, main {
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 2rem !important;
-  box-sizing: border-box !important;
-  width: 100% !important;
-}
-
-@media (min-width: 1200px) {
-  .wrapper, .page-content, .site-content, main {
-    max-width: 85% !important;
-  }
-}
   }
 }
