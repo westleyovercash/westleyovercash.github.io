@@ -14,7 +14,7 @@ title: Home
 
 **I turn complex ideas into stories worth sharing.**
 
-I work with authors, startups, and bold brands across topics like innovation, sales, technology, crypto, education, travel, food, health, and lifestyle.
+I work with authors, startups, and bold brands across topics like innovation, sales, technology, crypto, education, travel, food, health, and lifestyle. Companies like American Express, Emirates, Prague City Tourism, and Czech Tourism call me when they need help.
 
 *Náhodou mluvím plynně česky.*
 
