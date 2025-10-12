@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-html<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
+<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px;">
     <h1 style="margin-bottom: 0;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
     <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 1.5rem; color: #555; font-style: italic;">
