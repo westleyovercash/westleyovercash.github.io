@@ -5,7 +5,7 @@ title: Contact
 
 # Contact
 
-Have a story that needs telling? Let's talk.
+Let's find your story together.
 
 **Email:** [wes@wessence.com](mailto:wes@wessence.com)
 
