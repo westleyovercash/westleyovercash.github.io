@@ -1,114 +1,200 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: #333;
+    }
+    
+    header {
+      background-color: #ff6b35;
+      padding: 1rem 0;
+      margin-bottom: 3rem;
+    }
+    
+    nav {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 2.5rem;
+    }
+    
+    nav a:hover {
+      text-decoration: underline;
+    }
+    
+    .site-title {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px 4rem 20px;
+    }
+    
+    h1 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 3.5rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      color: #ff6b35;
+      font-weight: 700;
+    }
+    
+    h2 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: #ff6b35;
+      font-weight: 700;
+      margin: 2rem 0 1rem 0;
+    }
 
-<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 300px;">
-    <h1 style="margin-bottom: 0;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
-  </div>
-  <div style="flex: 0 0 250px;">
-    <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
-  </div>
-</div>
+    h3 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: #333;
+      font-weight: 700;
+      margin: 2rem 0 1rem 0;
+      font-size: 1.3rem;
+    }
+    
+    p {
+      margin-bottom: 1rem;
+    }
+    
+    strong {
+      font-weight: 700;
+    }
+    
+    a {
+      color: #333;
+      text-decoration: underline;
+    }
+    
+    a:hover {
+      color: #ff6b35;
+    }
 
-**I turn complex ideas into stories worth sharing.**
+    ul {
+      margin-left: 0;
+      padding-left: 0;
+      list-style-position: inside;
+    }
 
-I work with authors, startups, and bold brands across topics like innovation, sales, technology, crypto, education, travel, food, health, and lifestyle.
+    li {
+      margin-bottom: 0.5rem;
+    }
+    
+    input[type="email"] {
+      padding: 12px;
+      border: 2px solid #ff6b35;
+      border-radius: 4px;
+      font-size: 1rem;
+      width: 60%;
+      margin-right: 10px;
+    }
+    
+    input[type="submit"] {
+      padding: 12px 24px;
+      background: #ff6b35;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background: #e55a2b;
+    }
 
-*Náhodou mluvím plynně česky.*
+    hr {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin: 3rem 0;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      border-top: 1px solid #eee;
+      margin-top: 4rem;
+    }
+    
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      
+      input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+      
+      input[type="submit"] {
+        width: 100%;
+      }
+      
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      nav a {
+        margin-left: 0;
+      }
+    }
 
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
-
-## My Newsletter
-
-Fresh insights on writing, storytelling, and ideas that matter. Delivered every few weeks like a note from a friend.
-
-<form action="https://buttondown.email/api/emails/embed-subscribe/YOURUSERNAME" method="post" target="popupwindow" style="margin: 2rem 0;">
-  <input type="email" name="email" placeholder="Enter your email">
-  <input type="submit" value="Subscribe">
-</form>
-
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 3rem;">
-
-<div markdown="1">
-
-### B2B and Sales Strategy
-
-- [€35M and Beyond: Maintaining Stellar Sales Growth](#)
-- [Building an A-List Sales Team: Strategies for Enterprise Success](#)
-- [Economic Buyers: You've Got Their Attention, Now What?](#)
-- [From €3M to €35M: Mastering Rapid Sales Growth](#)
-- [How the Hungry Hunters Eat](#)
-- [Just One Bad Sales Hire Can Kill Your Business](#)
-- [The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals](#)
-- [The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond](#)
-- [Today's Careers in B2B Sales: Read This Before Applying](#)
-- [Master the Economic Buyer Connection](#)
-- [Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit](#)
-
-### Technology and Innovation
-
-- [Are you ready for the NFT tsunami?](#)
-- [Is Apple still a technology company?](#)
-
-### Travel, Lifestyle, and Culture
-
-- [Europe now the best travel deal of the decade](#)
-- [Traveling discreetly and safely in Europe](#)
-- [Prague's top 10 Airbnb properties](#)
-- [Prague doesn't let you go](#)
-- [Stop chasing the social media algorithm: 6 reasons newsletters offer more value](#)
-- [Instagram's teenage temper tantrum](#)
-- [Emirates A380 comes to Prague](#)
-
-</div>
-
-<div markdown="1">
-
-### Books
-
-- [The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone](#)
-- [Slingshot: Re-Imagine Your Business, Re-Imagine Your Life](#)
-- [Avant-Guide Travel Book Series](#) (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto)
-
-### Newsletters (Client Work)
-
-- [Beyond Bitcoin](#)
-- [Big pharma got it wrong](#)
-- [CBD revolution](#)
-- [Digital clothing](#)
-- [NFTs](#)
-- [Metaverse](#)
-
-### Newsletters (Agency Work)
-
-- [You deserve free coffee](#)
-- [Warm your buns!](#)
-- [What will your digital future look like?](#)
-- [A wave of help is on the way](#)
-- [No more Happy Meals](#)
-- [Stop interrupting](#)
-
-### Press Releases
-
-- [SALESDOCk expands to Benelux](#)
-- [My guide to writing surefire publicity announcements](#)
-
-### Podcasting
-
-- [Listen to sample content](#)
-
-### Translations
-
-- [Artificial Intelligence Is Returning Business to Traditional Soft Skills](#)
-
-### Social Media
-
-- [15K followers on Instagram](http://instagram.com/wessencecom/)
-
-</div>
-
-</div>
+    @media (max-width: 900px) {
+      div[style*="grid-template-columns"] {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="site-title">Westley Overcash</a>
+      <div>
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+  
+  <footer>
+    © 2025 Westley Overcash. Built with intention.
+  </footer>
+</body>
+</html>
