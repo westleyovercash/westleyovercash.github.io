@@ -6,7 +6,7 @@ title: Home
 <h1>I write<br/>the stories<br/>your audience<br/>retells.</h1>
 
 <div class="image-placeholder">
-  <img src="/assets/images/podcast-photo.jpg" alt="Westley Overcash" style="max-width: 400px; width: 100%;">
+  <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 400px; width: 100%;">
 </div>
 
 **I turn complex ideas into stories worth sharing.**
