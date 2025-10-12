@@ -56,19 +56,19 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 
 <h3>Technology and Innovation</h3>
 <ul>
-<li><a href="https://www.wessence.com/blog/are-you-ready-for-the-nft-tsunami" target="_blank">Are you ready for the NFT tsunami?</a></li>
+<li><a href="/blog/stop-chasing-the-social-media-algorithm-6-reasons-newsletters-offer-more-value" target="_blank">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
 <li><a href="/blog/is-apple-still-a-technology-company">Is Apple still a technology company?</a></li>
+<li><a href="/blog/instagrams-teenage-temper-tantrum" target="_blank">Instagram's teenage temper tantrum</a></li>
+<li><a href="https://www.wessence.com/blog/are-you-ready-for-the-nft-tsunami" target="_blank">Are you ready for the NFT tsunami?</a></li>
 </ul>
 
 <h3>Travel, Lifestyle, and Culture</h3>
-<ul>
+<ul> 
+<li><a href="/blog/emirates-a380-comes-to-prague">Emirates A380 comes to Prague</a></li>
+<li><a href="/blog/prague-doesnt-let-you-go">Prague doesn't let you go</a></li>
 <li><a href="/blog/europe-now-the-best-travel-deal-of-the-decade">Europe now the best travel deal of the decade</a></li>
 <li><a href="/blog/traveling-discreetly-and-safely-in-europe">Traveling discreetly and safely in Europe</a></li>
 <li><a href="/blog/prague-top-10-airbnb-properties">Prague's top 10 Airbnb properties</a></li>
-<li><a href="/blog/prague-doesnt-let-you-go">Prague doesn't let you go</a></li>
-<li><a href="/blog/stop-chasing-the-social-media-algorithm-6-reasons-newsletters-offer-more-value" target="_blank">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
-<li><a href="/blog/instagrams-teenage-temper-tantrum" target="_blank">Instagram's teenage temper tantrum</a></li>
-<li><a href="/blog/emirates-a380-comes-to-prague">Emirates A380 comes to Prague</a></li>
 </ul>
 
 </div>
