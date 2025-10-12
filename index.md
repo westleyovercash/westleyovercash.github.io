@@ -16,7 +16,9 @@ title: Home
 
 I work with authors, startups, and bold brands across topics like innovation, sales, technology, crypto, education, travel, food, health, and lifestyle.
 
----
+*Náhodou mluvím plynně česky.*
+
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 ## My Newsletter
 
@@ -27,10 +29,86 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
   <input type="submit" value="Subscribe">
 </form>
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
-## Places Where My Words Live
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 3rem;">
 
-[B2B and Sales Strategy](/portfolio) | [Technology and Innovation](/portfolio) | [Travel, Lifestyle, and Culture](/portfolio)
+<div>
 
-[View Full Portfolio →](/portfolio)
+### B2B and Sales Strategy
+
+- [€35M and Beyond: Maintaining Stellar Sales Growth](#)
+- [Building an A-List Sales Team: Strategies for Enterprise Success](#)
+- [Economic Buyers: You've Got Their Attention, Now What?](#)
+- [From €3M to €35M: Mastering Rapid Sales Growth](#)
+- [How the Hungry Hunters Eat](#)
+- [Just One Bad Sales Hire Can Kill Your Business](#)
+- [The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals](#)
+- [The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond](#)
+- [Today's Careers in B2B Sales: Read This Before Applying](#)
+- [Master the Economic Buyer Connection](#)
+- [Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit](#)
+
+### Technology and Innovation
+
+- [Are you ready for the NFT tsunami?](#)
+- [Is Apple still a technology company?](#)
+
+### Travel, Lifestyle, and Culture
+
+- [Europe now the best travel deal of the decade](#)
+- [Traveling discreetly and safely in Europe](#)
+- [Prague's top 10 Airbnb properties](#)
+- [Prague doesn't let you go](#)
+- [Stop chasing the social media algorithm: 6 reasons newsletters offer more value](#)
+- [Instagram's teenage temper tantrum](#)
+- [Emirates A380 comes to Prague](#)
+
+</div>
+
+<div>
+
+### Books
+
+- [The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone](#)
+- [Slingshot: Re-Imagine Your Business, Re-Imagine Your Life](#)
+- [Avant-Guide Travel Book Series](#) (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto)
+
+### Newsletters (Client Work)
+
+- [Beyond Bitcoin](#)
+- [Big pharma got it wrong](#)
+- [CBD revolution](#)
+- [Digital clothing](#)
+- [NFTs](#)
+- [Metaverse](#)
+
+### Newsletters (Agency Work)
+
+- [You deserve free coffee](#)
+- [Warm your buns!](#)
+- [What will your digital future look like?](#)
+- [A wave of help is on the way](#)
+- [No more Happy Meals](#)
+- [Stop interrupting](#)
+
+### Press Releases
+
+- [SALESDOCk expands to Benelux](#)
+- [My guide to writing surefire publicity announcements](#)
+
+### Podcasting
+
+- [Listen to sample content](#)
+
+### Translations
+
+- [Artificial Intelligence Is Returning Business to Traditional Soft Skills](#)
+
+### Social Media
+
+- [15K followers on Instagram](http://instagram.com/wessencecom/)
+
+</div>
+
+</div>
