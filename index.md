@@ -35,79 +35,89 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 
 <div>
 
-### B2B and Sales Strategy
+<h3>B2B and Sales Strategy</h3>
+<ul>
+<li><a href="#">€35M and Beyond: Maintaining Stellar Sales Growth</a></li>
+<li><a href="#">Building an A-List Sales Team: Strategies for Enterprise Success</a></li>
+<li><a href="#">Economic Buyers: You've Got Their Attention, Now What?</a></li>
+<li><a href="#">From €3M to €35M: Mastering Rapid Sales Growth</a></li>
+<li><a href="#">How the Hungry Hunters Eat</a></li>
+<li><a href="#">Just One Bad Sales Hire Can Kill Your Business</a></li>
+<li><a href="#">The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals</a></li>
+<li><a href="#">The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond</a></li>
+<li><a href="#">Today's Careers in B2B Sales: Read This Before Applying</a></li>
+<li><a href="#">Master the Economic Buyer Connection</a></li>
+<li><a href="#">Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit</a></li>
+</ul>
 
-- [€35M and Beyond: Maintaining Stellar Sales Growth](#)
-- [Building an A-List Sales Team: Strategies for Enterprise Success](#)
-- [Economic Buyers: You've Got Their Attention, Now What?](#)
-- [From €3M to €35M: Mastering Rapid Sales Growth](#)
-- [How the Hungry Hunters Eat](#)
-- [Just One Bad Sales Hire Can Kill Your Business](#)
-- [The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals](#)
-- [The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond](#)
-- [Today's Careers in B2B Sales: Read This Before Applying](#)
-- [Master the Economic Buyer Connection](#)
-- [Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit](#)
+<h3>Technology and Innovation</h3>
+<ul>
+<li><a href="#">Are you ready for the NFT tsunami?</a></li>
+<li><a href="#">Is Apple still a technology company?</a></li>
+</ul>
 
-### Technology and Innovation
-
-- [Are you ready for the NFT tsunami?](#)
-- [Is Apple still a technology company?](#)
-
-### Travel, Lifestyle, and Culture
-
-- [Europe now the best travel deal of the decade](#)
-- [Traveling discreetly and safely in Europe](#)
-- [Prague's top 10 Airbnb properties](#)
-- [Prague doesn't let you go](#)
-- [Stop chasing the social media algorithm: 6 reasons newsletters offer more value](#)
-- [Instagram's teenage temper tantrum](#)
-- [Emirates A380 comes to Prague](#)
+<h3>Travel, Lifestyle, and Culture</h3>
+<ul>
+<li><a href="#">Europe now the best travel deal of the decade</a></li>
+<li><a href="#">Traveling discreetly and safely in Europe</a></li>
+<li><a href="#">Prague's top 10 Airbnb properties</a></li>
+<li><a href="#">Prague doesn't let you go</a></li>
+<li><a href="#">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
+<li><a href="#">Instagram's teenage temper tantrum</a></li>
+<li><a href="#">Emirates A380 comes to Prague</a></li>
+</ul>
 
 </div>
 
 <div>
 
-### Books
+<h3>Books</h3>
+<ul>
+<li><a href="#">The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone</a></li>
+<li><a href="#">Slingshot: Re-Imagine Your Business, Re-Imagine Your Life</a></li>
+<li><a href="#">Avant-Guide Travel Book Series</a> (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto)</li>
+</ul>
 
-- [The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone](#)
-- [Slingshot: Re-Imagine Your Business, Re-Imagine Your Life](#)
-- [Avant-Guide Travel Book Series](#) (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto)
+<h3>Newsletters (Client Work)</h3>
+<ul>
+<li><a href="#">Beyond Bitcoin</a></li>
+<li><a href="#">Big pharma got it wrong</a></li>
+<li><a href="#">CBD revolution</a></li>
+<li><a href="#">Digital clothing</a></li>
+<li><a href="#">NFTs</a></li>
+<li><a href="#">Metaverse</a></li>
+</ul>
 
-### Newsletters (Client Work)
+<h3>Newsletters (Agency Work)</h3>
+<ul>
+<li><a href="#">You deserve free coffee</a></li>
+<li><a href="#">Warm your buns!</a></li>
+<li><a href="#">What will your digital future look like?</a></li>
+<li><a href="#">A wave of help is on the way</a></li>
+<li><a href="#">No more Happy Meals</a></li>
+<li><a href="#">Stop interrupting</a></li>
+</ul>
 
-- [Beyond Bitcoin](#)
-- [Big pharma got it wrong](#)
-- [CBD revolution](#)
-- [Digital clothing](#)
-- [NFTs](#)
-- [Metaverse](#)
+<h3>Press Releases</h3>
+<ul>
+<li><a href="#">SALESDOCk expands to Benelux</a></li>
+<li><a href="#">My guide to writing surefire publicity announcements</a></li>
+</ul>
 
-### Newsletters (Agency Work)
+<h3>Podcasting</h3>
+<ul>
+<li><a href="#">Listen to sample content</a></li>
+</ul>
 
-- [You deserve free coffee](#)
-- [Warm your buns!](#)
-- [What will your digital future look like?](#)
-- [A wave of help is on the way](#)
-- [No more Happy Meals](#)
-- [Stop interrupting](#)
+<h3>Translations</h3>
+<ul>
+<li><a href="#">Artificial Intelligence Is Returning Business to Traditional Soft Skills</a></li>
+</ul>
 
-### Press Releases
-
-- [SALESDOCk expands to Benelux](#)
-- [My guide to writing surefire publicity announcements](#)
-
-### Podcasting
-
-- [Listen to sample content](#)
-
-### Translations
-
-- [Artificial Intelligence Is Returning Business to Traditional Soft Skills](#)
-
-### Social Media
-
-- [15K followers on Instagram](http://instagram.com/wessencecom/)
+<h3>Social Media</h3>
+<ul>
+<li><a href="http://instagram.com/wessencecom/">15K followers on Instagram</a></li>
+</ul>
 
 </div>
 
