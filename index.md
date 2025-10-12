@@ -43,34 +43,34 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 
 <h3>B2B and Sales Strategy</h3>
 <ul>
-<li><a href="#">€35M and Beyond: Maintaining Stellar Sales Growth</a></li>
-<li><a href="#">Building an A-List Sales Team: Strategies for Enterprise Success</a></li>
-<li><a href="#">Economic Buyers: You've Got Their Attention, Now What?</a></li>
-<li><a href="#">From €3M to €35M: Mastering Rapid Sales Growth</a></li>
-<li><a href="#">How the Hungry Hunters Eat</a></li>
-<li><a href="#">Just One Bad Sales Hire Can Kill Your Business</a></li>
-<li><a href="#">The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals</a></li>
-<li><a href="#">The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond</a></li>
-<li><a href="#">Today's Careers in B2B Sales: Read This Before Applying</a></li>
-<li><a href="#">Master the Economic Buyer Connection</a></li>
-<li><a href="#">Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit</a></li>
+<li><a href="https://drive.google.com/file/d/18PKTIIWaPK8QsfZXt_Gr_AQt0TJ7VPsF/view?usp=sharing" target="_blank">€35M and Beyond: Maintaining Stellar Sales Growth</a></li>
+<li><a href="https://drive.google.com/file/d/14r6u8EB_2qqgD1HyT8nqIZiCVhgx6vEX/view?usp=sharing" target="_blank">Building an A-List Sales Team: Strategies for Enterprise Success</a></li>
+<li><a href="https://drive.google.com/file/d/1lpJ2y_TgkNoolDvnm47qLMZA_flFx3EM/view?usp=sharing" target="_blank">Economic Buyers: You've Got Their Attention, Now What?</a></li>
+<li><a href="https://drive.google.com/file/d/1DOCko4feLFB17CHDxu3IcP4E9dEdRZHE/view?usp=sharing" target="_blank">From €3M to €35M: Mastering Rapid Sales Growth</a></li>
+<li><a href="https://drive.google.com/file/d/1cUZmnPtmwgphKcDACKZzqotSgC8y35D9/view?usp=sharing" target="_blank">How the Hungry Hunters Eat</a></li>
+<li><a href="https://drive.google.com/file/d/1eLixvwIzUBjaYgdnU8cseGhYMzCMlUmR/view?usp=sharing" target="_blank">Just One Bad Sales Hire Can Kill Your Business</a></li>
+<li><a href="https://drive.google.com/file/d/1TouePOPGIjoUEq6FsZ_WIxx6ZWgg7mln/view?usp=sharing" target="_blank">The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals</a></li>
+<li><a href="https://drive.google.com/file/d/1-oP4FYCu-4DVW5cHC6ws-GEOIWA1OSq6/view?usp=sharing" target="_blank">The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond</a></li>
+<li><a href="https://drive.google.com/file/d/1zZZXW73rerKa0-Jw-cz16OCTpvJytEBr/view?usp=sharing" target="_blank">Today's Careers in B2B Sales: Read This Before Applying</a></li>
+<li><a href="https://drive.google.com/file/d/1CA6V5cchKsU1e5t3Tp41_TBXV3OVhGFc/view?usp=sharing" target="_blank">Master the Economic Buyer Connection</a></li>
+<li><a href="https://drive.google.com/file/d/1laQYFQDjz_pS0tAZJcPnox3fwt-MvU_Z/view?usp=sharing" target="_blank">Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit</a></li>
 </ul>
 
 <h3>Technology and Innovation</h3>
 <ul>
-<li><a href="#">Are you ready for the NFT tsunami?</a></li>
-<li><a href="#">Is Apple still a technology company?</a></li>
+<li><a href="https://www.wessence.com/blog/are-you-ready-for-the-nft-tsunami" target="_blank">Are you ready for the NFT tsunami?</a></li>
+<li><a href="/blog/is-apple-still-a-technology-company">Is Apple still a technology company?</a></li>
 </ul>
 
 <h3>Travel, Lifestyle, and Culture</h3>
 <ul>
-<li><a href="#">Europe now the best travel deal of the decade</a></li>
-<li><a href="#">Traveling discreetly and safely in Europe</a></li>
-<li><a href="#">Prague's top 10 Airbnb properties</a></li>
-<li><a href="#">Prague doesn't let you go</a></li>
-<li><a href="#">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
-<li><a href="#">Instagram's teenage temper tantrum</a></li>
-<li><a href="#">Emirates A380 comes to Prague</a></li>
+<li><a href="/blog/europe-now-the-best-travel-deal-of-the-decade">Europe now the best travel deal of the decade</a></li>
+<li><a href="/blog/traveling-discreetly-and-safely-in-europe">Traveling discreetly and safely in Europe</a></li>
+<li><a href="/blog/prague-top-10-airbnb-properties">Prague's top 10 Airbnb properties</a></li>
+<li><a href="/blog/prague-doesnt-let-you-go">Prague doesn't let you go</a></li>
+<li><a href="/blog/stop-chasing-the-social-media-algorithm-6-reasons-newsletters-offer-more-value" target="_blank">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
+<li><a href="/blog/instagrams-teenage-temper-tantrum" target="_blank">Instagram's teenage temper tantrum</a></li>
+<li><a href="/blog/emirates-a380-comes-to-prague">Emirates A380 comes to Prague</a></li>
 </ul>
 
 </div>
@@ -79,45 +79,52 @@ Fresh insights on writing, storytelling, and ideas that matter. Delivered every 
 
 <h3>Books</h3>
 <ul>
-<li><a href="#">The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone</a></li>
-<li><a href="#">Slingshot: Re-Imagine Your Business, Re-Imagine Your Life</a></li>
-<li><a href="#">Avant-Guide Travel Book Series</a> (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto)</li>
+<li>The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone (Translator and Editor)</li>
+<li>Slingshot: Re-Imagine Your Business, Re-Imagine Your Life (Editor and Contributor)</li>
+<li>Avant-Guide Travel Book Series (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto - Editor and Contributor)</li>
 </ul>
 
 <h3>Newsletters (Client Work)</h3>
 <ul>
-<li><a href="#">Beyond Bitcoin</a></li>
-<li><a href="#">Big pharma got it wrong</a></li>
-<li><a href="#">CBD revolution</a></li>
-<li><a href="#">Digital clothing</a></li>
-<li><a href="#">NFTs</a></li>
-<li><a href="#">Metaverse</a></li>
+<li><a href="https://drive.google.com/file/d/1Knab998R3lIDvNAc3EwjzWxJ8x1zMPfJ/view?usp=sharing" target="_blank">Beyond Bitcoin</a></li>
+<li><a href="https://drive.google.com/file/d/1fMCkyMvANiQYEPY46Y4zUWrzqTY155DP/view?usp=share_link" target="_blank">Big pharma got it wrong</a></li>
+<li><a href="https://drive.google.com/file/d/11dXc_P-5ZOtWM_vAHGKIHrGrzrzNWD4X/view?usp=sharing" target="_blank">CBD revolution</a></li>
+<li><a href="https://drive.google.com/file/d/1Hh7sTxj0vnuEiuok0yicct7udoe7Jftd/view?usp=sharing" target="_blank">Digital clothing</a></li>
+<li><a href="https://drive.google.com/file/d/1rbUdT-EQDULtcyRcFkBGLGAve2SPYVqX/view?usp=sharing" target="_blank">NFTs</a></li>
+<li><a href="https://drive.google.com/file/d/1fEmhH7zb3KYRlRdOWsSjuhgEXuqLt8qD/view?usp=sharing" target="_blank">Metaverse</a></li>
 </ul>
 
 <h3>Newsletters (Agency Work)</h3>
 <ul>
-<li><a href="#">You deserve free coffee</a></li>
-<li><a href="#">Warm your buns!</a></li>
-<li><a href="#">What will your digital future look like?</a></li>
-<li><a href="#">A wave of help is on the way</a></li>
-<li><a href="#">No more Happy Meals</a></li>
-<li><a href="#">Stop interrupting</a></li>
+<li><a href="https://drive.google.com/file/d/1FL2HwegikLnZO0k_Oz54EbhvkWhPxpdu/view?usp=sharing" target="_blank">You deserve free coffee</a></li>
+<li><a href="https://drive.google.com/file/d/1bYMDZ-aB5-SCzfxLxvjci2YHrsejipmY/view?usp=sharing" target="_blank">Warm your buns!</a></li>
+<li><a href="https://drive.google.com/file/d/10kPrselyGvk9-4eSWx1EPk4z67gs_O40/view?usp=sharing" target="_blank">What will your digital future look like?</a></li>
+<li><a href="https://drive.google.com/file/d/1IzrsfVLYjNhr3PzxOVxC2Vqp0qAOvprs/view?usp=sharing" target="_blank">A wave of help is on the way</a></li>
+<li><a href="https://drive.google.com/file/d/1ALvVlaKHFnMSGHF-L7BAi654ye60iO6t/view?usp=sharing" target="_blank">No more Happy Meals</a></li>
+<li><a href="https://drive.google.com/file/d/1yPQqDH-upSxqr6QobgBy4rbpHV5kG55D/view?usp=sharing" target="_blank">Stop interrupting</a></li>
+</ul>
+
+<h3>Newsletters (Education)</h3>
+<ul>
+<li><a href="https://drive.google.com/file/d/1eZf_gnved8CkKzwERby5Q3H5QlkhMX0y/view?usp=sharing" target="_blank">You can change the future</a></li>
+<li><a href="https://drive.google.com/file/d/1BzA3QGhSyhvTFxO-wANtyjOhrgRpBup7/view?usp=sharing" target="_blank">Your time to act is now</a></li>
+<li><a href="https://drive.google.com/file/d/13iG2_sGVY4LMsXpeynslS-Ko1wJ3ZyzM/view?usp=sharing" target="_blank">1 last step to change your future</a></li>
 </ul>
 
 <h3>Press Releases</h3>
 <ul>
-<li><a href="#">SALESDOCk expands to Benelux</a></li>
-<li><a href="#">My guide to writing surefire publicity announcements</a></li>
+<li><a href="https://drive.google.com/file/d/1pwISRCPCL2GyfnK7VjUuL4kjfGkIpmjQ/view?usp=sharing" target="_blank">SALESDOCk expands to Benelux</a></li>
+<li><a href="/s/Guide-to-writing-surefire-publicity-announcements.pdf" target="_blank">My guide to writing surefire publicity announcements</a></li>
 </ul>
 
 <h3>Podcasting</h3>
 <ul>
-<li><a href="#">Listen to sample content</a></li>
+<li><a href="https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link" target="_blank">Listen to sample content</a></li>
 </ul>
 
 <h3>Translations</h3>
 <ul>
-<li><a href="#">Artificial Intelligence Is Returning Business to Traditional Soft Skills</a></li>
+<li><a href="https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link" target="_blank">Artificial Intelligence Is Returning Business to Traditional Soft Skills</a></li>
 </ul>
 
 <h3>Social Media</h3>
