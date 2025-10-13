@@ -9,18 +9,16 @@ title: Home
       Words carry stories.<br/>
       Stories move people—closer to you and your brand.
     </p>
-    <h1 style="margin-top: 0;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
+    <h1 style="margin-top: 0; margin-bottom: 1.5rem;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
   </div>
   <div style="flex: 0 0 250px;">
     <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
   </div>
 </div>
 
-I turn complex ideas into stories worth sharing. Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. Your fintech explanation doesn't need a glossary. From Czech startups to global brands like Emirates—they know words matter. That's why they call me.
+I turn complex ideas into stories worth sharing. Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. Your fintech explanation doesn't need a glossary. From Czech startups to global brands like Emirates—they know words matter. That's why they call me. **<a href="/contact">Let's talk.</a>**
 
 *Náhodou mluvím plynně česky.*
-
-**<a href="/contact">Let's talk.</a>**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
