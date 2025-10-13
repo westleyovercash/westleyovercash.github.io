@@ -7,8 +7,8 @@ title: Home
   <div style="flex: 1; min-width: 300px;">
     <h1 style="margin-bottom: 0;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
     <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 1.5rem; color: #555; font-style: italic;">
-      Words carry stories.<br/>
-      Stories move people—closer to you and your brand.
+      Stories move people—closer to you and your brand.<br/>
+      Words carry stories.
     </p>
   </div>
   <div style="flex: 0 0 250px;">
@@ -16,9 +16,11 @@ title: Home
   </div>
 </div>
 
-I turn complex ideas into stories worth sharing. My work spans all sorts of topics: innovation, sales, technology, crypto, education, travel, food, health, and lifestyle. Companies like American Express, Emirates, Prague City Tourism, and Czech Tourism call me when they need help.
+I turn complex ideas into stories worth sharing. Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. Your fintech explanation doesn't need a glossary. From Czech startups to global brands like Emirates—they know words matter. That's why they call me.
 
 *Náhodou mluvím plynně česky.*
+
+**<a href="/contact">Let's talk.</a>**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
