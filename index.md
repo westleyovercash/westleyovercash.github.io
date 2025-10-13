@@ -35,9 +35,6 @@ Maybe we already know each other? I think we'd probably have a lot to talk about
   <input type="submit" value="Subscribe">
 </form>
   
-  <input type="submit" value="Subscribe">
-</form>
-
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 3rem;">
