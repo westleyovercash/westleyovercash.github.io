@@ -16,7 +16,7 @@ title: Home
   </div>
 </div>
 
-I turn complex ideas into stories worth sharing. Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. Your fintech explanation doesn't need a glossary. From Czech startups to global brands like Emirates—they know words matter. That's why they call me. **<a href="/contact">Let's talk.</a>**
+I turn complex ideas into stories worth sharing. Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. From Czech startups to global brands like Emirates—they know words matter. That's why they call me. **<a href="/contact">Let's talk.</a>**
 
 *Náhodou mluvím plynně česky.*
 
