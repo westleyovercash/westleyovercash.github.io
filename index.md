@@ -23,7 +23,9 @@ I turn complex ideas into stories worth sharing. My work spans all sorts of topi
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 ## My Newsletter
-Maybe we already know each other? I think we'd probably have a lot to talk about, from writing and AI to how we get by in our daily lives. I hope it feels like a note from a friend.  
+
+Maybe we already know each other? I think we'd probably have a lot to talk about, from writing and AI to how we get by in our daily lives. I hope it feels like a note from a friend.
+
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
   
@@ -34,7 +36,7 @@ Maybe we already know each other? I think we'd probably have a lot to talk about
   
   <input type="submit" value="Subscribe">
 </form>
-  
+
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 3rem;">
