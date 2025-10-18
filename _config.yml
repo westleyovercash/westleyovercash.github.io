@@ -2,7 +2,7 @@ title: Westley Overcash
 email: wes@wessence.com
 description: I write the stories your audience retells.
 url: "https://wessence.com"
-baseurl: ""
+baseurl: ""  # Leave empty since your custom domain points directly to the root
 
 # Build settings
 markdown: kramdown
@@ -13,6 +13,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+  writing:
+    output: true
+    permalink: /writing/:name/
 
 # Exclude from processing
 exclude:
