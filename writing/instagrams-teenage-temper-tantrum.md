@@ -4,6 +4,8 @@ title: "Instagram’s teenage temper tantrum"
 permalink: /writing/instagrams-teenage-temper-tantrum/
 ---
 
+# Instagram’s teenage temper tantrum
+
 Over the past several weeks, Instagram’s latest changes have wreaked havoc on users and advertisers. With the chatter and debate intensifying, I sat down to take a look at the historical context, examine how we got here, and contemplate its future. What’s the deal with Instagram’s sudden teenage temper tantrum?
 
 ## The birth of Instagram
