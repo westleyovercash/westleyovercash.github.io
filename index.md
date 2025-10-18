@@ -62,19 +62,19 @@ Maybe we already know each other? I think we'd probably have a lot to talk about
 
 <h3>Technology and Innovation</h3>
 <ul>
-<li><a href="/blog/stop-chasing-the-social-media-algorithm-6-reasons-newsletters-offer-more-value" target="_blank">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
-<li><a href="/blog/is-apple-still-a-technology-company">Is Apple still a technology company?</a></li>
-<li><a href="/blog/instagrams-teenage-temper-tantrum" target="_blank">Instagram's teenage temper tantrum</a></li>
-<li><a href="https://www.wessence.com/blog/are-you-ready-for-the-nft-tsunami" target="_blank">Are you ready for the NFT tsunami?</a></li>
+  <li><a href="/writing/stop-chasing-the-social-media-algorithm" target="_blank">Stop chasing the social media algorithm: 6 reasons newsletters offer more value</a></li>
+  <li><a href="/writing/is-apple-still-a-technology-company">Is Apple still a technology company?</a></li>
+  <li><a href="/writing/instagrams-teenage-temper-tantrum" target="_blank">Instagram's teenage temper tantrum</a></li>
+  <li><a href="/writing/6-notable-czechs-who-influence-your-everyday-life" target="_blank">6 notable Czechs who influence your everyday life</a></li>
+  <li><a href="/writing/are-you-ready-for-the-nft-tsunami" target="_blank">Are you ready for the NFT tsunami?</a></li>
 </ul>
 
 <h3>Travel, Lifestyle, and Culture</h3>
-<ul> 
-<li><a href="/blog/emirates-a380-comes-to-prague">Emirates A380 comes to Prague</a></li>
-<li><a href="/blog/prague-doesnt-let-you-go">Prague doesn't let you go</a></li>
-<li><a href="/blog/europe-now-the-best-travel-deal-of-the-decade">Europe now the best travel deal of the decade</a></li>
-<li><a href="/blog/traveling-discreetly-and-safely-in-europe">Traveling discreetly and safely in Europe</a></li>
-<li><a href="/blog/prague-top-10-airbnb-properties">Prague's top 10 Airbnb properties</a></li>
+<ul>
+  <li><a href="/writing/emirates-a380-comes-to-prague">Emirates A380 comes to Prague</a></li>
+  <li><a href="/writing/prague-doesnt-let-you-go">Prague doesn’t let you go</a></li>
+  <li><a href="/writing/mural-mania-begins" target="_blank">Mural mania begins</a></li>
+  <li><a href="/writing/the-most-popular-travel-hack-was-always-just-an-illusion" target="_blank">The most popular travel “hack” was always just an illusion</a></li>
 </ul>
 
 </div>
