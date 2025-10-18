@@ -16,6 +16,7 @@ Reflecting upon all these developments at Apple over the years, one can observe 
 >
 > —Tim Cook | CEO of Apple
 
+
 So what if one were to say that Apple is more than just a technology company or a lifestyle brand, but that it is also an influential financial industry powerhouse that is reshaping the future of finance? In the Apple Event from April 2021, Tim Cook talked about two major initiatives within the first four minutes of a sixty-one-minute presentation. First was Apple’s carbon neutral initiative, followed closely by Apple Card—revealing some of the foremost priorities of the folks there in Cupertino.
 
 Just how is Apple reshaping the future of finance and what are the benefits to consumers when using the Apple Card? One of the most unique features is that it has no annual, over-the-limit, foreign-transaction, or late fees. However, with the potential for financial powerhouses, banks, and even credit unions to begin offering a comparable product, Apple pushed to reinvent the credit industry entirely. 
