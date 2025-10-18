@@ -1,8 +1,10 @@
 ---
 layout: default
 title: "Is Apple still a technology company?"
-permalink: /writing/is-apple-still-a-technology-company
+permalink: /writing/is-apple-still-a-technology-company/
 ---
+
+# Is Apple still a technology company?
 
 If you were asked what industry Apple belongs to, what would be your response? As a producer of a wide array of electronic products, ranging from the iMac all the way to AirPods, most would simply refer to it as a technology company. But, that hasn’t been the case for some time now. In this article, I explore why. 
 
