@@ -1,13 +1,13 @@
 prose:
   rooturl: "_posts"
-  siteurl: "https://westleyovercash.com"
+  siteurl: "https://wessence.com"
   media: "assets/images"
   ignore:
     - 404.html
     - README.md
     - CNAME
   metadata:
-    "posts":
+    "_posts":
       - name: "layout"
         field:
           element: "hidden"
@@ -18,8 +18,9 @@ prose:
           label: "Post title"
       - name: "date"
         field:
-          element: "datetime"
+          element: "text"
           label: "Post date"
+          value: "{{ site.time | date: '%Y-%m-%d' }}"
       - name: "description"
         field:
           element: "textarea"
