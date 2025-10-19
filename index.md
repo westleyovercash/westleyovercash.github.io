@@ -5,12 +5,12 @@ title: Home
 
 <div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px;">
-    <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; color: #555;">
-      Words carry stories.<br/>
-      Stories move people—closer to you and your brand.
-    </p>
     <h1 style="margin-top: 0; margin-bottom: 1.5rem;">I write<br/>the stories<br/>your audience<br/>retells.</h1>
   </div>
+  <div style="flex: 0 0 250px;">
+    <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
+  </div>
+</div>
   <div style="flex: 0 0 250px;">
     <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
   </div>
