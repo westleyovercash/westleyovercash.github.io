@@ -89,8 +89,9 @@
     }
     
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
       font-size: 1.05rem;
+      line-height: 1.7;
     }
     
     a {
@@ -103,15 +104,34 @@
     a:hover {
       color: #ff6b35;
     }
-    
-    ul {
-      list-style-position: inside;
+
+    ul, ol {
+      margin: 1.2rem 0 1.2rem 1.5rem;
+      line-height: 1.7;
     }
-    
-    li {
-      margin-bottom: 0.5rem;
+
+    blockquote {
+      border-left: 4px solid #ff6b35;
+      padding-left: 1rem;
+      margin: 2rem 0;
+      color: #555;
+      font-style: italic;
     }
-    
+
+    /* --- Blog post readability and wrapping fixes --- */
+    .post-content {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+      hyphens: auto;
+      line-height: 1.75;
+      font-size: 1.05rem;
+    }
+
+    .post-content p {
+      margin-bottom: 1.2rem;
+    }
+
     input[type="email"] {
       padding: 12px;
       border: 2px solid #ff6b35;
