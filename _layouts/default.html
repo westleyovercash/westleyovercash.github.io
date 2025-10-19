@@ -118,18 +118,18 @@
       font-style: italic;
     }
 
-    /* --- Blog post readability and wrapping fixes --- */
-    .post-content {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      word-break: break-word;
-      hyphens: auto;
-      line-height: 1.75;
-      font-size: 1.05rem;
+    /* --- FINAL FAILSAFE WRAPPING FIX --- */
+    body, main, p, div, article, section {
+      overflow-wrap: break-word !important;
+      word-wrap: break-word !important;
+      word-break: break-word !important;
+      white-space: normal !important;
+      hyphens: auto !important;
     }
 
-    .post-content p {
-      margin-bottom: 1.2rem;
+    pre, code {
+      white-space: pre-wrap !important;
+      word-break: break-word !important;
     }
 
     input[type="email"] {
