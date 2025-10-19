@@ -2,16 +2,25 @@
 layout: default
 ---
 
-<article style="margin-bottom: 4rem;">
-  <h1 style="margin-bottom: 1rem; color: #ff6b35;">{{ page.title }}</h1>
+<article style="max-width: 800px; margin: 0 auto; padding: 0 40px;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: 800; color: #000;">
+    {{ page.title }}
+  </h1>
 
-  <div style="margin-bottom: 2rem;">
+  <div class="post-content" style="font-size: 1.15rem; line-height: 1.8; color: #222;">
     {{ content }}
   </div>
 
-  <hr style="margin: 3rem 0; border: none; border-top: 1px solid #e0e0e0;">
-  
-  <p style="text-transform: uppercase; font-size: 0.9rem; color: #666; letter-spacing: 0.5px; text-align: left;">
-    {{ page.date | date: "%B %d, %Y" }}
+  {%- comment -%}
+    Fallback date logic:
+    Use page.date if present; otherwise derive YYYY-MM-DD from the filename  (e.g. _posts/2025-10-19-title.md)
+  {%- endcomment -%}
+  {% assign file_bits = page.path | split: '/' | last | split: '-' %}
+  {% capture derived_date %}{{ file_bits[0] }}-{{ file_bits[1] }}-{{ file_bits[2] | slice: 0,2 }}{% endcapture %}
+  {% assign display_date = page.date | default: derived_date %}
+
+  <hr style="margin: 3rem 0 0.5rem 0; border: none; border-top: 1.5px solid #000; width: 100%;">
+  <p style="text-transform: uppercase; font-size: 0.85rem; color: #555; letter-spacing: 0.05em; font-weight: 600; margin-top: 0.8rem;">
+    {{ display_date | date: "%B %d, %Y" }}
   </p>
 </article>
