@@ -7,7 +7,7 @@ prose:
     - README.md
     - CNAME
   metadata:
-    "_posts":
+    "posts":
       - name: "layout"
         field:
           element: "hidden"
