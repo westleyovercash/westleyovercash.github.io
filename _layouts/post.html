@@ -2,15 +2,35 @@
 layout: default
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
-  <p><strong>{{ page.date | date: "%B %d, %Y" }}</strong></p>
+<article style="max-width: 800px; margin: 0 auto;">
+  <h1 style="margin-bottom: 0.5rem; color: #ff6b35;">{{ page.title }}</h1>
+  <p style="font-size: 0.95rem; color: #777; margin-bottom: 2rem;">
+    {{ page.date | date: "%B %d, %Y" }}
+  </p>
 
-  {{ content }}
+  <div class="post-content" style="margin-bottom: 2rem;">
+    {{ content }}
+  </div>
 
   {% include social-share.html %}
 
-  <p style="margin-top: 2rem;">
-    <a href="/blog" style="text-decoration: none; color: #ff6b35;">← Back to Blog</a>
+  <p style="margin-top: 2.5rem;">
+    <a href="/blog" style="text-decoration: none; color: #777; font-size: 0.9rem;">← Back to Blog</a>
   </p>
 </article>
+
+<style>
+.post-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+.post-content a {
+  color: #ff6b35;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.post-content a:hover {
+  text-decoration: none;
+}
+</style>
