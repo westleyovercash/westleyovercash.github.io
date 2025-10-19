@@ -1,0 +1,32 @@
+<div class="social-share">
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}" target="_blank" title="Share on X (Twitter)">
+    <img src="/assets/icons/x.svg" alt="X icon" class="social-icon">
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank" title="Share on LinkedIn">
+    <img src="/assets/icons/linkedin.svg" alt="LinkedIn icon" class="social-icon">
+  </a>
+  <a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}" target="_blank" title="Share on Reddit">
+    <img src="/assets/icons/reddit.svg" alt="Reddit icon" class="social-icon">
+  </a>
+  <a href="{{ site.url }}{{ page.url }}" title="Copy link">
+    <img src="/assets/icons/link.svg" alt="Link icon" class="social-icon">
+  </a>
+</div>
+
+<style>
+.social-share {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+.social-icon {
+  width: 22px;
+  height: 22px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+.social-icon:hover {
+  opacity: 1;
+}
+</style>
