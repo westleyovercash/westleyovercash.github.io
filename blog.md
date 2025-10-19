@@ -16,13 +16,12 @@ title: Blog
     {{ post.date | date: "%B %d, %Y" }}
   </p>
 
-  <div>
-    {% if post.content contains "<!--more-->" %}
-      {{ post.content | split:"<!--more-->" | first }}
-      <p><a href="{{ post.url | relative_url }}" style="text-decoration: underline; color: #333;">Continue reading →</a></p>
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-  </div>
+  {% assign words = post.content | number_of_words %}
+  {% if words > 120 %}
+    <p>{{ post.content | strip_html | truncatewords: 120 }}</p>
+    <p><a href="{{ post.url | relative_url }}" style="text-decoration: underline; color: #333;">Continue reading →</a></p>
+  {% else %}
+    {{ post.content }}
+  {% endif %}
 </article>
 {% endfor %}
