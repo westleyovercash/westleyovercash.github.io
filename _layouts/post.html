@@ -11,9 +11,6 @@ layout: default
     {{ content }}
   </div>
 
-  {%- comment -%}
-    Fallback date logic if front matter date missing
-  {%- endcomment -%}
   {% assign file_bits = page.path | split: '/' | last | split: '-' %}
   {% capture derived_date %}{{ file_bits[0] }}-{{ file_bits[1] }}-{{ file_bits[2] | slice: 0,2 }}{% endcapture %}
   {% assign display_date = page.date | default: derived_date %}
@@ -23,5 +20,6 @@ layout: default
     {{ display_date | date: "%B %d, %Y" }}
   </p>
 
-  {%- include social-share.html -%}
+  <!-- Social share include -->
+  {% include social-share.html %}
 </article>
