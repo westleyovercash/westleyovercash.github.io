@@ -1,0 +1,26 @@
+prose:
+  rooturl: "_posts"
+  siteurl: "https://westleyovercash.com"
+  media: "assets/images"
+  ignore:
+    - 404.html
+    - README.md
+    - CNAME
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+      - name: "date"
+        field:
+          element: "datetime"
+          label: "Post date"
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Short description"
