@@ -6,7 +6,7 @@ title: Blog
 # Blog
 
 {% for post in site.posts %}
-<article style="margin-bottom: 4rem;">
+<article style="margin-bottom: 4rem; border-bottom: 1px solid #eee; padding-bottom: 2.5rem;">
   <h2 style="margin-bottom: 0.5rem;">
     <a href="{{ post.url | relative_url }}" style="color: #ff6b35; text-decoration: none;">
       {{ post.title }}
@@ -17,8 +17,8 @@ title: Blog
   </p>
 
   {% assign words = post.content | number_of_words %}
-  {% if words > 120 %}
-    <p>{{ post.content | strip_html | truncatewords: 120 }}</p>
+  {% if words > 200 %}
+    <p>{{ post.content | strip_html | truncatewords: 200 }}</p>
     <p><a href="{{ post.url | relative_url }}" style="text-decoration: underline; color: #333;">Continue reading →</a></p>
   {% else %}
     {{ post.content }}
