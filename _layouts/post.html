@@ -11,15 +11,10 @@ layout: default
     {{ content }}
   </div>
 
-  {% assign file_date = page.path | split: '/' | last | split: '-' %}
-  {% assign year = file_date[0] %}
-  {% assign month = file_date[1] %}
-  {% assign day = file_date[2] | slice: 0,2 %}
-  {% capture derived_date %}{{ year }}-{{ month }}-{{ day }}{% endcapture %}
-  {% assign display_date = page.date | default: derived_date %}
-
+  {% if page.date %}
   <hr style="margin: 3rem 0 0.5rem 0; border: none; border-top: 1.5px solid #000; width: 100%;">
   <p style="text-transform: uppercase; font-size: 0.85rem; color: #555; letter-spacing: 0.05em; font-weight: 600; margin-top: 0.8rem;">
-    {{ display_date | date: "%B %d, %Y" }}
+    {{ page.date | date: "%B %d, %Y" }}
   </p>
+  {% endif %}
 </article>
