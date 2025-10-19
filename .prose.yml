@@ -18,10 +18,5 @@ prose:
           label: "Post title"
       - name: "date"
         field:
-          element: "text"
-          label: "Post date"
+          element: "hidden"
           value: "{{ site.time | date: '%Y-%m-%d' }}"
-      - name: "description"
-        field:
-          element: "textarea"
-          label: "Short description"
