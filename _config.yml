@@ -28,3 +28,11 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Default front matter values
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
