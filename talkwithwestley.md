@@ -25,5 +25,5 @@ permalink: /talkwithwestley/
 
   <p><strong>Cena:</strong> na dotaz podle vašich konkrétních potřeb.</p>
 
-  <p><strong><a href="/contact">Email me.</a></strong></p>
+  <p><strong>Email:</strong> <a href="mailto:wes@wessence.com">wes@wessence.com</a></p>
 </div>
