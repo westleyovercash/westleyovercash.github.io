@@ -17,13 +17,7 @@ title: Blog
     {{ post.date | date: "%B %d, %Y" }}
   </p>
 
-  {% assign words = post.content | number_of_words %}
-  {% if words > 60 %}
-    <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
-    <a href="{{ post.url | relative_url }}" style="text-decoration: underline; color: #333;">Continue reading →</a>
-  {% else %}
-    {{ post.content }}
-  {% endif %}
+  {{ post.content }}
 
   <div style="margin-top: 1rem; display: flex; gap: 12px; align-items: center;">
     <!-- X -->
