@@ -20,7 +20,7 @@ permalink: /talkwithwestley/
 
 <p style="max-width: 850px;">Provázím studenty skutečnými změnami — od sportovní trenérky, která dnes trénuje zahraniční klienty v angličtině, přes lékaře, který sebevědomě odcestoval na Nový Zéland, až po žáka, který se zlepšil z trojky na jedničku.</p>
 
-<p>Každá hodina je postavená na vašich potřebách — diskrétně, podle vašeho času.</p>
+<p>Každá hodina je postavená na vašich potřebách — diskrétně, podle vašeho času. Dohodneme se i česky, pokud něco potřebujete upřesnit.</p>
 
 <p><strong>Pro profesionály:</strong> Komunikační koučink pro klíčové chvíle nebo pravidelná praxe, která posiluje jistotu, jasnost a přirozený projev v náročných situacích.</p>
 
