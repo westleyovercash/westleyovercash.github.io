@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Talk with Westley
+title: "Talk with Westley"
+description: "Westley Overcash je jazykový mentor, který nabízí individuální lekce angličtiny zaměřené na sebevědomou komunikaci, jasné vyjadřování a praktické dovednosti pro skutečné situace."
 permalink: /talkwithwestley/
 ---
 
