@@ -22,7 +22,7 @@ permalink: /talkwithwestley/
 
 <p>Každá hodina je postavená na vašich potřebách — diskrétně, podle vašeho času.</p>
 
-<p><strong>Pro profesionály:</strong> Komunikační koučink pro klíčové chvíle nebo pravidelná praxe, abyste zůstali ostří v jednáních s cizinci.</p>
+<p><strong>Pro profesionály:</strong> Komunikační koučink pro klíčové chvíle nebo pravidelná praxe, která posiluje jistotu, jasnost a přirozený projev v náročných situacích.</p>
 
 <p><strong>Pro studenty (15+):</strong> Týdenní koučink spojený se školou a současným životem.</p>
 
