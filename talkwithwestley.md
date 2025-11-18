@@ -18,8 +18,7 @@ permalink: /talkwithwestley/
   </div>
 </div>
 
-<p style="max-width: 850px;">Učím angličtinu 20 let a jsem TEFL-certifikovaný. Moji studenti dosahují konkrétních výsledků: 
-sportovní trenérka teď trénuje cizince v angličtině, lékař odcestoval na Nový Zéland, žák základní školy si polepšil ze 3 na 1.</p>
+<p style="max-width: 850px;">Provázím studenty skutečnými změnami — od sportovní trenérky, která dnes trénuje zahraniční klienty v angličtině, přes lékaře, který sebevědomě odcestoval na Nový Zéland, až po žáka, který se zlepšil z trojky na jedničku.</p>
 
 <p>Každá hodina je postavená na vašich potřebách — diskrétně, podle vašeho času.</p>
 
