@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 <h1 style="font-size: 3.5rem; margin-bottom: 3rem; color: #ff6b35;">Blog</h1>
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <article style="margin-bottom: 4rem;">
   <h2 style="margin-bottom: 1.5rem;">
     <a href="{{ post.url | relative_url }}" style="color: #ff6b35; text-decoration: none;">
@@ -46,3 +46,18 @@ title: Blog
   </div>
 </article>
 {% endfor %}
+
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
+<div style="display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" style="color: #ff6b35; text-decoration: none; font-weight: 600;">← Newer Posts</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+  
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" style="color: #ff6b35; text-decoration: none; font-weight: 600;">Older Posts →</a>
+  {% endif %}
+</div>
+{% endif %}
