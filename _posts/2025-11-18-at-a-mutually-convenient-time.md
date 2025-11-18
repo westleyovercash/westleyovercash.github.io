@@ -13,4 +13,4 @@ My friend lives in Spain where bedtimes are sadistically late. I live in Prague,
 
 So next time around, when it comes to a "mutually convenient" time, perhaps I'll just suggest something like "How about now?"
 
-How long it took me to find my own voice again—it's another reason for restarting my blog. And sharing what I find curious. 
+How long it took me to find my own voice again—it's another reason for restarting my blog.
