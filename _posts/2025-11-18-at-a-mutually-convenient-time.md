@@ -12,5 +12,3 @@ My friend lives in Spain where bedtimes are sadistically late. I live in Prague,
 "Mutually convenient time?" It felt like I was stuck in a corporate recital. But perhaps he had a long day and was just tired—and so that muscle memory kicked in. Then I reminded myself that I was trained in the same kind of recital. For the longest time I talked that way too. It was easy and oddly comfortable. 
 
 So next time around, when it comes to a "mutually convenient" time, perhaps I'll just suggest something like "How about now?"
-
-How long it took me to find my own voice again—it's another reason for restarting my blog.
