@@ -10,7 +10,7 @@ permalink: /talkwithwestley/
     <p style="font-size: 1.5rem; font-weight: 700; margin: 0 0 2rem 0;">
       Spojte se.<br/>Učte se.<br/>Prosperujte.
     </p>
-    <p style="margin-top: 0;">Jestli jste tu díky doporučení některého z mých studentů—děkuji. A vítejte.<br/>Angličtina není jen o gramatice. Jde o sebevědomí, přítomnost a schopnost vyjádřit své myšlenky jasně.</p>
+    <p style="margin-top: 0;">Jestli jste tu díky doporučení některého z mých studentů—děkuji. A vítejte.<br/><br/>Angličtina není jen o gramatice. Jde o sebevědomí, přítomnost a schopnost vyjádřit své myšlenky jasně.</p>
   </div>
 
   <div style="flex: 0 0 250px;">
