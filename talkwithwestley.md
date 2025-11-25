@@ -9,8 +9,8 @@ permalink: /talkwithwestley/
     <p style="font-size: 1.5rem; font-weight: 700; margin: 0 0 2rem 0;">
       Spojte se.<br/>Učte se.<br/>Prosperujte.
     </p>
-    <p style="margin-top: 0; font-style: italic;">Jestli jste tu díky doporučení některého z mých studentů—děkuji. A vítejte.</p>
-    <p style="margin-top: 1rem;">Angličtina není jen o gramatice. Jde o sebevědomí, přítomnost a schopnost vyjádřit své myšlenky jasně.</p>
+    <p style="margin: 0 0 1rem 0; font-style: italic;">Jestli jste tu díky doporučení některého z mých studentů—děkuji. A vítejte.</p>
+    <p style="margin: 0;">Angličtina není jen o gramatice. Jde o sebevědomí, přítomnost a schopnost vyjádřit své myšlenky jasně.</p>
   </div>
   <div style="flex: 0 0 250px;">
     <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash" style="max-width: 250px; width: 100%; border-radius: 8px;">
