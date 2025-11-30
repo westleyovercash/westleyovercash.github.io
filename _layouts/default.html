@@ -118,18 +118,25 @@
       font-style: italic;
     }
 
-    /* --- FINAL FAILSAFE WRAPPING FIX --- */
+    /* --- PROPER WORD WRAPPING (NO MID-WORD BREAKS) --- */
+    h1, h2, h3, h4, h5, h6 {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: none;
+      word-break: normal;
+    }
+
     body, main, p, div, article, section {
-      overflow-wrap: break-word !important;
-      word-wrap: break-word !important;
-      word-break: break-word !important;
-      white-space: normal !important;
-      hyphens: auto !important;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: none;
+      word-break: normal;
     }
 
     pre, code {
-      white-space: pre-wrap !important;
-      word-break: break-word !important;
+      white-space: pre-wrap;
+      word-break: normal;
+      overflow-wrap: break-word;
     }
 
     input[type="email"] {
