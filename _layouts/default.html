@@ -47,10 +47,23 @@
       text-decoration: none;
       font-weight: 600;
       margin-left: 2.5rem;
+      position: relative;
+      display: inline-block;
     }
     
-    nav a:hover {
-      text-decoration: underline;
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background-color: white;
+      transition: width 0.3s ease;
+    }
+    
+    nav a:hover::after {
+      width: 100%;
     }
     
     .site-title {
