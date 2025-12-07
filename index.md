@@ -137,7 +137,7 @@ I turn complex ideas into stories worth sharing. From Czech startups to global b
 <ul>
 <li><a href="http://instagram.com/wessencecom/">15K followers on Instagram</a></li>
 </ul>
-*Náhodou mluvím plynně česky.*
 </div>
 
 </div>
+<p style="margin-top: 3rem;"><em>Náhodou mluvím plynně česky.</em></p>
