@@ -9,4 +9,6 @@ Getting sick is never fun, especially when you don't have anyone to lean on and 
 
 Lukáš, my junior colleague arrived a half-hour later. The usual "How are you?" routine began. A cheery "I'm good!" fell out of my sore throat when it was my turn.   
 
-"Why are you lying to me?" Lukáš asked. "Why do you Americans lie like that?" Normal is a really good word.
+"Why are you lying to me?" Lukáš asked. "Why do you Americans lie like that?" 
+
+Normal is a really good word.
