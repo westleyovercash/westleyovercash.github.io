@@ -7,7 +7,7 @@ There was a market here in Prague. I think most major cities have these kinds of
 
 It reminds me of AI and writing these days. In a few clicks you can go from writing marketing copy to authoring your own book series on marketing. But, like the folks in the market selling their fake wares—and the people flaunting them—there's a part of me that says these folks don't want to be found out. 
 
-AI is brilliant. I have previously advocated for it to be unleashed—something I might regret if you noticed that em dash. It is the ultimate tool for curiosity seekers—the kinds of folks like me who burdened their parents incessantly with "how does this work?" and "Why?" 
+AI is brilliant. I have previously advocated for it to be unleashed—something I might regret if you noticed that em dash. It is the ultimate tool for curiosity seekers—the kinds of folks like me who burdened their parents incessantly with "how does this work?" and "why?" 
 
 I use AI for research and sometimes to check that I'm making sense. Especially when there hasn't been enough coffee involved. But LLMs lack something critical: lived human experience. Only through lived human experience can we accomplish true storytelling. 
 
