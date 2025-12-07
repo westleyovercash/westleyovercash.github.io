@@ -9,6 +9,6 @@ It reminds me of AI and writing these days. In a few clicks you can go from writ
 
 AI is brilliant. I have previously advocated for it to be unleashed—something I might regret if you noticed that em dash. It is the ultimate tool for curiosity seekers—the kinds of folks like me who burdened their parents incessantly with "how does this work?" and "Why?" 
 
-I use AI for research and sometimes to check that I'm making sense. Especially when there hasn't been enough coffee involved. But LLMs lack one thing: lived human experience. Because its only through this lived human experience that we can we accomplish true storytelling. 
+I use AI for research and sometimes to check that I'm making sense. Especially when there hasn't been enough coffee involved. But LLMs lack something critical: lived human experience. Only through lived human experience can we accomplish true storytelling. 
 
 Patek Philippe always comes to mind here. Decades ago they introduced their now-famous philosophy: “You never actually own a Patek Philippe. You merely look after it for the next generation.” In the same way, we have a responsibility to be stewards of genuine, high-quality writing. In a sea of sameness, fakes can be hard to spot, but it becomes easier to spot them as long as there remain examples of good craftsmanship. 
