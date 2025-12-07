@@ -22,19 +22,15 @@ I turn complex ideas into stories worth sharing. From Czech startups to global b
 
 <h2>On Noticing Things</h2>
 
-<p><strong>On Noticing Things</strong> is my daily blog. Observations that lead somewhere. You might catch a glimmer of yourself in one of these posts. Here are some of my most recent.</p>
+<p><strong><a href="/blog">On Noticing Things</a></strong> is my daily blog. Observations that lead somewhere. You might catch a glimmer of yourself in one of these posts. Here are some of my most recent.</p>
 
-<ul style="list-style: none; padding: 0; text-align: center; margin: 2rem 0;">
+<ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
-  <li style="margin-bottom: 0.75rem;"><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li style="margin-bottom: 0.75rem; text-align: left;"><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
-
-<h2>My Newsletter</h2>
-
-<p>If you enjoy what you read, my newsletter launches soon. I hope it feels like a note from a friend. Leave your email to get your copy.</p>
+<p style="margin-top: 3rem;">If you enjoy what you read, my newsletter launches soon. I hope it feels like a note from a friend. Leave your email to get your copy.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
