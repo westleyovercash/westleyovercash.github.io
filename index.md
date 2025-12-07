@@ -16,8 +16,6 @@ Your pitch deck stops sounding like every other pitch deck. Your medical app's b
 
 I turn complex ideas into stories worth sharing. From Czech startups to global brands like Emirates, they know words matter. **<a href="/contact">Get in touch.</a>**
 
-*Náhodou mluvím plynně česky.*
-
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 <h2>On Noticing Things</h2>
@@ -139,7 +137,7 @@ I turn complex ideas into stories worth sharing. From Czech startups to global b
 <ul>
 <li><a href="http://instagram.com/wessencecom/">15K followers on Instagram</a></li>
 </ul>
-
+*Náhodou mluvím plynně česky.*
 </div>
 
 </div>
