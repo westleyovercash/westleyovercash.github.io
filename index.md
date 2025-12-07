@@ -14,19 +14,16 @@ title: Home
 
 Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
 
-I turn complex ideas into stories worth sharing. From Czech startups to global brands like Emirates, they know words matter. **<a href="/contact">Let's talk.</a>**
+I turn complex ideas into stories worth sharing. From Czech startups to global brands like Emirates, they know words matter. **<a href="/contact">Get in touch.</a>**
 
 *Náhodou mluvím plynně česky.*
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
-<h2>On Noticing Things</h2>
-
 <p><strong><a href="/blog">On Noticing Things</a></strong> is my daily blog. Observations that lead somewhere. You might catch a glimmer of yourself in one of these posts. Here are some of my most recent.</p>
-
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
-  <li style="margin-bottom: 0.75rem; text-align: left;"><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li style="margin-bottom: 0.75rem; text-align: left;">→ <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -89,9 +86,9 @@ I turn complex ideas into stories worth sharing. From Czech startups to global b
 
 <h3>Books</h3>
 <ul>
-<li>The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone (Translator and Editor)</li>
-<li>Slingshot: Re-Imagine Your Business, Re-Imagine Your Life (Editor and Contributor)</li>
-<li>Avant-Guide Travel Book Series (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto - Editor and Contributor)</li>
+<li><em>The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone</em> (Translator and Editor)</li>
+<li><em>Slingshot: Re-Imagine Your Business, Re-Imagine Your Life</em> (Editor and Contributor)</li>
+<li><em>Avant-Guide Travel Book Series</em> (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto - Editor and Contributor)</li>
 </ul>
 
 <h3>Newsletters (Client Work)</h3>
