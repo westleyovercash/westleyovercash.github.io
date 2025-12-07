@@ -140,4 +140,4 @@ I turn complex ideas into stories worth sharing. From Czech startups to global b
 </div>
 
 </div>
-<p style="margin-top: 3rem;"><em>Náhodou mluvím plynně česky.</em></p>
+<p style="margin-top: 3rem;"><em>*Náhodou mluvím plynně česky.</em></p>
