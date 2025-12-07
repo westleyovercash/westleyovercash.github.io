@@ -14,7 +14,7 @@ title: Home
 
 Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
 
-I turn complex ideas into stories worth sharing. From Czech startups to global brands like Emirates—they know words matter. That's why they call me. **<a href="/contact">Let's talk.</a>**
+I turn complex ideas into stories worth sharing. From Czech startups to global brands like Emirates, they know words matter. **<a href="/contact">Let's talk.</a>**
 
 *Náhodou mluvím plynně česky.*
 
