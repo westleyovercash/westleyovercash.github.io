@@ -16,9 +16,7 @@ From Czech startups to F500 brands, I turn complex ideas into stories that want 
 
 Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
 
-It's easier than you might think.
-
-**<a href="/contact">Just say hello.</a>**
+If that can help you then **<a href="/contact">say hello.</a>**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
