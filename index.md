@@ -12,11 +12,11 @@ title: Home
   </div>
 </div>
 
-Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
-
 From Czech startups to F500 brands, I turn complex ideas into stories that want to be shared.
 
-**<a href="/contact">Get in touch.</a>**
+Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
+
+If you'd like to do that for yours then **<a href="/contact">get in touch.</a>**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
