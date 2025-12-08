@@ -35,7 +35,7 @@ From Czech startups to F500 brands, I turn their complex ideas into stories that
   
   <label style="display: block; margin-bottom: 1rem; font-size: 0.9rem; line-height: 1.5;">
     <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px; vertical-align: middle;">
-    I consent to these emails and can "6-7" whenever I want.
+    I consent to these emails and can "6-7" whenever.
   </label>
   
   <input type="submit" value="Subscribe">
