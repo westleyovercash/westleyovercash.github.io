@@ -28,7 +28,7 @@ If you'd like to do that for yours then **<a href="/contact">get in touch.</a>**
 {% endfor %}
 </ul>
 
-<p style="margin-top: 3rem;">If you enjoy what you've read, there might just be a newsletter soon. I hope it will feel like a note from a friend. Do that thing with your email to get your copy.</p>
+<p style="margin-top: 3rem;">A newsletter is coming soon. I hope it will feel like a note from a friend.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
