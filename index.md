@@ -28,7 +28,7 @@ From Czech startups to F500 brands, I turn complex ideas into stories that want 
 {% endfor %}
 </ul>
 
-<p style="margin-top: 3rem;">If you enjoy what you read, my newsletter launches soon. I hope it feels like a note from a friend. Leave your email to get your copy.</p>
+<p style="margin-top: 3rem;">If you enjoy what you've read, there might just be a newsletter soon. I hope it will feel like a note from a friend. Do that thing with your email to get your copy.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
