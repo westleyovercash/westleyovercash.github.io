@@ -220,6 +220,16 @@
       
       nav a {
         margin-left: 0;
+        margin-right: 1.5rem; /* ADDED: Creates space between Blog and Contact */
+      }
+      
+      nav a:last-child {
+        margin-right: 0; /* ADDED: Removes extra margin from last link */
+      }
+      
+      nav div {
+        display: flex; /* ADDED: Makes Blog and Contact sit side-by-side */
+        gap: 2rem; /* ADDED: Controls the space between Blog and Contact */
       }
       
       main {
