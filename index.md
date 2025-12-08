@@ -21,7 +21,7 @@ If you'd like to do that for yours then **<a href="/contact">get in touch.</a>**
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 <h2>On Noticing Things</h2>
-<p>This is my <a href="/blog">blog</a> where I wonder if you are seeing the same things too? Here are some of my most recent.</p>
+<p>This is my <a href="/blog">blog</a> where I wonder if you are seeing the same things too?</p>
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
   <li style="margin-bottom: 0.75rem; text-align: left;">→ <a href="{{ post.url }}">{{ post.title }}</a></li>
