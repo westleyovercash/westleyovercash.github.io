@@ -21,7 +21,7 @@ From Czech startups to F500 brands, I turn their complex ideas into stories that
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 <h2>On Noticing Things</h2>
-<p>Observations that lead somewhere. You might catch a glimmer of yourself in one of my daily <a href="/blog">blog</a> posts. Here are some of my most recent.</p>
+<p>Maybe you'll see a bit of yourself in one of my daily <a href="/blog">blog</a> posts. Here are some of my most recent.</p>
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
   <li style="margin-bottom: 0.75rem; text-align: left;">→ <a href="{{ post.url }}">{{ post.title }}</a></li>
