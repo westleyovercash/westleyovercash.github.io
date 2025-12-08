@@ -4,6 +4,10 @@ description: I write the stories your audience retells.
 url: "https://wessence.com"
 baseurl: ""  # Leave empty since your custom domain points directly to the root
 
+# Timezone setting - ensures posts use Prague time
+timezone: Europe/Prague
+future: false
+
 # Build settings
 markdown: kramdown
 
