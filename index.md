@@ -14,7 +14,7 @@ title: Home
 
 Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
 
-From Czech startups to F500 brands, they know every word matters. 
+From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared.
 
 **<a href="/contact">Get in touch.</a>**
 
