@@ -16,7 +16,7 @@ From Czech startups to F500 brands, I turn complex ideas into stories that want 
 
 Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
 
-And that would be how your story starts. We could tell it together.
+It's easier than you might think.
 
 **<a href="/contact">Just say hello.</a>**
 
