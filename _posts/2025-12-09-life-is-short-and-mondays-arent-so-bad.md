@@ -7,7 +7,7 @@ A lot of us dread Mondays. Just scroll through Instagram on a Sunday evening. Yo
 
 The toughest Monday in my life came shortly after the passing of a new year. I was in the midst of pr-ing the launch of a client's book. 
 
-I was getting used to effects of meds prescribed after my at an early-age heart attack. My relationship with my partner was disintegrating. And our rental agreement on the flat wouldn't be renewed. I was living proof that bad news comes in threes.  
+I was getting used to effects of meds prescribed after my at an early-age heart attack, my relationship with my partner was disintegrating, and nd our rental agreement on the flat wouldn't be renewed. I was living proof that bad news comes in threes.  
 
 I opened my calendar that morning and it smelled of overwhelm. All the dates and times were changing. Who and what could I rely on any more? Our two kids were too young to understand any of this. But at least I still had Bibo. 
 
