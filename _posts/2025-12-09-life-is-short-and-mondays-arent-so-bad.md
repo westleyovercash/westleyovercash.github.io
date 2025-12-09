@@ -13,4 +13,4 @@ I opened my calendar that morning and it smelled of overwhelm. All the dates and
 
 All these moving parts. Situations change. People change. Everything is always in flux. The first time I heard and fell in love with Wagner's "Tristan and Isolde," I learned there's actually a name for it. It's called unresolved tension. 
 
-There will always be unresolved tension. It took me a long time to accept that. Once I finally did, I found Mondays aren't so bad after all.
+There will always be unresolved tension. Mondays aren't so bad after all.
