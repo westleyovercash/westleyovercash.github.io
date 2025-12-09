@@ -12,30 +12,30 @@ title: Home
   </div>
 </div>
 
-From Czech startups to F500 brands, I turn complex ideas into stories that want to be shared.
+Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI.
 
-Your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI. 
+From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-If that can help you then **<a href="/contact">say hello.</a>**
+**<a href="/contact">Get in touch.</a>**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 3rem 0;">
 
 <h2>On Noticing Things</h2>
-<p>This is my <a href="/blog">blog</a> where I wonder if you are seeing the same things too?</p>
+<p>Maybe you'll see a bit of yourself in one of my daily <a href="/blog">blog</a> posts. Here are some of my most recent.
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
   <li style="margin-bottom: 0.75rem; text-align: left;">→ <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
-<p style="margin-top: 3rem;">A newsletter is coming soon. I hope it will feel like a note from a friend.</p>
+<p style="margin-top: 3rem;">If you enjoy what you read, my newsletter launches soon. I hope it feels like a note from a friend. Leave your email to get your copy.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
   
   <label style="display: block; margin-bottom: 1rem; font-size: 0.9rem; line-height: 1.5;">
     <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px; vertical-align: middle;">
-    I consent to these emails and can "6-7" whenever.
+    I consent to these emails and can "bye" whenever I want.
   </label>
   
   <input type="submit" value="Subscribe">
