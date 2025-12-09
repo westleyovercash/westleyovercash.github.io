@@ -12,7 +12,7 @@ title: Home
   </div>
 </div>
 
-Every single word has to do the heavy lifting. That's when your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI.
+Every single word must do the heavy lifting. That's when your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI.
 
 From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
