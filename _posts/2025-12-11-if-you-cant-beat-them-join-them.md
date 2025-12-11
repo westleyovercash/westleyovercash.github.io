@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: If you can’t beat them, join them
+title: "If you can’t beat them, join them"
 date: 2025-12-11
 ---
 It was precisely 15.15 on a Monday afternoon. Most office workers wouldn’t be going home yet, but these two were. They were dressed like people who had already met their quotas. They could have been brothers. 
