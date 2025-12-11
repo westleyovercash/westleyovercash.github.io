@@ -11,4 +11,4 @@ After massaging the nicotine pack into his lower lip, the more rugged one blurte
 
 The rugged one went on to say that he simply summoned ChatGPT to do it. When pressed further what ChatGPT had written on his behalf, the rugged one couldn’t recall, but he was certain that it was the best report ever. On that there was no negotiating. 
 
-The colleague seated across from him wore his discomfort on his face. He pushed back on it a bit. To which the rugged one said almost gleefully: “If you can’t beat them, join them!”
+The colleague seated across from him wore his discomfort on his face. He pushed back on it a bit. To which the rugged one said gleefully: “If you can’t beat them, join them!”
