@@ -25,7 +25,7 @@ You can **<a href="/contact">get in touch</a>** or read these kinds of stories i
 {% endfor %}
 </ul>
 
-<p style="margin-top: 3rem;">If you enjoy what you read, I'm creating a special newsletter. I hope it will feel like a note from a friend. Leave your email to get your copy.</p>
+<p style="margin-top: 3rem;">I send occasional letters expanding on these observations. Leave your email to get your copy.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
