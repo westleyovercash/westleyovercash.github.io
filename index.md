@@ -16,7 +16,7 @@ Every single word must do the heavy lifting. That's when your pitch deck stops s
 
 From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-You can **<a href="/contact">get in touch</a>** or read these kinds of stories in my daily blog, **<a href="/blog">** On Noticing Things</a>.
+You can **<a href="/contact">get in touch</a>** or read these kinds of stories in my daily blog, **<a href="/blog">On Noticing Things</a>**.
 
 <p>It ranges widely, from culture and technology to work and what makes us human. Maybe you'll see a bit of yourself in these stories, or just something that makes your day feel different. Here are my most recent observations:
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
