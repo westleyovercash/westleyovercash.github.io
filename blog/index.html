@@ -3,6 +3,8 @@ layout: default
 title: Blog
 ---
 <h1 style="font-size: 3.5rem; margin-bottom: 3rem; color: #ff6b35;">Blog</h1>
+
+<div id="post-container">
 {% for post in paginator.posts %}
 <article style="margin-bottom: 4rem;">
   <h2 style="margin-bottom: 1.5rem; text-transform: none !important;">
@@ -44,9 +46,16 @@ title: Blog
   </div>
 </article>
 {% endfor %}
-<!-- Pagination -->
+</div>
+
+<!-- Loading indicator -->
+<div id="loading-indicator" style="display: none; text-align: center; padding: 2rem; color: #555; font-size: 0.9rem;">
+  Loading more posts...
+</div>
+
+<!-- Pagination (fallback for no-JS) -->
 {% if paginator.total_pages > 1 %}
-<div style="display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+<div id="pagination-links" style="display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" style="color: #ff6b35; text-decoration: none; font-weight: 600;">← Newer Posts</a>
   {% else %}
@@ -54,7 +63,143 @@ title: Blog
   {% endif %}
   
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" style="color: #ff6b35; text-decoration: none; font-weight: 600;">Older Posts →</a>
+    <a href="{{ paginator.next_page_path | relative_url }}" id="next-page-link" style="color: #ff6b35; text-decoration: none; font-weight: 600;">Older Posts →</a>
   {% endif %}
 </div>
 {% endif %}
+
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  const SCROLL_THRESHOLD = 300; // pixels from bottom to trigger load
+  const container = document.getElementById('post-container');
+  const loadingIndicator = document.getElementById('loading-indicator');
+  const paginationLinks = document.getElementById('pagination-links');
+  
+  // State
+  let isLoading = false;
+  let hasMorePages = true;
+  let nextPageUrl = '{% if paginator.next_page %}{{ paginator.next_page_path | relative_url }}{% endif %}';
+  
+  // Hide pagination links since we're using infinite scroll
+  if (paginationLinks) {
+    paginationLinks.style.display = 'none';
+  }
+  
+  // Check if we're near the bottom of the page
+  function isNearBottom() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    
+    return (documentHeight - (scrollTop + windowHeight)) < SCROLL_THRESHOLD;
+  }
+  
+  // Extract articles from fetched HTML
+  function extractArticles(html) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    const articles = doc.querySelectorAll('#post-container article');
+    return Array.from(articles);
+  }
+  
+  // Extract next page URL from fetched HTML
+  function extractNextPageUrl(html) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    const nextLink = doc.querySelector('#next-page-link');
+    return nextLink ? nextLink.getAttribute('href') : null;
+  }
+  
+  // Load next page
+  function loadNextPage() {
+    if (isLoading || !hasMorePages || !nextPageUrl) {
+      return;
+    }
+    
+    isLoading = true;
+    loadingIndicator.style.display = 'block';
+    
+    fetch(nextPageUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to load page');
+        }
+        return response.text();
+      })
+      .then(html => {
+        // Extract articles from the fetched page
+        const articles = extractArticles(html);
+        
+        if (articles.length === 0) {
+          hasMorePages = false;
+          loadingIndicator.style.display = 'none';
+          return;
+        }
+        
+        // Append articles to container
+        articles.forEach(article => {
+          container.appendChild(article);
+        });
+        
+        // Update next page URL
+        const newNextPageUrl = extractNextPageUrl(html);
+        if (newNextPageUrl) {
+          nextPageUrl = newNextPageUrl;
+        } else {
+          hasMorePages = false;
+        }
+        
+        loadingIndicator.style.display = 'none';
+        isLoading = false;
+        
+        // Check if we need to load more immediately
+        // (in case the loaded content isn't tall enough)
+        if (isNearBottom() && hasMorePages) {
+          setTimeout(loadNextPage, 100);
+        }
+      })
+      .catch(error => {
+        console.error('Error loading posts:', error);
+        loadingIndicator.style.display = 'none';
+        loadingIndicator.textContent = 'Failed to load more posts';
+        isLoading = false;
+        hasMorePages = false;
+      });
+  }
+  
+  // Handle scroll events
+  function handleScroll() {
+    if (isNearBottom()) {
+      loadNextPage();
+    }
+  }
+  
+  // Throttle scroll events for performance
+  let scrollTimeout;
+  function throttledScroll() {
+    if (scrollTimeout) {
+      return;
+    }
+    
+    scrollTimeout = setTimeout(function() {
+      handleScroll();
+      scrollTimeout = null;
+    }, 100);
+  }
+  
+  // Initialize
+  if (nextPageUrl) {
+    window.addEventListener('scroll', throttledScroll);
+    
+    // Check on load in case initial content doesn't fill the viewport
+    setTimeout(function() {
+      if (isNearBottom()) {
+        loadNextPage();
+      }
+    }, 100);
+  }
+})();
+</script>
