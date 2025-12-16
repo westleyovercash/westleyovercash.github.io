@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why are you lying? 
-date: 2025-12-08 09:00:00 +0100
+date: 2025-12-08
 --- 
 It was my first job after moving to Prague. And I was oozing Georgia peach all over the place. I think my coworkers tolerated it in exchange for my knowhow. But they spoke Czech—and at the time I didn't—so I'll never really know. And whenever I asked them how they were doing, they responded with an unenthusiastic, "I am normal." 
 
