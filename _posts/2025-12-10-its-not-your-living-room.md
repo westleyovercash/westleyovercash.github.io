@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's not your living room
-date: 2025-12-10 09:00:00 +0100
+date: 2025-12-10
 ---
 I go to a gym. It is a hole in the wall. I don’t go there because of the latest and greatest machines—because there aren’t any. I go there because of the people. 
 
