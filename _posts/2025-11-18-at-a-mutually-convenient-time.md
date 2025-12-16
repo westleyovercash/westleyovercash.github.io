@@ -1,7 +1,7 @@
 ---
 layout: post
 title: At a mutually convenient time
-date: 2025-11-18T00:00:00.000Z
+date: 2025-11-18
 ---
 I have a friend. I hope you're lucky enough to have one like him too. He's a joy to be around. But sometimes it's the slightly unaware way he communicates. 
 
