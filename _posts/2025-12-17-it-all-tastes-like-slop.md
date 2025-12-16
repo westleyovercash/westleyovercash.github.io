@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It all tastes like slop 
-date: 2025-12-17 09:00:00 +0100
+date: 2025-12-17
 --- 
 It all tastes like slop
 
