@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Life is short and Mondays aren't so bad
-date: 2025-12-09 09:00:00 +0100
+date: 2025-12-09
 --- 
 A lot of folks dread Mondays. Just scroll through Instagram on a Sunday evening. You would think Monday is judgement day. 
 
