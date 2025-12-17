@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Life is short and Mondays aren't so bad
+title: The worst Monday ever
 date: 2025-12-09
 --- 
 A lot of folks dread Mondays. Just scroll through Instagram on a Sunday evening. You would think Monday is judgement day. 
