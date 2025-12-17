@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Well here we are again
+title: Everything old is new again
 date: 2025-11-03
 ---
 Back in the blog boom era (think Nokia candy bar phones) I created the first blog on a bestselling innovation and strategy book. "It's a boring subject. No one will read it," folks said. And that's why you shouldn't pay too much attention to what others say. It wasn't until ten years and 1,200 posts later that I put it to bed. 
