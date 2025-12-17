@@ -1,6 +1,6 @@
 ---
 layout: post
-title: No one wants to fix it
+title: Does anyone really want to fix it?
 date: 2025-12-16
 ---
 There is construction across the street. When you live in a city—especially one this old—the only direction to build is up so that the sun can never see you. The construction workers start before the garbage men make their rounds and continue on weekends and sometimes even holidays, too. 
