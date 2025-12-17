@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Social media tax
+title: I thought I was brilliant
 date: 2025-12-04
 --- 
 I learned it in Psychology 101. An anthropologist had discovered that humans could maintain about a maximum of 150 social connections. 
