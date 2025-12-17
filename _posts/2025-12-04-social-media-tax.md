@@ -9,4 +9,4 @@ When I worked in travel publishing, back around the birth of Facebook, we came u
 
 I argued for a cap on connections, a dozen felt right to me. We've got twelve pairs of ribs, in the US eggs come by the dozen. So there must have been a good reason for 12. Monetization crept in. My idea was sidelined. The site never launched. 
 
-Over a decade later I was rolling high on Instagram. I got caught up in follower count. Surely 1000 times the number I originally had in mind would be my golden ticket. It earned me some privileges and a bit of money. But that never compensated for the people and time lost.
+Over a decade later I was rolling high on Instagram. I got caught up in follower count. Surely 1000 times the number I originally had in mind would be my golden ticket. It earned me some privileges and a bit of money.
