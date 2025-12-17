@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It all tastes like slop 
+title: So much slop 
 date: 2025-12-17
 --- 
 There's a reality TV show famous around the world featuring Gordon Ramsay and struggling restauranteurs. 
