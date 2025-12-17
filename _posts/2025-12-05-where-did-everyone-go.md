@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Here and now
+title: Where did everyone go?
 date: 2025-12-05
 ---
 It was the oddest thing. All the children sat in a ringed circle, underneath a statue. The statue to Josef Jungmann, the father of modern Czech language. Their backs turned toward him. 
