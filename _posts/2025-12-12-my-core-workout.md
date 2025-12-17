@@ -10,5 +10,5 @@ Decades later and I had become the fact checker in chief. Over the past months, 
 
 The more I flexed, the more it seemed to matter. But it didn't help my core. 
 
-I quietly unsubscribed from the talking heads. I started observing real people and their real problems. I listened more. And I returned to writing. 
+I quietly unsubscribed from the talking heads. I started observing real people and their real problems. I listened more. And I got back to writing. 
 
