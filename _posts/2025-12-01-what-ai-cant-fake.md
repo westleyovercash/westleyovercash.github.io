@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fakes can be hard to spot
+title: What AI can't fake
 date: 2025-12-01
 ---
 There was a market here in Prague. I think most major cities have these kinds of markets. You could find anything there. And when pretending hard enough, the fake handbags and watches almost seemed real. If you could get past the mechanical defects and strange smell. 
