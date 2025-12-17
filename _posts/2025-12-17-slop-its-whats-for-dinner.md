@@ -1,6 +1,6 @@
 ---
 layout: post
-title: So much slop 
+title: "Slop, it's what's for dinner" 
 date: 2025-12-17
 --- 
 There's a reality TV show famous around the world featuring Gordon Ramsay and struggling restauranteurs. 
