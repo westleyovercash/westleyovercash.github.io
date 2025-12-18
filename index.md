@@ -16,16 +16,16 @@ Every single word must do the heavy lifting. That's when your pitch deck stops s
 
 From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-You can **<a href="/contact">get in touch</a>** or read these kinds of stories in my daily blog, **<a href="/blog">On Noticing Things</a>**.
+You can **<a href="/contact">get in touch</a>**, or read these kinds of stories on my daily blog called **<a href="/blog">On Noticing Things</a>**.
 
-<p>It ranges widely, from culture and technology to work and what makes us human. Maybe you'll see a bit of yourself in these stories, or just something that makes your day feel different. Here are my most recent observations:
+<p>It ranges from culture and technology to work and what makes us human. Maybe you'll see a bit of yourself in my stories, or something that makes your day feel different. Here are my most recent stories:
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
   <li style="margin-bottom: 0.75rem; text-align: left;">→ <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
-<p style="margin-top: 3rem;">I send occasional letters expanding on these observations. Leave your email to get your copy.</p>
+<p style="margin-top: 3rem;">I send occasional letters expanding on these stories. Leave your email to get your copy.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow" style="margin: 2rem 0;">
   <input type="email" name="email" placeholder="Enter your email" required style="display: block; margin-bottom: 1rem;">
