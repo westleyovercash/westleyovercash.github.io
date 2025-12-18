@@ -18,7 +18,7 @@ From Czech startups to F500 brands, I turn their complex ideas into stories that
 
 You can **<a href="/contact">get in touch</a>**, or see how I tell stories on my daily blog called **<a href="/blog">On Noticing Things</a>**.
 
-<p>It ranges from culture and technology to work and what makes us human. Maybe you'll see a bit of yourself in my stories, or something that makes your day feel different. Here are my most recent:
+<p>It ranges from culture and technology to work and what makes us human. Maybe you'll see a bit of yourself, or something that makes your day feel different. Here are my most recent:
 <ul style="list-style: none; padding: 0; margin: 2rem auto; max-width: 400px;">
 {% for post in site.posts limit:3 %}
   <li style="margin-bottom: 0.75rem; text-align: left;">→ <a href="{{ post.url }}">{{ post.title }}</a></li>
