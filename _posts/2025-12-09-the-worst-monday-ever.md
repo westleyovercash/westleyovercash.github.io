@@ -7,8 +7,8 @@ A lot of folks dread Mondays. Just scroll through Instagram on a Sunday evening.
 
 The toughest Monday in my life came around this same time 14 years ago, in the midst of pr-ing the launch of a client’s book.
 
-I was getting used to life after a youthful heart attack. My relationship with my partner was disintegrating. And our rental agreement on the flat wouldn’t be renewed. It always arrives in threes.
+Life after my heart attack hadn't settled in yet. My relationship with my partner was disintegrating. And our rental agreement on the flat wouldn’t be renewed. It always arrives in threes.
 
-I opened my calendar that morning and it felt like the climax of a Wagner opera. All the dates and times were changing. Who and what could I rely on any more? Our two kids were too young to understand any of this. But at least I still had Bibo.
+I opened my calendar that morning to a Wagner opera. Who and what could I rely on any more? Our two kids were too young to understand any of this. But at least I still had Bibo.
 
-There will always be unresolved tension. 
+There will always be unresolved tension.
