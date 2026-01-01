@@ -4,32 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - {{ site.title }}</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
   <link rel="icon" type="image/png" href="/assets/css/images/westley-overcash-favicon.png">
   <link rel="apple-touch-icon" href="/assets/css/images/westley-overcash-favicon.png">
   
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --text-light: #666666;
+      --brand-orange: #F97316;
+      --border: rgba(0,0,0,0.06);
     }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     
-    html {
-      font-size: 16px;
-      -webkit-text-size-adjust: 100%;
+    html { 
+      font-size: 16px; 
+      -webkit-font-smoothing: antialiased;
+      scroll-behavior: smooth;
     }
     
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.7;
-      color: #333;
-      background-color: #fff;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.8;
+      color: var(--text);
+      background-color: var(--bg);
+      overflow-wrap: break-word;
     }
     
     header {
-      background-color: #F97316;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      border-top: 4px solid var(--brand-orange);
       padding: 1rem 0;
-      margin-bottom: 3rem;
+      margin-bottom: 4rem;
       width: 100%;
     }
     
@@ -42,26 +60,37 @@
       align-items: center;
     }
     
-    nav a {
-      color: white;
+    .site-title {
+      color: var(--text);
       text-decoration: none;
-      font-weight: 600;
-      margin-left: 2.5rem;
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+      transition: color 0.2s ease;
+    }
+
+    .site-title:hover {
+      color: var(--brand-orange);
+    }
+    
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 2rem;
+      font-size: 0.95rem;
       position: relative;
       display: inline-block;
     }
 
-    nav a:hover {
-      color: white;  
-    }
     nav a::after {
       content: '';
       position: absolute;
       width: 0;
       height: 2px;
-      bottom: -2px;
+      bottom: -4px;
       left: 0;
-      background-color: white;
+      background-color: var(--brand-orange);
       transition: width 0.3s ease;
     }
     
@@ -69,175 +98,98 @@
       width: 100%;
     }
     
-    .site-title {
-      color: white;
-      font-size: 1.5rem;
-      font-weight: 700;
-      text-decoration: none;
-    }
-    
     main {
-      max-width: 800px;
+      max-width: 720px;
       margin: 0 auto;
-      padding: 0 40px 4rem 40px;
+      padding: 0 20px 4rem 20px;
       width: 100%;
     }
     
     h1 {
-      font-size: 3.5rem;
-      line-height: 1.2;
-      margin-bottom: 2rem;
-      color: #F97316;
-      font-weight: 700;
-      text-transform: none !important;
+      font-size: 3rem;
+      line-height: 1.1;
+      margin-bottom: 2.5rem;
+      color: var(--text);
+      font-weight: 800;
+      letter-spacing: -0.04em;
     }
     
     h2 {
-      color: #F97316;
+      font-size: 1.6rem;
+      margin: 3rem 0 1rem 0;
+      letter-spacing: -0.02em;
+      color: var(--text);
       font-weight: 700;
-      margin: 2rem 0 1rem 0;
-      text-transform: none !important;
-    }
-    
-    h3 {
-      color: #333;
-      font-weight: 700;
-      margin: 2rem 0 1rem 0;
-      font-size: 1.3rem;
-      text-transform: none !important;
     }
     
     p {
-      margin-bottom: 1.2rem;
-      font-size: 1.05rem;
-      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      font-size: 1.15rem;
     }
     
-    a {
-      color: #333;
+    article a {
+      color: var(--text);
       text-decoration: underline;
-      text-decoration-color: rgba(0, 0, 0, 0.2);
-      text-underline-offset: 2px;
+      text-decoration-color: var(--border);
+      text-underline-offset: 4px;
+      transition: all 0.2s ease;
     }
     
-    a:hover {
-      color: #F97316;
-    }
-
-    ul, ol {
-      margin: 1.2rem 0 1.2rem 1.5rem;
-      line-height: 1.7;
+    article a:hover {
+      color: var(--brand-orange);
+      text-decoration-color: var(--brand-orange);
     }
 
     blockquote {
-      border-left: 4px solid #F97316;
-      padding-left: 1rem;
-      margin: 2rem 0;
-      color: #555;
+      border-left: 3px solid var(--brand-orange);
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      margin: 2.5rem 0;
+      color: var(--text-light);
       font-style: italic;
-    }
-
-    /* --- PROPER WORD WRAPPING (NO MID-WORD BREAKS) --- */
-    h1, h2, h3, h4, h5, h6 {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      hyphens: none;
-      word-break: normal;
-      text-transform: none !important;
-    }
-
-    body, main, p, div, article, section {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      hyphens: none;
-      word-break: normal;
-    }
-
-    pre, code {
-      white-space: pre-wrap;
-      word-break: normal;
-      overflow-wrap: break-word;
+      font-size: 1.2rem;
     }
 
     input[type="email"] {
       padding: 12px;
-      border: 2px solid #F97316;
-      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: #fafafa;
+      border-radius: 6px;
       font-size: 1rem;
       width: 60%;
-      margin-right: 10px;
     }
     
     input[type="submit"] {
       padding: 12px 24px;
-      background: #F97316;
+      background: var(--brand-orange);
       color: white;
       border: none;
-      border-radius: 4px;
-      font-size: 1rem;
+      border-radius: 6px;
       font-weight: 600;
       cursor: pointer;
+      transition: opacity 0.2s ease;
     }
-    
+
     input[type="submit"]:hover {
-      background: #e55a2b;
-    }
-    
-    hr {
-      border: none;
-      border-top: 1px solid #e0e0e0;
-      margin: 3rem 0;
+      opacity: 0.9;
     }
     
     footer {
-      background-color: #F97316;
-      color: white;
-      padding: 3rem 2rem;
+      border-top: 1px solid var(--border);
+      background-color: #fafafa;
+      color: var(--text-light);
+      padding: 4rem 2rem;
       text-align: center;
-      margin-top: 4rem;
-      width: 100%;
+      margin-top: 6rem;
     }
-    
+
     @media (max-width: 600px) {
-      h1 {
-        font-size: 2.5rem;
-        text-transform: none !important;
-      }
-      
-      input[type="email"] {
-        width: 100%;
-        margin-bottom: 10px;
-      }
-      
-      input[type="submit"] {
-        width: 100%;
-      }
-      
-      nav {
-        flex-direction: column;
-        gap: 1rem;
-      }
-      
-      nav a {
-        margin-left: 0;
-        margin-right: 1.5rem; /* ADDED: Creates space between Blog and Contact */
-      }
-      
-      nav a:last-child {
-        margin-right: 0; /* ADDED: Removes extra margin from last link */
-      }
-      
-      nav div {
-        display: flex; /* ADDED: Makes Blog and Contact sit side-by-side */
-        gap: 2rem; /* ADDED: Controls the space between Blog and Contact */
-      }
-      
-      main {
-        padding: 0 30px 4rem 30px;
-      }
+      h1 { font-size: 2.2rem; }
+      nav { padding: 0 20px; }
+      nav a { margin-left: 1rem; }
+      input[type="email"] { width: 100%; margin-bottom: 10px; }
+      input[type="submit"] { width: 100%; }
     }
   </style>
-
 </head>
 
 <body>
@@ -252,14 +204,14 @@
   </header>
   
   <main>
-    {{ content }}
+    <article>
+      {{ content }}
+    </article>
   </main>
   
   <footer>
-    <p style="font-size: 1.1rem; margin-bottom: 1.5rem; line-height: 1.6;">
-      No cookies here. I respect your privacy.
-    </p>
-    <p style="margin: 0; font-size: 0.95rem;">© 2025 Westley Overcash</p>
+    <p style="margin-bottom: 1rem;">No cookies. No tracking. Just writing.</p>
+    <p style="font-size: 0.85rem; opacity: 0.6;">© {{ "now" | date: "%Y" }} Westley Overcash</p>
   </footer>
 </body>
 </html>
