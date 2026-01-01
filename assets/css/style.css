@@ -90,6 +90,13 @@ h1 {
   margin-bottom: 3rem;
   font-weight: 600;
   letter-spacing: -0.05em;
+  color: var(--text); /* Forces main titles to stay black */
+}
+
+/* Specific styling for story titles inside blog posts */
+article h1 {
+  color: var(--brand-orange);
+  margin-top: 1rem;
 }
 
 h2 {
@@ -138,7 +145,7 @@ article a:hover {
   border-radius: 16px;
 }
 
-/* --- Updated Recent Posts (Large & Bold) --- */
+/* --- Recent Posts (Large & Bold) --- */
 .recent-posts { 
   list-style: none; 
   margin: 2rem 0; 
