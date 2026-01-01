@@ -93,15 +93,15 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * *Avant-Guide Travel Book Series* (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto - Editor and Contributor)
 
 ### Newsletters (client)
-* [You can change the future](https://drive.google.com/file/d/1eZf_gnved8CkKzwERby5Q3H5QlkhMX0y/view?usp=sharing)
-* [Your time to act is now](https://drive.google.com/file/d/1BzA3QGhSyhvTFxO-wANtyjOhrgRpBup7/view?usp=sharing)
-* [1 last step to change your future](https://drive.google.com/file/d/13iG2_sGVY4LMsXpeynslS-Ko1wJ3ZyzM/view?usp=sharing)
 * [Beyond Bitcoin](https://drive.google.com/file/d/1Knab998R3lIDvNAc3EwjzWxJ8x1zMPfJ/view?usp=sharing)
 * [Big pharma got it wrong](https://drive.google.com/file/d/1fMCkyMvANiQYEPY46Y4zUWrzqTY155DP/view?usp=share_link)
 * [CBD revolution](https://drive.google.com/file/d/11dXc_P-5ZOtWM_vAHGKIHrGrzrzNWD4X/view?usp=sharing)
 * [Digital clothing](https://drive.google.com/file/d/1Hh7sTxj0vnuEiuok0yicct7udoe7Jftd/view?usp=sharing)
 * [NFTs](https://drive.google.com/file/d/1rbUdT-EQDULtcyRcFkBGLGAve2SPYVqX/view?usp=sharing)
 * [Metaverse](https://drive.google.com/file/d/1fEmhH7zb3KYRlRdOWsSjuhgEXuqLt8qD/view?usp=sharing)
+* [You can change the future](https://drive.google.com/file/d/1eZf_gnved8CkKzwERby5Q3H5QlkhMX0y/view?usp=sharing)
+* [Your time to act is now](https://drive.google.com/file/d/1BzA3QGhSyhvTFxO-wANtyjOhrgRpBup7/view?usp=sharing)
+* [1 last step to change your future](https://drive.google.com/file/d/13iG2_sGVY4LMsXpeynslS-Ko1wJ3ZyzM/view?usp=sharing)
 
 ### Newsletters (agency)
 * [You deserve free coffee](https://drive.google.com/file/d/1FL2HwegikLnZO0k_Oz54EbhvkWhPxpdu/view?usp=sharing)
@@ -111,17 +111,17 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [No more Happy Meals](https://drive.google.com/file/d/1ALvVlaKHFnMSGHF-L7BAi654ye60iO6t/view?usp=sharing)
 * [Stop interrupting](https://drive.google.com/file/d/1yPQqDH-upSxqr6QobgBy4rbpHV5kG55D/view?usp=sharing)
 
-### Press Releases
+### Press releases
 * [SALESDOCk expands to Benelux](https://drive.google.com/file/d/1pwISRCPCL2GyfnK7VjUuL4kjfGkIpmjQ/view?usp=sharing)
 * [My guide to writing surefire publicity announcements](https://drive.google.com/file/d/0B5XxCEn6SiJ5N2tOcDctWWt5R0k/view?usp=sharing&resourcekey=0-uRJZxtvdDJR0Z4AuY6TzPA)
 
 ### Podcasting
-* [Listen to sample content](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
+* [What I sound like](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
 
 ### Translations
 * [Artificial Intelligence Is Returning Business to Traditional Soft Skills](https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link)
 
-### Social Media
+### Social media
 * [15K followers on Instagram](http://instagram.com/wessencecom/)
 
 </div>
