@@ -3,106 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | Westley Overcash</title>
+  <title>{{ page.title }} - Westley Overcash</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <style>
     :root {
       --bg: #ffffff;
       --text: #111111;
       --brand-orange: #F97316;
-      --border: #eeeeee;
+      --border: rgba(0,0,0,0.08);
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
       font-family: "IBM Plex Sans", sans-serif;
-      line-height: 1.6;
+      line-height: 1.7;
       color: var(--text);
       background-color: var(--bg);
       -webkit-font-smoothing: antialiased;
     }
     
     header {
-      border-top: 6px solid var(--brand-orange);
+      border-top: 5px solid var(--brand-orange);
       border-bottom: 1px solid var(--border);
-      padding: 1.5rem 0;
+      padding: 1.2rem 0;
       margin-bottom: 4rem;
     }
     
     nav {
       max-width: 900px;
       margin: 0 auto;
-      padding: 0 25px;
+      padding: 0 40px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     
     .site-title {
-      font-weight: 700;
-      text-decoration: none;
       color: var(--text);
-      font-size: 1.2rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
     }
 
-    nav div a {
-      text-decoration: none;
+    nav a {
       color: var(--text);
+      text-decoration: none;
       font-weight: 500;
-      margin-left: 1.5rem;
+      margin-left: 2rem;
     }
     
     main {
-      max-width: 900px;
+      max-width: 850px;
       margin: 0 auto;
-      padding: 0 25px 5rem 25px;
+      padding: 0 40px 4rem 40px;
     }
-
-    /* Standard Markdown Styles */
-    h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 2rem; letter-spacing: -0.04em; font-weight: 700; }
-    h2 { font-size: 2rem; margin: 4rem 0 1.5rem 0; font-weight: 700; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
-    h3 { font-size: 1.2rem; margin: 2rem 0 0.5rem 0; font-weight: 700; }
-    p { margin-bottom: 1.5rem; font-size: 1.2rem; }
     
-    /* Bold Links per your request */
-    a { color: var(--text); font-weight: 700; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 4px; }
-    a:hover { color: var(--brand-orange); text-decoration-color: var(--brand-orange); }
+    h1 { font-size: 3.5rem; line-height: 1.05; margin-bottom: 2.5rem; font-weight: 600; letter-spacing: -0.04em; }
+    h2 { font-size: 1.8rem; margin: 4rem 0 1.5rem 0; font-weight: 600; }
+    h3 { font-size: 1.15rem; margin-top: 2rem; margin-bottom: 0.5rem; font-weight: 600; }
+    p { margin-bottom: 1.5rem; font-size: 1.15rem; }
+    
+    article a {
+      color: var(--text);
+      text-decoration: underline;
+      text-decoration-color: var(--border);
+      text-underline-offset: 4px;
+      font-weight: 600; 
+    }
+    
+    article a:hover { color: var(--brand-orange); text-decoration-color: var(--brand-orange); }
 
-    ul { margin-bottom: 1.5rem; list-style-position: inside; }
+    .hero-section { display: flex; align-items: flex-start; gap: 50px; margin-bottom: 4rem; }
+    .hero-text { flex: 1; }
+    .hero-image img { max-width: 300px; border-radius: 12px; }
+
+    ul { list-style: none; margin-bottom: 2rem; }
     li { margin-bottom: 0.5rem; font-size: 1.1rem; }
 
-    /* Custom Portfolio Columns */
-    .portfolio-container {
-      display: flex;
-      gap: 50px;
-      flex-wrap: wrap;
-    }
-    .portfolio-column { flex: 1; min-width: 300px; }
-
-    /* Simple Newsletter Box */
-    .newsletter-section {
-      background: #fafafa;
-      padding: 2rem;
-      border-radius: 12px;
+    .newsletter-box {
+      margin: 4rem 0;
+      padding: 2.5rem;
+      background: #fdfdfd;
       border: 1px solid var(--border);
-      margin: 3rem 0;
+      border-radius: 16px;
     }
 
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 3rem 0;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-    }
+    input[type="email"] { padding: 12px; border: 1px solid var(--border); border-radius: 6px; width: 100%; max-width: 350px; margin-bottom: 1rem; display: block; }
+    input[type="submit"] { padding: 12px 24px; background: var(--brand-orange); color: white; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; }
+
+    footer { border-top: 1px solid var(--border); padding: 4rem 0; text-align: center; color: #666; font-size: 0.85rem; }
 
     @media (max-width: 768px) {
-      h1 { font-size: 2.5rem; }
+      .hero-section { flex-direction: column-reverse; }
+      h1 { font-size: 2.8rem; }
     }
   </style>
 </head>
@@ -113,11 +111,7 @@
       <div><a href="/blog">Blog</a><a href="/contact">Contact</a></div>
     </nav>
   </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>© {{ "now" | date: "%Y" }} Westley Overcash</p>
-  </footer>
+  <main><article>{{ content }}</article></main>
+  <footer><p>© {{ "now" | date: "%Y" }} Westley Overcash</p></footer>
 </body>
 </html>
