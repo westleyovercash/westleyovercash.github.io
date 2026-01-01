@@ -1,238 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} - {{ site.title }}</title>
+---
+layout: default
+title: Home
+---
+
+<div class="hero-section" markdown="1">
+
+<div class="hero-text" markdown="1">
+
+# I write<br/>the stories<br/>your audience<br/>retells.
+
+</div>
+
+<div class="hero-image">
+<img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash">
+</div>
+
+</div>
+
+Every single word must do the heavy lifting. That’s when your pitch deck stops sounding like every other pitch deck. Your medical app’s benefits become instantly clear. How your fintech product works doesn’t require an explanation from AI.
+
+From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
+
+You can [get in touch](/contact), or see how I tell stories through my daily blog called [On Noticing Things](/blog). It ranges from culture and technology to work and what makes us human. Here are my most recent:
+
+<ul class="recent-posts">
+{% for post in site.posts limit:3 %}
+  <li>
+    <span class="post-arrow">→</span>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+<div class="newsletter-box" markdown="1">
+
+I send occasional letters expanding on these stories. Leave your email to get your copy.
+
+<form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow">
+  <input type="email" name="email" placeholder="Enter your email" required>
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <label style="display: block; font-size: 0.85rem; margin-bottom: 1rem; color: #666;">
+    <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px;">
+    I consent to these emails and can say "bye" whenever I want.
+  </label>
   
-  <link rel="icon" type="image/png" href="/assets/css/images/westley-overcash-favicon.png">
-  <link rel="apple-touch-icon" href="/assets/css/images/westley-overcash-favicon.png">
-  
-  <style>
-    :root {
-      --bg: #ffffff;
-      --text: #111111;
-      --text-light: #666666;
-      --brand-orange: #F97316;
-      --border: rgba(0,0,0,0.08);
-    }
+  <input type="submit" value="Subscribe">
+</form>
 
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-    html { 
-      font-size: 16px; 
-      -webkit-font-smoothing: antialiased;
-      scroll-behavior: smooth;
-    }
-    
-    body {
-      font-family: "IBM Plex Sans", -apple-system, sans-serif;
-      line-height: 1.7;
-      color: var(--text);
-      background-color: var(--bg);
-      overflow-wrap: break-word;
-      letter-spacing: -0.01em;
-    }
-    
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: rgba(255, 255, 255, 0.9);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-bottom: 1px solid var(--border);
-      border-top: 5px solid var(--brand-orange);
-      padding: 1.2rem 0;
-      margin-bottom: 5rem;
-    }
-    
-    nav {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    
-    .site-title {
-      color: var(--text);
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 1.1rem;
-    }
+</div>
 
-    .site-title:hover { color: var(--brand-orange); }
-    
-    nav a {
-      color: var(--text);
-      text-decoration: none;
-      font-weight: 500;
-      margin-left: 2rem;
-      font-size: 0.95rem;
-      position: relative;
-    }
+## Places where my words live
 
-    nav a::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -4px;
-      left: 0;
-      background-color: var(--brand-orange);
-      transition: width 0.3s ease;
-    }
-    
-    nav a:hover::after { width: 100%; }
-    
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 0 40px 4rem 40px;
-    }
-    
-    h1 {
-      font-size: 3.5rem;
-      line-height: 1.05;
-      margin-bottom: 3rem;
-      font-weight: 600;
-      letter-spacing: -0.05em;
-    }
-    
-    h2 {
-      font-size: 1.8rem;
-      margin: 4rem 0 2rem 0;
-      font-weight: 600;
-      letter-spacing: -0.03em;
-    }
+<div class="portfolio-grid" markdown="1">
 
-    h3 {
-      font-size: 1.2rem;
-      margin-bottom: 0.75rem;
-      font-weight: 600;
-    }
-    
-    p { margin-bottom: 1.8rem; font-size: 1.2rem; font-weight: 400; }
-    
-    /* Making in-text links bold and stand out */
-    article a {
-      color: var(--text);
-      text-decoration: underline;
-      text-decoration-color: var(--border);
-      text-underline-offset: 4px;
-      font-weight: 600; 
-      transition: all 0.2s ease;
-    }
-    
-    article a:hover {
-      color: var(--brand-orange);
-      text-decoration-color: var(--brand-orange);
-    }
+<div class="portfolio-col" markdown="1">
 
-    .hero-section {
-      display: flex;
-      align-items: flex-start;
-      gap: 50px;
-      margin-bottom: 5rem;
-      flex-wrap: wrap;
-    }
-    .hero-text { flex: 1; min-width: 300px; }
-    .hero-image img {
-      max-width: 280px;
-      width: 100%;
-      border-radius: 16px;
-    }
+### B2B and Sales Strategy
+* [€35M and Beyond: Maintaining Stellar Sales Growth](https://drive.google.com/file/d/18PKTIIWaPK8QsfZXt_Gr_AQt0TJ7VPsF/view?usp=sharing)
+* [Building an A-List Sales Team](https://drive.google.com/file/d/14r6u8EB_2qqgD1HyT8nqIZiCVhgx6vEX/view?usp=sharing)
+* [Economic Buyers: You've Got Their Attention, Now What?](https://drive.google.com/file/d/1lpJ2y_TgkNoolDvnm47qLMZA_flFx3EM/view?usp=sharing)
+* [From €3M to €35M: Mastering Rapid Sales Growth](https://drive.google.com/file/d/1DOCko4feLFB17CHDxu3IcP4E9dEdRZHE/view?usp=sharing)
+* [How the Hungry Hunters Eat](https://drive.google.com/file/d/1cUZmnPtmwgphKcDACKZzqotSgC8y35D9/view?usp=sharing)
+* [Just One Bad Sales Hire Can Kill Your Business](https://drive.google.com/file/d/1eLixvwIzUBjaYgdnU8cseGhYMzCMlUmR/view?usp=sharing)
+* [The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals](https://drive.google.com/file/d/1TouePOPGIjoUEq6FsZ_WIxx6ZWgg7mln/view?usp=sharing)
+* [The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond](https://drive.google.com/file/d/1-oP4FYCu-4DVW5cHC6ws-GEOIWA1OSq6/view?usp=sharing)
+* [Today's Careers in B2B Sales: Read This Before Applying](https://drive.google.com/file/d/1zZZXW73rerKa0-Jw-cz16OCTpvJytEBr/view?usp=sharing)
+* [Master the Economic Buyer Connection](https://drive.google.com/file/d/1laQYFQDjz_pS0tAZJcPnox3fwt-MvU_Z/view?usp=sharing)
+* [Revolutionizing SaaS Sales: Amsterdam Summit Insights](https://drive.google.com/file/d/1CA6V5cchKsU1e5t3Tp41_TBXV3OVhGFc/view?usp=sharing)
 
-    .recent-posts { list-style: none; margin: 2rem 0; padding: 0; }
-    .recent-posts li { margin-bottom: 1.2rem; display: flex; align-items: flex-start; }
-    .post-arrow { color: var(--brand-orange); margin-right: 12px; font-weight: bold; }
+### Technology and Innovation
+* [Stop chasing the social media algorithm](/writing/stop-chasing-the-social-media-algorithm)
+* [Is Apple still a technology company?](/writing/is-apple-still-a-technology-company)
+* [Instagram's teenage temper tantrum](/writing/instagrams-teenage-temper-tantrum)
+* [6 notable Czechs who influence your everyday life](/writing/6-notable-czechs-who-influence-your-everyday-life)
+* [Are you ready for the NFT tsunami?](/writing/are-you-ready-for-the-nft-tsunami)
 
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-      margin-top: 3rem;
-    }
-    
-    .portfolio-col ul { list-style: none; margin-bottom: 3rem !important; }
-    .portfolio-col li { font-size: 1rem; margin-bottom: 0.6rem; line-height: 1.4; }
-    .portfolio-col li a { font-weight: 400; text-decoration: none; border-bottom: 1px solid var(--border); }
-    .portfolio-col li a:hover { border-bottom-color: var(--brand-orange); }
+### Travel, Lifestyle, and Culture
+* [Emirates A380 comes to Prague](/writing/emirates-a380-comes-to-prague)
+* [Prague doesn't let you go](/writing/prague-doesnt-let-you-go)
+* [Mural mania begins](/writing/mural-mania-begins)
+* [The most popular travel "hack" was always just an illusion](/writing/the-most-popular-travel-hack-was-always-just-an-illusion)
 
-    .newsletter-box {
-      margin: 5rem 0;
-      padding: 3rem;
-      background: #fdfdfd;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-    }
+</div>
 
-    input[type="email"] {
-      padding: 15px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 1rem;
-      width: 100%;
-      max-width: 400px;
-      margin-bottom: 1.5rem;
-      display: block;
-      font-family: inherit;
-    }
-    
-    input[type="submit"] {
-      padding: 14px 30px;
-      background: var(--brand-orange);
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 1rem;
-      cursor: pointer;
-      font-family: inherit;
-    }
+<div class="portfolio-col" markdown="1">
 
-    hr { border: none; height: 1px; background: transparent; margin: 4rem 0; }
+### Books
+* *The Big Book about Bitcoin and Cryptocurrencies: Financial Literacy for Everyone* (Translator and Editor)
+* *Slingshot: Re-Imagine Your Business, Re-Imagine Your Life* (Editor and Contributor)
+* *Avant-Guide Travel Book Series* (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto - Editor and Contributor)
 
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 5rem 2rem;
-      text-align: center;
-      color: var(--text-light);
-      font-size: 0.9rem;
-    }
+### Newsletters (Client Work)
+* [Beyond Bitcoin](https://drive.google.com/file/d/1Knab998R3lIDvNAc3EwjzWxJ8x1zMPfJ/view?usp=sharing)
+* [Big pharma got it wrong](https://drive.google.com/file/d/1fMCkyMvANiQYEPY46Y4zUWrzqTY155DP/view?usp=share_link)
+* [CBD revolution](https://drive.google.com/file/d/11dXc_P-5ZOtWM_vAHGKIHrGrzrzNWD4X/view?usp=sharing)
+* [Digital clothing](https://drive.google.com/file/d/1Hh7sTxj0vnuEiuok0yicct7udoe7Jftd/view?usp=sharing)
+* [NFTs](https://drive.google.com/file/d/1rbUdT-EQDULtcyRcFkBGLGAve2SPYVqX/view?usp=sharing)
+* [Metaverse](https://drive.google.com/file/d/1fEmhH7zb3KYRlRdOWsSjuhgEXuqLt8qD/view?usp=sharing)
 
-    @media (max-width: 768px) {
-      h1 { font-size: 2.8rem; }
-      nav { padding: 0 20px; }
-      main { padding: 0 24px; }
-      .portfolio-grid { grid-template-columns: 1fr; }
-      .hero-section { flex-direction: column-reverse; }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="/" class="site-title">Westley Overcash</a>
-      <div>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact</a>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <article>
-      {{ content }}
-    </article>
-  </main>
-  <footer>
-    <p>© {{ "now" | date: "%Y" }} Westley Overcash • No tracking. No cookies.</p>
-  </footer>
-</body>
-</html>
+### Newsletters (Agency Work)
+* [You deserve free coffee](https://drive.google.com/file/d/1FL2HwegikLnZO0k_Oz54EbhvkWhPxpdu/view?usp=sharing)
+* [Warm your buns!](https://drive.google.com/file/d/1bYMDZ-aB5-SCzfxLxvjci2YHrsejipmY/view?usp=sharing)
+* [What will your digital future look like?](https://drive.google.com/file/d/10kPrselyGvk9-4eSWx1EPk4z67gs_O40/view?usp=sharing)
+* [A wave of help is on the way](https://drive.google.com/file/d/1IzrsfVLYjNhr3PzxOVxC2Vqp0qAOvprs/view?usp=sharing)
+* [No more Happy Meals](https://drive.google.com/file/d/1ALvVlaKHFnMSGHF-L7BAi654ye60iO6t/view?usp=sharing)
+* [Stop interrupting](https://drive.google.com/file/d/1yPQqDH-upSxqr6QobgBy4rbpHV5kG55D/view?usp=sharing)
+
+### Newsletters (Education)
+* [You can change the future](https://drive.google.com/file/d/1eZf_gnved8CkKzwERby5Q3H5QlkhMX0y/view?usp=sharing)
+* [Your time to act is now](https://drive.google.com/file/d/1BzA3QGhSyhvTFxO-wANtyjOhrgRpBup7/view?usp=sharing)
+* [1 last step to change your future](https://drive.google.com/file/d/13iG2_sGVY4LMsXpeynslS-Ko1wJ3ZyzM/view?usp=sharing)
+
+### Press Releases
+* [SALESDOCk expands to Benelux](https://drive.google.com/file/d/1pwISRCPCL2GyfnK7VjUuL4kjfGkIpmjQ/view?usp=sharing)
+* [My guide to writing surefire publicity announcements](/s/Guide-to-writing-surefire-publicity-announcements.pdf)
+
+### Podcasting
+* [Listen to sample content](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
+
+### Translations
+* [AI is Returning Business to Traditional Soft Skills](https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link)
+
+### Social Media
+* [15K followers on Instagram](http://instagram.com/wessencecom/)
+
+</div>
+
+</div>
+
+<p style="margin-top: 3rem; opacity: 0.7;"><em>*Náhodou mluvím plynně česky.</em></p>
