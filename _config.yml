@@ -2,20 +2,24 @@ title: Westley Overcash
 email: wes@wessence.com
 description: I write the stories your audience retells.
 url: "https://wessence.com"
-baseurl: ""  # Leave empty since your custom domain points directly to the root
+baseurl: ""
 
-# Timezone setting - ensures posts use Prague time
+author: 
+  name: Westley Overcash
+  twitter: westleyovercash
+twitter:
+  username: westleyovercash
+  card: summary_large_image
+image: /assets/css/images/Westley-Overcash.jpg
+
 timezone: Europe/Prague
 future: false
 
-# Build settings
 markdown: kramdown
 
-# Pagination
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-# Collections
 collections:
   portfolio:
     output: true
@@ -24,20 +28,17 @@ collections:
     output: true
     permalink: /writing/:name/
 
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
 
-# Default front matter values
 defaults:
   - scope:
       path: "_posts"
