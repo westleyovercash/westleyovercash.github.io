@@ -69,9 +69,7 @@
       transition: color 0.2s ease;
     }
 
-    .site-title:hover {
-      color: var(--brand-orange);
-    }
+    .site-title:hover { color: var(--brand-orange); }
     
     nav a {
       color: var(--text);
@@ -94,9 +92,7 @@
       transition: width 0.3s ease;
     }
     
-    nav a:hover::after {
-      width: 100%;
-    }
+    nav a:hover::after { width: 100%; }
     
     main {
       max-width: 720px;
@@ -122,10 +118,7 @@
       font-weight: 700;
     }
     
-    p {
-      margin-bottom: 1.5rem;
-      font-size: 1.15rem;
-    }
+    p { margin-bottom: 1.5rem; font-size: 1.15rem; }
     
     article a {
       color: var(--text);
@@ -149,13 +142,53 @@
       font-size: 1.2rem;
     }
 
+    /* Index Specific Layouts */
+    .hero-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      margin-bottom: 4rem;
+      flex-wrap: wrap;
+    }
+    .hero-text { flex: 1; min-width: 300px; }
+    .hero-image img {
+      max-width: 200px;
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .recent-posts { list-style: none; margin: 2rem 0; padding: 0; }
+    .recent-posts li { margin-bottom: 1rem; display: flex; align-items: center; }
+    .post-arrow { color: var(--brand-orange); margin-right: 12px; font-weight: bold; }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-top: 2rem;
+      align-items: start;
+    }
+    .portfolio-col h3 { font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700; }
+    .portfolio-col ul { list-style: none; margin: 0 0 2.5rem 0 !important; padding: 0 !important; }
+    .portfolio-col li { font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4; }
+
+    .newsletter-box {
+      margin-top: 4rem;
+      padding: 2rem;
+      background: #fafafa;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
     input[type="email"] {
       padding: 12px;
       border: 1px solid var(--border);
-      background: #fafafa;
+      background: #fff;
       border-radius: 6px;
       font-size: 1rem;
       width: 60%;
+      margin-bottom: 1rem;
+      display: block;
     }
     
     input[type="submit"] {
@@ -166,13 +199,8 @@
       border-radius: 6px;
       font-weight: 600;
       cursor: pointer;
-      transition: opacity 0.2s ease;
     }
 
-    input[type="submit"]:hover {
-      opacity: 0.9;
-    }
-    
     footer {
       border-top: 1px solid var(--border);
       background-color: #fafafa;
@@ -182,12 +210,13 @@
       margin-top: 6rem;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       h1 { font-size: 2.2rem; }
       nav { padding: 0 20px; }
       nav a { margin-left: 1rem; }
-      input[type="email"] { width: 100%; margin-bottom: 10px; }
-      input[type="submit"] { width: 100%; }
+      .portfolio-grid { grid-template-columns: 1fr; }
+      .hero-section { flex-direction: column-reverse; }
+      input[type="email"] { width: 100%; }
     }
   </style>
 </head>
