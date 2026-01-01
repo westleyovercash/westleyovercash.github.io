@@ -25,13 +25,20 @@
       </div>
     </nav>
   </header>
+
   <main>
     <article>
       {{ content }}
     </article>
   </main>
-  <footer>
-    <p>© {{ "now" | date: "%Y" }} Westley Overcash • No tracking. No cookies.</p>
+
+  <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid #eee;">
+    <p style="margin-bottom: 0.5rem; color: var(--text);">
+      What I do here is my business. What you do is yours.
+    </p>
+    <p style="font-size: 0.85rem; color: var(--text-light); opacity: 0.8;">
+      © {{ "now" | date: "%Y" }} Westley Overcash • No tracking. No cookies.
+    </p>
   </footer>
 </body>
 </html>
