@@ -12,7 +12,7 @@ title: Home
 </div>
 
 <div class="hero-image">
-<img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash">
+<img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash - Copywriter, Editor, Educator - I write the stories your audience retells.">
 </div>
 
 </div>
