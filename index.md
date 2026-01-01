@@ -32,7 +32,7 @@ You can [get in touch](/contact), or see how I tell stories through my daily blo
 {% endfor %}
 </ul>
 
-<div class="newsletter-box" markdown="1">
+<div class="newsletter-box" style="margin-top: 2rem; margin-bottom: 1.5rem;" markdown="1">
 
 I send occasional letters expanding on these stories. Leave your email to get your copy.
 
@@ -49,7 +49,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 
 </div>
 
-<hr>
+<hr style="margin: 0.5rem 0 2rem 0;">
 
 ## Places where my words live
 
@@ -116,7 +116,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [My guide to writing surefire publicity announcements](https://drive.google.com/file/d/0B5XxCEn6SiJ5N2tOcDctWWt5R0k/view?usp=sharing&resourcekey=0-uRJZxtvdDJR0Z4AuY6TzPA)
 
 ### Podcasting
-* [What I sound like](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
+* [Listen to sample content](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
 
 ### Translations
 * [Artificial Intelligence Is Returning Business to Traditional Soft Skills](https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link)
@@ -127,5 +127,3 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 </div>
 
 </div>
-
-<p style="margin-top: 3rem; opacity: 0.7;"><em>*Náhodou mluvím plynně česky.</em></p>
