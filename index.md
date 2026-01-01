@@ -57,7 +57,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 
 <div class="portfolio-col" markdown="1">
 
-### B2B and Sales Strategy
+### B2B and sales strategy
 * [€35M and Beyond: Maintaining Stellar Sales Growth](https://drive.google.com/file/d/18PKTIIWaPK8QsfZXt_Gr_AQt0TJ7VPsF/view?usp=sharing)
 * [Building an A-List Sales Team: Strategies for Enterprise Success](https://drive.google.com/file/d/14r6u8EB_2qqgD1HyT8nqIZiCVhgx6vEX/view?usp=sharing)
 * [Economic Buyers: You've Got Their Attention, Now What?](https://drive.google.com/file/d/1lpJ2y_TgkNoolDvnm47qLMZA_flFx3EM/view?usp=sharing)
@@ -70,14 +70,14 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [Master the Economic Buyer Connection](https://drive.google.com/file/d/1laQYFQDjz_pS0tAZJcPnox3fwt-MvU_Z/view?usp=sharing)
 * [Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit](https://drive.google.com/file/d/1CA6V5cchKsU1e5t3Tp41_TBXV3OVhGFc/view?usp=sharing)
 
-### Technology and Innovation
+### Technology and innovation
 * [Stop chasing the social media algorithm: 6 reasons newsletters offer more value](/writing/stop-chasing-the-social-media-algorithm)
 * [Is Apple still a technology company?](/writing/is-apple-still-a-technology-company)
 * [Instagram's teenage temper tantrum](/writing/instagrams-teenage-temper-tantrum)
 * [6 notable Czechs who influence your everyday life](/writing/6-notable-czechs-who-influence-your-everyday-life)
 * [Are you ready for the NFT tsunami?](/writing/are-you-ready-for-the-nft-tsunami)
 
-### Travel, Lifestyle, and Culture
+### Travel and culture
 * [Emirates A380 comes to Prague](/writing/emirates-a380-comes-to-prague)
 * [Prague doesn't let you go](/writing/prague-doesnt-let-you-go)
 * [Mural mania begins](/writing/mural-mania-begins)
@@ -92,7 +92,10 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * *Slingshot: Re-Imagine Your Business, Re-Imagine Your Life* (Editor and Contributor)
 * *Avant-Guide Travel Book Series* (Chicago, London, Miami, New Orleans, New York City, Paris, Prague, San Francisco, Toronto - Editor and Contributor)
 
-### Newsletters (Client Work)
+### Newsletters (client)
+* [You can change the future](https://drive.google.com/file/d/1eZf_gnved8CkKzwERby5Q3H5QlkhMX0y/view?usp=sharing)
+* [Your time to act is now](https://drive.google.com/file/d/1BzA3QGhSyhvTFxO-wANtyjOhrgRpBup7/view?usp=sharing)
+* [1 last step to change your future](https://drive.google.com/file/d/13iG2_sGVY4LMsXpeynslS-Ko1wJ3ZyzM/view?usp=sharing)
 * [Beyond Bitcoin](https://drive.google.com/file/d/1Knab998R3lIDvNAc3EwjzWxJ8x1zMPfJ/view?usp=sharing)
 * [Big pharma got it wrong](https://drive.google.com/file/d/1fMCkyMvANiQYEPY46Y4zUWrzqTY155DP/view?usp=share_link)
 * [CBD revolution](https://drive.google.com/file/d/11dXc_P-5ZOtWM_vAHGKIHrGrzrzNWD4X/view?usp=sharing)
@@ -100,7 +103,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [NFTs](https://drive.google.com/file/d/1rbUdT-EQDULtcyRcFkBGLGAve2SPYVqX/view?usp=sharing)
 * [Metaverse](https://drive.google.com/file/d/1fEmhH7zb3KYRlRdOWsSjuhgEXuqLt8qD/view?usp=sharing)
 
-### Newsletters (Agency Work)
+### Newsletters (agency)
 * [You deserve free coffee](https://drive.google.com/file/d/1FL2HwegikLnZO0k_Oz54EbhvkWhPxpdu/view?usp=sharing)
 * [Warm your buns!](https://drive.google.com/file/d/1bYMDZ-aB5-SCzfxLxvjci2YHrsejipmY/view?usp=sharing)
 * [What will your digital future look like?](https://drive.google.com/file/d/10kPrselyGvk9-4eSWx1EPk4z67gs_O40/view?usp=sharing)
@@ -108,17 +111,12 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [No more Happy Meals](https://drive.google.com/file/d/1ALvVlaKHFnMSGHF-L7BAi654ye60iO6t/view?usp=sharing)
 * [Stop interrupting](https://drive.google.com/file/d/1yPQqDH-upSxqr6QobgBy4rbpHV5kG55D/view?usp=sharing)
 
-### Newsletters (Education)
-* [You can change the future](https://drive.google.com/file/d/1eZf_gnved8CkKzwERby5Q3H5QlkhMX0y/view?usp=sharing)
-* [Your time to act is now](https://drive.google.com/file/d/1BzA3QGhSyhvTFxO-wANtyjOhrgRpBup7/view?usp=sharing)
-* [1 last step to change your future](https://drive.google.com/file/d/13iG2_sGVY4LMsXpeynslS-Ko1wJ3ZyzM/view?usp=sharing)
-
 ### Press Releases
 * [SALESDOCk expands to Benelux](https://drive.google.com/file/d/1pwISRCPCL2GyfnK7VjUuL4kjfGkIpmjQ/view?usp=sharing)
-* [My guide to writing surefire publicity announcements](/s/Guide-to-writing-surefire-publicity-announcements.pdf)
+* [My guide to writing surefire publicity announcements](https://drive.google.com/file/d/0B5XxCEn6SiJ5N2tOcDctWWt5R0k/view?usp=sharing&resourcekey=0-uRJZxtvdDJR0Z4AuY6TzPA)
 
 ### Podcasting
-* [Listen to sample content](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
+* [What I sound like](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
 
 ### Translations
 * [Artificial Intelligence Is Returning Business to Traditional Soft Skills](https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link)
