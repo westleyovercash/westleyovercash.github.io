@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section">
+<div class="hero-section" markdown="1">
 
-<div class="hero-text">
+<div class="hero-text" markdown="1">
 
 # I write<br/>the stories<br/>your audience<br/>retells.
 
@@ -17,7 +17,7 @@ title: Home
 
 </div>
 
-Every single word must do the heavy lifting. That's when your pitch deck stops sounding like every other pitch deck. Your medical app's benefits become instantly clear. How your fintech product works doesn't require an explanation from AI.
+Every single word must do the heavy lifting. That’s when your pitch deck stops sounding like every other pitch deck. Your medical app’s benefits become instantly clear. How your fintech product works doesn’t require an explanation from AI.
 
 From Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
@@ -32,7 +32,7 @@ You can [get in touch](/contact), or see how I tell stories through my daily blo
 {% endfor %}
 </ul>
 
-<div class="newsletter-box">
+<div class="newsletter-box" markdown="1">
 
 I send occasional letters expanding on these stories. Leave your email to get your copy.
 
@@ -53,9 +53,9 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 
 ## Places where my words live
 
-<div class="portfolio-grid">
+<div class="portfolio-grid" markdown="1">
 
-<div class="portfolio-col">
+<div class="portfolio-col" markdown="1">
 
 ### B2B and Sales Strategy
 * [€35M and Beyond: Maintaining Sales Growth](https://drive.google.com/file/d/18PKTIIWaPK8QsfZXt_Gr_AQt0TJ7VPsF/view?usp=sharing)
@@ -85,7 +85,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 
 </div>
 
-<div class="portfolio-col">
+<div class="portfolio-col" markdown="1">
 
 ### Books
 * *The Big Book about Bitcoin* (Translator/Editor)
