@@ -67,8 +67,8 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [The Shift to Upmarket: Empowering Sales Teams to Go for €150K+ Deals](https://drive.google.com/file/d/1TouePOPGIjoUEq6FsZ_WIxx6ZWgg7mln/view?usp=sharing)
 * [The Top 5 Trends in the B2B Sales Industry in 2023 and Beyond](https://drive.google.com/file/d/1-oP4FYCu-4DVW5cHC6ws-GEOIWA1OSq6/view?usp=sharing)
 * [Today's Careers in B2B Sales: Read This Before Applying](https://drive.google.com/file/d/1zZZXW73rerKa0-Jw-cz16OCTpvJytEBr/view?usp=sharing)
-* [Master the Economic Buyer Connection](https://drive.google.com/file/d/1laQYFQDjz_pS0tAZJcPnox3fwt-MvU_Z/view?usp=sharing)
-* [Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit](https://drive.google.com/file/d/1CA6V5cchKsU1e5t3Tp41_TBXV3OVhGFc/view?usp=sharing)
+* [Master the Economic Buyer Connection](https://drive.google.com/file/d/1CA6V5cchKsU1e5t3Tp41_TBXV3OVhGFc/view?usp=sharing) 
+* [Revolutionizing SaaS Sales: Insights from Our Amsterdam Summit](https://drive.google.com/file/d/1laQYFQDjz_pS0tAZJcPnox3fwt-MvU_Z/view?usp=sharing)
 
 ### Technology and innovation
 * [Stop chasing the social media algorithm: 6 reasons newsletters offer more value](/writing/stop-chasing-the-social-media-algorithm)
