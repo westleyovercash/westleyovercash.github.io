@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It's a waste of breath
+title: "It's a waste of breath"
 date: 2026-01-05
 ---
 
