@@ -8,4 +8,4 @@ My former best friend and I had a Friday ritual: the gym followed by lunch at a 
 
 One of us would go down a rabbit hole. Or both of us would go down a rabbit hole. Then that phrase "škoda mluvit" would stop us. A waste of breath. 
 
-The doom and gloom we had invited to sit with us at the table would leave.
+The doom and gloom we had invited to sit with us at the table would get up and leave.
