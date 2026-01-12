@@ -3,10 +3,21 @@ layout: default
 title: Blog
 ---
 
-<div style="display: flex; gap: 4rem; align-items: flex-start;">
+<style>
+  /* Override the main constraint just for blog page */
+  main { max-width: 1200px; }
+  
+  /* Responsive: stack sidebar on mobile */
+  @media (max-width: 968px) {
+    .blog-layout { flex-direction: column; }
+    .blog-sidebar { position: static !important; width: 100% !important; }
+  }
+</style>
+
+<div class="blog-layout" style="display: flex; gap: 4rem; align-items: flex-start;">
   
   <!-- Sidebar (left) -->
-  <aside style="flex: 0 0 280px; position: sticky; top: 2rem;">
+  <aside class="blog-sidebar" style="flex: 0 0 280px; position: sticky; top: 8rem;">
     <div style="background: #f8f8f8; border-radius: 12px; padding: 2rem;">
       <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; text-transform: none;">Subscribe</h3>
       <p style="font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.5; color: #333;">
@@ -29,7 +40,9 @@ title: Blog
         
         <button 
           type="submit"
-          style="width: 100%; padding: 0.75rem; background: #ff6b35; color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; font-family: inherit;"
+          style="width: 100%; padding: 0.75rem; background: #ff6b35; color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; font-family: inherit; transition: opacity 0.2s ease;"
+          onmouseover="this.style.opacity='0.9'"
+          onmouseout="this.style.opacity='1'"
         >
           Subscribe
         </button>
@@ -113,7 +126,7 @@ title: Blog
   'use strict';
   
   // Configuration
-  const SCROLL_THRESHOLD = 300; // pixels from bottom to trigger load
+  const SCROLL_THRESHOLD = 300;
   const container = document.getElementById('post-container');
   const loadingIndicator = document.getElementById('loading-indicator');
   const paginationLinks = document.getElementById('pagination-links');
@@ -123,29 +136,23 @@ title: Blog
   let hasMorePages = true;
   let nextPageUrl = '{% if paginator.next_page %}{{ paginator.next_page_path | relative_url }}{% endif %}';
   
-  // Hide pagination links since we're using infinite scroll
   if (paginationLinks) {
     paginationLinks.style.display = 'none';
   }
   
-  // Check if we're near the bottom of the page
   function isNearBottom() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const windowHeight = window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
-    
     return (documentHeight - (scrollTop + windowHeight)) < SCROLL_THRESHOLD;
   }
   
-  // Extract articles from fetched HTML
   function extractArticles(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
-    const articles = doc.querySelectorAll('#post-container article');
-    return Array.from(articles);
+    return Array.from(doc.querySelectorAll('#post-container article'));
   }
   
-  // Extract next page URL from fetched HTML
   function extractNextPageUrl(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
@@ -153,24 +160,18 @@ title: Blog
     return nextLink ? nextLink.getAttribute('href') : null;
   }
   
-  // Load next page
   function loadNextPage() {
-    if (isLoading || !hasMorePages || !nextPageUrl) {
-      return;
-    }
+    if (isLoading || !hasMorePages || !nextPageUrl) return;
     
     isLoading = true;
     loadingIndicator.style.display = 'block';
     
     fetch(nextPageUrl)
       .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to load page');
-        }
+        if (!response.ok) throw new Error('Failed to load page');
         return response.text();
       })
       .then(html => {
-        // Extract articles from the fetched page
         const articles = extractArticles(html);
         
         if (articles.length === 0) {
@@ -179,12 +180,8 @@ title: Blog
           return;
         }
         
-        // Append articles to container
-        articles.forEach(article => {
-          container.appendChild(article);
-        });
+        articles.forEach(article => container.appendChild(article));
         
-        // Update next page URL
         const newNextPageUrl = extractNextPageUrl(html);
         if (newNextPageUrl) {
           nextPageUrl = newNextPageUrl;
@@ -195,8 +192,6 @@ title: Blog
         loadingIndicator.style.display = 'none';
         isLoading = false;
         
-        // Check if we need to load more immediately
-        // (in case the loaded content isn't tall enough)
         if (isNearBottom() && hasMorePages) {
           setTimeout(loadNextPage, 100);
         }
@@ -210,35 +205,23 @@ title: Blog
       });
   }
   
-  // Handle scroll events
   function handleScroll() {
-    if (isNearBottom()) {
-      loadNextPage();
-    }
+    if (isNearBottom()) loadNextPage();
   }
   
-  // Throttle scroll events for performance
   let scrollTimeout;
   function throttledScroll() {
-    if (scrollTimeout) {
-      return;
-    }
-    
+    if (scrollTimeout) return;
     scrollTimeout = setTimeout(function() {
       handleScroll();
       scrollTimeout = null;
     }, 100);
   }
   
-  // Initialize
   if (nextPageUrl) {
     window.addEventListener('scroll', throttledScroll);
-    
-    // Check on load in case initial content doesn't fill the viewport
     setTimeout(function() {
-      if (isNearBottom()) {
-        loadNextPage();
-      }
+      if (isNearBottom()) loadNextPage();
     }, 100);
   }
 })();
