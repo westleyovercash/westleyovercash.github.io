@@ -9,4 +9,4 @@ He would fix roofs under the oppressive Georgia sun. He would make a garden spro
 
 Keeping going is the dominant gene in our family. No one knows how to stop even when our bodies tell us to.
 
-For a couple of days this week, I allowed myself not to be like him.
+For a couple of days this week, I allowed myself not to be like him. 
