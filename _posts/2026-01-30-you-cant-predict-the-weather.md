@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You can't predict the weather
-date: 2026-01-29
+date: 2026-01-30
 --- 
 Last weekend Atlanta was warned to stock up. Kim and the kids wanted it to snow.  
 
