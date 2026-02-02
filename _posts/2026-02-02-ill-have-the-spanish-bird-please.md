@@ -1,7 +1,7 @@
 ---
 layout: post
-title: I'll have the Spanish bird, please
-date: 2026-02-2026
+title: "I'll have the Spanish bird, please"
+date: 2026-02-02
 --- 
 One "Špánělský ptáček" the waitress said as she chucked the plate at me. What on earth, a Spanish bird? 
  
