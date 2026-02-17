@@ -7,4 +7,4 @@ My *Lonely Planet* travel guide said to ring this number after I landed. It was 
 
 He came to fetch me in a VW van. Almost too nice he was. My first thought was that maybe what my family had worried was true: the locals would put me in a pot, boil and eat me. Turns out a braai meant something entirely different.  
 
-It was the year after Apartheid collapsed and the start of everything.
+It was only a few years since Apartheid collapsed and the start of everything.
