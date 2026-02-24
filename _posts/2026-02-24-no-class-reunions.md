@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No class reunions
-date: 2026-02-23
+date: 2026-02-24
 --- 
 My high school years were the unhappiest of times. And my favorite teachers saw that.  
 
