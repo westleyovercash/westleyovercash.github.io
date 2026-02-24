@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Head first
-date: 2026-02-23
+date: 2026-02-24
 --- 
 It was our honeymoon. David had seen an advert for the Seychelles on TV. I wanted to give him everything so where we were going had already been decided. 
 
