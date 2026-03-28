@@ -3,28 +3,21 @@
 :root {
   --bg: #ffffff;
   --text: #111111;
-  --text-light: #666666;
-  --brand-orange: #F97316;
-  --border: #111111; /* Sharp black for that editorial grid */
-  --border-soft: rgba(0,0,0,0.08);
+  --text-light: #555555;
+  /* Shifted from neon orange to a rich, 'ink-like' burnt ochre */
+  --brand-orange: #B34700; 
+  --border: #111111;
+  --border-soft: rgba(0,0,0,0.1);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { 
-  font-size: 16px; 
-  -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
-}
-
 body {
-  /* This Serif font is the key to the Monocle look */
   font-family: 'Source Serif 4', serif;
   line-height: 1.6;
   color: var(--text);
   background-color: var(--bg);
-  overflow-wrap: break-word;
-  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* --- Navigation --- */
@@ -32,186 +25,117 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid var(--border);
   padding: 1.2rem 0;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 nav {
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-family: "IBM Plex Sans", sans-serif;
-}
-
-.site-title {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-nav a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 600;
-  margin-left: 2rem;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
+.site-title { font-weight: 700; text-decoration: none; color: var(--text); font-size: 0.9rem; }
+nav a { font-weight: 600; text-decoration: none; color: var(--text); font-size: 0.8rem; margin-left: 2rem; }
 
-/* --- Layout & Typography --- */
-main {
-  max-width: 850px;
-  margin: 0 auto;
-  padding: 0 40px 4rem 40px;
+/* --- The Masterhead (The 'Framing' lines) --- */
+main { max-width: 950px; margin: 0 auto; padding: 0 40px 4rem 40px; }
+
+.hero-section {
+  border-top: 5px solid var(--border);    /* Top Anchor */
+  border-bottom: 1px solid var(--border); /* Bottom Anchor */
+  padding: 3rem 0;
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
 
 h1 {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 3.5rem;
-  line-height: 0.95;
-  margin-bottom: 3rem;
+  font-size: 3.2rem;
+  line-height: 1.0;
+  margin-bottom: 0; /* Managed by hero padding */
   font-weight: 700;
   letter-spacing: -0.04em;
-  color: var(--text);
-  border-top: 5px solid var(--text); /* The heavy Monocle anchor */
-  padding-top: 1rem;
-}
-
-/* Article titles inside posts */
-article h1 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 2.8rem;
-  color: var(--text);
-  border-top: 1px solid var(--text);
-  margin-top: 1rem;
-}
-
-h2 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.3rem;
-  margin: 4rem 0 2rem 0;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  border-top: 1px solid var(--text);
-  padding-top: 0.5rem;
-}
-
-h3 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 1rem;
-  font-weight: 700;
-}
-
-p { 
-  margin-bottom: 1.8rem; 
-  font-size: 1.25rem; 
-  font-weight: 400; 
-}
-
-article a {
-  color: var(--brand-orange);
-  text-decoration: none;
-  border-bottom: 1.5px solid var(--brand-orange);
-  padding-bottom: 1px;
-  font-weight: 600; 
-}
-
-/* --- Hero Section --- */
-.hero-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 50px;
-  margin-bottom: 5rem;
 }
 
 .hero-image img {
-  max-width: 280px;
-  width: 100%;
-  border-radius: 0; /* Sharp edges for a premium feel */
-  filter: grayscale(100%) contrast(1.1); /* Rich B&W look */
+  max-width: 300px;
+  border-radius: 0;
+  filter: grayscale(100%) contrast(1.1);
 }
 
-/* --- Recent Posts (The 'Index' style) --- */
-.recent-posts { 
-  list-style: none; 
-  border-top: 1px solid var(--text);
+/* --- Content & List Fixes --- */
+/* Reset list text to black for 'Places where my words live' */
+.portfolio-col li, .recent-posts li, p {
+  color: var(--text);
+  font-size: 1.2rem;
 }
 
-.recent-posts li { 
-  border-bottom: 1px solid var(--border-soft);
-  padding: 1.2rem 0;
-}
-
-.recent-posts a {
-  font-family: 'Source Serif 4', serif;
-  font-size: 1.5rem;
-  font-weight: 600;
+/* Use Burnt Ochre ONLY for subtle emphasis/underlines */
+article a, .portfolio-col a {
   color: var(--text);
   text-decoration: none;
+  border-bottom: 1.5px solid var(--brand-orange);
+  transition: all 0.2s;
 }
 
-/* --- Portfolio Grid --- */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  margin-top: 3rem;
+article a:hover {
+  background-color: var(--brand-orange);
+  color: white;
 }
 
-.portfolio-col li { font-size: 1rem; margin-bottom: 0.8rem; }
-.portfolio-col li a { font-weight: 600; border-bottom: 1px solid var(--border-soft); }
+.post-arrow { color: var(--brand-orange); margin-right: 10px; font-weight: bold; }
 
-/* --- Newsletter Box (Physical Coupon Style) --- */
+/* --- Newsletter Box (Sharp & Professional) --- */
 .newsletter-box {
   padding: 3rem;
   background: #fcfcfc;
-  border: 1px solid var(--text);
+  border: 1px solid var(--border);
   border-radius: 0;
 }
 
 input[type="email"] {
-  border: 1px solid var(--text);
+  border: 1px solid var(--border);
   border-radius: 0;
-  padding: 15px;
+  padding: 12px;
+  font-family: inherit;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
 }
 
 input[type="submit"] {
+  background: var(--text); /* Solid Black Button */
+  color: white;             /* White Text */
+  border: none;
   border-radius: 0;
+  padding: 12px 30px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  background: var(--text); /* Black button for authority */
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-/* --- Global Elements --- */
 footer {
   border-top: 1px solid var(--border);
-  padding: 5rem 2rem;
+  padding: 4rem 0;
   text-align: center;
-  color: var(--text-light);
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
 }
 
-/* --- Responsiveness --- */
 @media (max-width: 768px) {
-  h1 { font-size: 2.8rem; }
-  .recent-posts a { font-size: 1.25rem; }
-  .portfolio-grid { grid-template-columns: 1fr; }
-  .hero-section { flex-direction: column-reverse; }
+  .hero-section { flex-direction: column-reverse; text-align: left; }
+  h1 { font-size: 2.5rem; }
 }
