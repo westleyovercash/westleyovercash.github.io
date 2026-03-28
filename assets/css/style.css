@@ -251,24 +251,19 @@ footer {
 
 
 /* ============================================================
-   WESSENCE.COM — UPDATED CSS v2
-   Revised: 28.03.2026 — second pass
-   Changes from v1:
-   - Hero h1: italic removed, roman cut restored
-   - Recent posts divider lines: darkened from 0.06 to 0.18 opacity
-   - Portfolio h3 headers: switched to IBM Plex Sans uppercase
-     labels, replacing DM Serif Display — clearer hierarchy
+   WESSENCE.COM — UPDATED CSS v3
+   Revised: 28.03.2026 — third pass
+   Key fix: removed all 'article' scoping since default.html
+   wraps all page content in <article>. Rules now apply
+   globally, which matches the actual HTML structure.
 ============================================================ */
 
 /* --- Google Fonts ---
-   Add this to your <head> above your stylesheet link:
+   Ensure this is in your <head> in _layouts/default.html:
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-
-   Note: DM Serif Display italic variant removed from import —
-   no longer needed.
 */
 
 :root {
@@ -278,7 +273,7 @@ footer {
   --brand-orange: #C2651A;
   --link-underline: #C2651A;
   --border: rgba(0,0,0,0.10);
-  --border-light: rgba(0,0,0,0.18);   /* v2: darkened from 0.06 — lines now read as deliberate marks */
+  --border-light: rgba(0,0,0,0.18);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -365,7 +360,7 @@ main {
   padding: 0 40px 5rem 40px;
 }
 
-/* v2: italic removed — roman DM Serif Display is authoritative enough */
+/* Roman, not italic — the letterforms carry enough weight at this size */
 h1 {
   font-family: "DM Serif Display", Georgia, serif;
   font-style: normal;
@@ -377,14 +372,7 @@ h1 {
   color: var(--text);
 }
 
-/* Blog post titles retain italic — appropriate at article scale */
-article h1 {
-  color: var(--text);
-  margin-top: 1rem;
-  font-style: italic;
-}
-
-/* Section labels — small, uppercase, sans — purely navigational */
+/* Section labels — small, uppercase, sans */
 h2 {
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   font-size: 0.75rem;
@@ -395,8 +383,7 @@ h2 {
   color: var(--text-light);
 }
 
-/* v2: Portfolio category headers — IBM Plex Sans uppercase labels
-   contrast clearly against the serif link text below them */
+/* Portfolio category headers — editorial labels, not headings */
 h3 {
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   font-size: 0.7rem;
@@ -417,23 +404,8 @@ p {
   line-height: 1.8;
 }
 
-/* --- Links --- */
-article a {
-  color: var(--text);
-  text-decoration: underline;
-  text-decoration-color: var(--link-underline);
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
-  font-weight: inherit;
-  transition: text-decoration-color 0.2s ease, color 0.2s ease;
-}
-
-article a:hover {
-  color: var(--brand-orange);
-  text-decoration-color: var(--brand-orange);
-}
-
-main a:not(.recent-posts a):not(.portfolio-col a) {
+/* --- Global inline links --- */
+a {
   color: var(--text);
   text-decoration: underline;
   text-decoration-color: var(--link-underline);
@@ -442,8 +414,16 @@ main a:not(.recent-posts a):not(.portfolio-col a) {
   transition: color 0.2s ease;
 }
 
-main a:not(.recent-posts a):not(.portfolio-col a):hover {
+a:hover {
   color: var(--brand-orange);
+}
+
+/* Nav links override — no underline treatment */
+nav a,
+nav a:hover,
+.site-title,
+.site-title:hover {
+  text-decoration: none;
 }
 
 /* --- Hero Section --- */
@@ -472,7 +452,7 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
 
 .recent-posts li {
   margin-bottom: 0;
-  border-top: 1px solid var(--border-light);  /* v2: uses darkened border */
+  border-top: 1px solid var(--border-light);
   padding: 1.1rem 0;
 }
 
@@ -493,9 +473,12 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
   display: block;
 }
 
-.recent-posts a:hover { color: var(--brand-orange); }
+.recent-posts a:hover {
+  color: var(--brand-orange);
+  text-decoration: none;
+}
 
-/* --- Portfolio Grid --- */
+/* --- Portfolio Grid (two columns preserved) --- */
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -503,18 +486,19 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
   margin-top: 3rem;
 }
 
-.portfolio-col ul { list-style: none; margin-bottom: 3rem !important; }
-
-.portfolio-col li {
-  font-size: 1rem;
-  margin-bottom: 0;
-  line-height: 1.5;
-  padding: 0.7rem 0;
-  border-bottom: 1px solid var(--border-light);  /* v2: consistent darker lines throughout */
+.portfolio-col ul {
+  list-style: none;
+  margin-bottom: 3rem !important;
+  padding: 0;
 }
 
-.portfolio-col li:first-child { border-top: none; }
-.portfolio-col li:last-child { border-bottom: none; }
+/* No borders on li — the link underline is enough separation */
+.portfolio-col li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  padding-bottom: 0.75rem;
+}
 
 .portfolio-col li a {
   font-family: "Lora", Georgia, serif;
@@ -527,7 +511,10 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
   transition: color 0.2s ease;
 }
 
-.portfolio-col li a:hover { color: var(--brand-orange); }
+.portfolio-col li a:hover {
+  color: var(--brand-orange);
+  text-decoration-color: var(--brand-orange);
+}
 
 /* --- Newsletter Box --- */
 .newsletter-box {
@@ -600,6 +587,16 @@ footer {
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.04em;
+}
+
+/* Footer links — plain, no ochre underline */
+footer a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--text);
 }
 
 /* --- Responsiveness --- */
