@@ -1,3 +1,8 @@
+/*
+=============================================================================
+  EMERGENCY BACKUP — ORIGINAL CSS as of 16:36, Saturday 28.03.2025
+=============================================================================
+
 :root {
   --bg: #ffffff;
   --text: #111111;
@@ -23,7 +28,6 @@ body {
   letter-spacing: -0.01em;
 }
 
-/* --- Navigation --- */
 header {
   position: sticky;
   top: 0;
@@ -77,7 +81,6 @@ nav a::after {
 
 nav a:hover::after { width: 100%; }
 
-/* --- Layout & Typography --- */
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -90,10 +93,9 @@ h1 {
   margin-bottom: 3rem;
   font-weight: 600;
   letter-spacing: -0.05em;
-  color: var(--text); /* Forces main titles to stay black */
+  color: var(--text);
 }
 
-/* Specific styling for story titles inside blog posts */
 article h1 {
   color: var(--brand-orange);
   margin-top: 1rem;
@@ -128,7 +130,6 @@ article a:hover {
   text-decoration-color: var(--brand-orange);
 }
 
-/* --- Hero Section --- */
 .hero-section {
   display: flex;
   align-items: flex-start;
@@ -145,7 +146,6 @@ article a:hover {
   border-radius: 16px;
 }
 
-/* --- Recent Posts (Large & Bold) --- */
 .recent-posts { 
   list-style: none; 
   margin: 2rem 0; 
@@ -178,7 +178,6 @@ article a:hover {
   color: var(--brand-orange);
 }
 
-/* --- Portfolio Grid --- */
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -191,7 +190,6 @@ article a:hover {
 .portfolio-col li a { font-weight: 400; text-decoration: none; border-bottom: 1px solid var(--border); }
 .portfolio-col li a:hover { border-bottom-color: var(--brand-orange); }
 
-/* --- Newsletter Box --- */
 .newsletter-box {
   padding: 3rem;
   background: #fdfdfd;
@@ -224,15 +222,9 @@ input[type="submit"] {
   transition: opacity 0.2s ease, transform 0.1s ease;
 }
 
-input[type="submit"]:hover {
-  opacity: 0.9;
-}
+input[type="submit"]:hover { opacity: 0.9; }
+input[type="submit"]:active { transform: translateY(1px); }
 
-input[type="submit"]:active {
-  transform: translateY(1px);
-}
-
-/* --- Global Elements --- */
 hr { border: none; height: 1px; background: transparent; }
 
 footer {
@@ -243,7 +235,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* --- Responsiveness --- */
 @media (max-width: 768px) {
   h1 { font-size: 2.8rem; }
   .recent-posts a { font-size: 1.25rem; }
@@ -251,4 +242,381 @@ footer {
   main { padding: 0 24px; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .hero-section { flex-direction: column-reverse; }
+}
+
+=============================================================================
+  END OF BACKUP
+=============================================================================
+*/
+
+
+/* ============================================================
+   WESSENCE.COM — UPDATED CSS
+   Revised: 28.03.2026
+   Direction: Editorial / Monocle-inspired
+   Key changes:
+   - Serif body font (Lora) replacing IBM Plex Sans
+   - DM Serif Display for headlines
+   - IBM Plex Sans retained for navigation only
+   - Links: black with burnt ochre underline (#B85C1A)
+   - Orange accent reduced and earthier throughout
+   - Header top border thinned to 3px
+   - Newsletter box: squared, no border-radius
+   - Portfolio grid: two columns preserved
+============================================================ */
+
+/* --- Google Fonts Import ---
+   Add this <link> to your <head> before your stylesheet:
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+*/
+
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --text-light: #777777;
+  --brand-orange: #C2651A;       /* Earthier, burnt ochre — replaces #F97316 */
+  --link-underline: #C2651A;     /* Same ochre, used for underlines */
+  --border: rgba(0,0,0,0.10);
+  --border-light: rgba(0,0,0,0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lora", Georgia, serif;
+  line-height: 1.75;
+  color: var(--text);
+  background-color: var(--bg);
+  overflow-wrap: break-word;
+  letter-spacing: 0;
+}
+
+/* --- Navigation --- */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  border-top: 3px solid var(--brand-orange);
+  padding: 1.1rem 0;
+  margin-bottom: 5rem;
+}
+
+nav {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nav uses IBM Plex Sans — sans-serif, uppercase, tight */
+.site-title {
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-title:hover { color: var(--brand-orange); }
+
+nav a {
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 2.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--text);
+  transition: width 0.25s ease;
+}
+
+nav a:hover::after { width: 100%; }
+
+/* --- Layout & Typography --- */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px 5rem 40px;
+}
+
+h1 {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 3.6rem;
+  line-height: 1.08;
+  margin-bottom: 2.5rem;
+  font-weight: 400;           /* DM Serif Display is already bold at 400 */
+  letter-spacing: -0.02em;
+  color: var(--text);
+  font-style: normal;
+}
+
+/* Blog post titles */
+article h1 {
+  color: var(--text);
+  margin-top: 1rem;
+  font-style: italic;          /* Italic serif for article titles — classic editorial */
+}
+
+h2 {
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  font-size: 0.75rem;
+  margin: 4rem 0 1.5rem 0;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-light);   /* Section labels recede — content leads */
+}
+
+h3 {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin-bottom: 1.8rem;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* --- Links (global body/article) --- */
+/* Black text, burnt ochre underline — your original instinct */
+article a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  font-weight: inherit;
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
+}
+
+article a:hover {
+  color: var(--brand-orange);
+  text-decoration-color: var(--brand-orange);
+}
+
+/* General inline links outside article context */
+main a:not(.recent-posts a):not(.portfolio-col a) {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
+}
+
+main a:not(.recent-posts a):not(.portfolio-col a):hover {
+  color: var(--brand-orange);
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+
+.hero-text { flex: 1; min-width: 300px; }
+
+.hero-image img {
+  max-width: 260px;
+  width: 100%;
+  border-radius: 4px;          /* Near-square — more editorial, less app-like */
+}
+
+/* --- Recent Posts --- */
+.recent-posts {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.recent-posts li {
+  margin-bottom: 0;
+  border-top: 1px solid var(--border-light);
+  padding: 1.1rem 0;
+}
+
+.recent-posts li:last-child {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.post-arrow {
+  display: none;               /* Replaced by border rhythm — arrows are digital, borders are print */
+}
+
+.recent-posts a {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.25;
+  transition: color 0.2s ease;
+  display: block;
+}
+
+.recent-posts a:hover {
+  color: var(--brand-orange);
+}
+
+/* --- Portfolio Grid (two columns preserved) --- */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 3rem;
+}
+
+.portfolio-col ul { list-style: none; margin-bottom: 3rem !important; }
+
+.portfolio-col li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.portfolio-col li:last-child {
+  border-bottom: none;
+}
+
+.portfolio-col li a {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 400;
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
+}
+
+.portfolio-col li a:hover {
+  color: var(--brand-orange);
+}
+
+/* --- Newsletter Box --- */
+.newsletter-box {
+  padding: 3rem;
+  background: #fafafa;
+  border: 1px solid var(--border);
+  border-radius: 0;            /* Square — print-inspired */
+}
+
+.newsletter-box p {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.15rem;
+}
+
+input[type="email"] {
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 0;            /* Square inputs to match box */
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1.2rem;
+  display: block;
+  background: #fff;
+  color: var(--text);
+}
+
+input[type="email"]::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border-color: var(--brand-orange);
+}
+
+input[type="submit"] {
+  padding: 13px 28px;
+  background: var(--text);     /* Black — deliberate, typographic */
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background: var(--brand-orange);
+}
+
+input[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+/* --- Global Elements --- */
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border-light);
+  margin: 3rem 0;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--text-light);
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+/* --- Responsiveness --- */
+@media (max-width: 768px) {
+  h1 { font-size: 2.6rem; }
+  .recent-posts a { font-size: 1.2rem; }
+  nav { padding: 0 20px; }
+  main { padding: 0 24px 4rem 24px; }
+  .portfolio-grid { grid-template-columns: 1fr; }
+  .hero-section { flex-direction: column-reverse; }
+  .hero-image img { max-width: 100%; }
 }
