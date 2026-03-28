@@ -1,6 +1,6 @@
 /*
 =============================================================================
-  EMERGENCY BACKUP — ORIGINAL CSS as of 16:36, Saturday 28.03.2025
+  EMERGENCY BACKUP — ORIGINAL CSS as of 16:36, Saturday 28.03.2026
 =============================================================================
 
 :root {
@@ -245,42 +245,40 @@ footer {
 }
 
 =============================================================================
-  END OF BACKUP
+  END OF ORIGINAL BACKUP
 =============================================================================
 */
 
 
 /* ============================================================
-   WESSENCE.COM — UPDATED CSS
-   Revised: 28.03.2026
-   Direction: Editorial / Monocle-inspired
-   Key changes:
-   - Serif body font (Lora) replacing IBM Plex Sans
-   - DM Serif Display for headlines
-   - IBM Plex Sans retained for navigation only
-   - Links: black with burnt ochre underline (#B85C1A)
-   - Orange accent reduced and earthier throughout
-   - Header top border thinned to 3px
-   - Newsletter box: squared, no border-radius
-   - Portfolio grid: two columns preserved
+   WESSENCE.COM — UPDATED CSS v2
+   Revised: 28.03.2026 — second pass
+   Changes from v1:
+   - Hero h1: italic removed, roman cut restored
+   - Recent posts divider lines: darkened from 0.06 to 0.18 opacity
+   - Portfolio h3 headers: switched to IBM Plex Sans uppercase
+     labels, replacing DM Serif Display — clearer hierarchy
 ============================================================ */
 
-/* --- Google Fonts Import ---
-   Add this <link> to your <head> before your stylesheet:
+/* --- Google Fonts ---
+   Add this to your <head> above your stylesheet link:
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+   Note: DM Serif Display italic variant removed from import —
+   no longer needed.
 */
 
 :root {
   --bg: #ffffff;
   --text: #111111;
   --text-light: #777777;
-  --brand-orange: #C2651A;       /* Earthier, burnt ochre — replaces #F97316 */
-  --link-underline: #C2651A;     /* Same ochre, used for underlines */
+  --brand-orange: #C2651A;
+  --link-underline: #C2651A;
   --border: rgba(0,0,0,0.10);
-  --border-light: rgba(0,0,0,0.06);
+  --border-light: rgba(0,0,0,0.18);   /* v2: darkened from 0.06 — lines now read as deliberate marks */
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -323,7 +321,6 @@ nav {
   align-items: center;
 }
 
-/* Nav uses IBM Plex Sans — sans-serif, uppercase, tight */
 .site-title {
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   color: var(--text);
@@ -368,24 +365,26 @@ main {
   padding: 0 40px 5rem 40px;
 }
 
+/* v2: italic removed — roman DM Serif Display is authoritative enough */
 h1 {
   font-family: "DM Serif Display", Georgia, serif;
+  font-style: normal;
   font-size: 3.6rem;
   line-height: 1.08;
   margin-bottom: 2.5rem;
-  font-weight: 400;           /* DM Serif Display is already bold at 400 */
+  font-weight: 400;
   letter-spacing: -0.02em;
   color: var(--text);
-  font-style: normal;
 }
 
-/* Blog post titles */
+/* Blog post titles retain italic — appropriate at article scale */
 article h1 {
   color: var(--text);
   margin-top: 1rem;
-  font-style: italic;          /* Italic serif for article titles — classic editorial */
+  font-style: italic;
 }
 
+/* Section labels — small, uppercase, sans — purely navigational */
 h2 {
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   font-size: 0.75rem;
@@ -393,15 +392,22 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-light);   /* Section labels recede — content leads */
+  color: var(--text-light);
 }
 
+/* v2: Portfolio category headers — IBM Plex Sans uppercase labels
+   contrast clearly against the serif link text below them */
 h3 {
-  font-family: "DM Serif Display", Georgia, serif;
-  font-size: 1.3rem;
-  margin-bottom: 0.75rem;
-  font-weight: 400;
-  letter-spacing: -0.01em;
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
 }
 
 p {
@@ -411,8 +417,7 @@ p {
   line-height: 1.8;
 }
 
-/* --- Links (global body/article) --- */
-/* Black text, burnt ochre underline — your original instinct */
+/* --- Links --- */
 article a {
   color: var(--text);
   text-decoration: underline;
@@ -428,7 +433,6 @@ article a:hover {
   text-decoration-color: var(--brand-orange);
 }
 
-/* General inline links outside article context */
 main a:not(.recent-posts a):not(.portfolio-col a) {
   color: var(--text);
   text-decoration: underline;
@@ -456,7 +460,7 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
 .hero-image img {
   max-width: 260px;
   width: 100%;
-  border-radius: 4px;          /* Near-square — more editorial, less app-like */
+  border-radius: 4px;
 }
 
 /* --- Recent Posts --- */
@@ -468,7 +472,7 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
 
 .recent-posts li {
   margin-bottom: 0;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--border-light);  /* v2: uses darkened border */
   padding: 1.1rem 0;
 }
 
@@ -476,9 +480,7 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
   border-bottom: 1px solid var(--border-light);
 }
 
-.post-arrow {
-  display: none;               /* Replaced by border rhythm — arrows are digital, borders are print */
-}
+.post-arrow { display: none; }
 
 .recent-posts a {
   font-family: "DM Serif Display", Georgia, serif;
@@ -491,11 +493,9 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
   display: block;
 }
 
-.recent-posts a:hover {
-  color: var(--brand-orange);
-}
+.recent-posts a:hover { color: var(--brand-orange); }
 
-/* --- Portfolio Grid (two columns preserved) --- */
+/* --- Portfolio Grid --- */
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -507,15 +507,14 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
 
 .portfolio-col li {
   font-size: 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
   line-height: 1.5;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border-light);
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--border-light);  /* v2: consistent darker lines throughout */
 }
 
-.portfolio-col li:last-child {
-  border-bottom: none;
-}
+.portfolio-col li:first-child { border-top: none; }
+.portfolio-col li:last-child { border-bottom: none; }
 
 .portfolio-col li a {
   font-family: "Lora", Georgia, serif;
@@ -528,16 +527,14 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
   transition: color 0.2s ease;
 }
 
-.portfolio-col li a:hover {
-  color: var(--brand-orange);
-}
+.portfolio-col li a:hover { color: var(--brand-orange); }
 
 /* --- Newsletter Box --- */
 .newsletter-box {
   padding: 3rem;
   background: #fafafa;
   border: 1px solid var(--border);
-  border-radius: 0;            /* Square — print-inspired */
+  border-radius: 0;
 }
 
 .newsletter-box p {
@@ -548,7 +545,7 @@ main a:not(.recent-posts a):not(.portfolio-col a):hover {
 input[type="email"] {
   padding: 14px 16px;
   border: 1px solid var(--border);
-  border-radius: 0;            /* Square inputs to match box */
+  border-radius: 0;
   font-size: 1rem;
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   width: 100%;
@@ -571,7 +568,7 @@ input[type="email"]:focus {
 
 input[type="submit"] {
   padding: 13px 28px;
-  background: var(--text);     /* Black — deliberate, typographic */
+  background: var(--text);
   color: white;
   border: none;
   border-radius: 0;
@@ -584,13 +581,8 @@ input[type="submit"] {
   transition: background 0.2s ease;
 }
 
-input[type="submit"]:hover {
-  background: var(--brand-orange);
-}
-
-input[type="submit"]:active {
-  transform: translateY(1px);
-}
+input[type="submit"]:hover { background: var(--brand-orange); }
+input[type="submit"]:active { transform: translateY(1px); }
 
 /* --- Global Elements --- */
 hr {
