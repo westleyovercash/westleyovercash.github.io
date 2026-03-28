@@ -385,8 +385,8 @@ h2 {
 
 /* Portfolio category headers — editorial labels, not headings */
 h3 {
-  font-family: "IBM Plex Sans", -apple-system, sans-serif;
-  font-size: 0.8rem;
+  font-family: "Lora", Georgia, serif;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
