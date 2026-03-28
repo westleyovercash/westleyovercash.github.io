@@ -386,13 +386,13 @@ h2 {
 /* Portfolio category headers — editorial labels, not headings */
 h3 {
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-light);
+  color: var(--text);
   margin-bottom: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
   padding-bottom: 0.6rem;
   border-bottom: 1px solid var(--border);
 }
