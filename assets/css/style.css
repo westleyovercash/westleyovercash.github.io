@@ -162,7 +162,7 @@ nav a:hover,
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   flex-wrap: wrap;
 }
 
