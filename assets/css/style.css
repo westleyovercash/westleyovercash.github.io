@@ -169,8 +169,7 @@ nav a:hover,
 .hero-text { flex: 1; min-width: 300px; }
 
 .hero-image img {
-  max-width: 200px;
-  width: 100%;
+  width: 200px;
   border-radius: opx;
 }
 
