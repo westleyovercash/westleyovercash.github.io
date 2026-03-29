@@ -160,7 +160,7 @@ nav a:hover,
 /* --- Hero Section --- */
 .hero-section {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 50px;
   margin-bottom: 5rem;
   flex-wrap: wrap;
@@ -169,7 +169,7 @@ nav a:hover,
 .hero-text { flex: 1; min-width: 300px; }
 
 .hero-image img {
-  width: 200px;
+  width: 240px;
   border-radius: opx;
 }
 
