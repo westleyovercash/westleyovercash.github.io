@@ -4,10 +4,8 @@ title: Blog
 ---
 
 <style>
-  /* Override the main constraint just for blog page */
   main { max-width: 1200px; }
   
-  /* Responsive: stack sidebar on mobile */
   @media (max-width: 968px) {
     .blog-layout { flex-direction: column; }
     .blog-sidebar { position: static !important; width: 100% !important; }
@@ -16,11 +14,10 @@ title: Blog
 
 <div class="blog-layout" style="display: flex; gap: 4rem; align-items: flex-start;">
   
-  <!-- Sidebar (left) -->
   <aside class="blog-sidebar" style="flex: 0 0 280px; position: sticky; top: 8rem;">
-    <div style="background: #f8f8f8; border-radius: 12px; padding: 2rem;">
-      <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; text-transform: none;">Subscribe</h3>
-      <p style="font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.5; color: #333;">
+    <div style="background: #fafafa; border: 1px solid rgba(0,0,0,0.10); padding: 2rem;">
+      <h3 style="font-family: 'IBM Plex Sans', sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #777777; margin-bottom: 1.2rem;">Subscribe</h3>
+      <p style="font-family: 'Lora', Georgia, serif; font-size: 1rem; margin-bottom: 1.5rem; line-height: 1.7; color: #111111;">
         I send occasional letters expanding on these stories. Leave your email to get your copy.
       </p>
       
@@ -28,21 +25,21 @@ title: Blog
         <input 
           type="email" 
           name="email" 
-          placeholder="Enter your email"
+          placeholder="your@email.com"
           required
-          style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: inherit;"
+          style="width: 100%; padding: 14px 16px; margin-bottom: 1rem; border: 1px solid rgba(0,0,0,0.10); border-radius: 0; font-size: 1rem; font-family: 'IBM Plex Sans', sans-serif; background: #fff; color: #111111;"
         />
         
-        <label style="display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.85rem; margin-bottom: 1rem; color: #555; line-height: 1.4;">
+        <label style="display: flex; align-items: flex-start; gap: 0.5rem; font-family: 'IBM Plex Sans', sans-serif; font-size: 0.82rem; margin-bottom: 1.2rem; color: #777777; line-height: 1.4;">
           <input type="checkbox" required style="margin-top: 0.15rem; flex-shrink: 0;" />
           <span>I consent to these emails and can say "bye" whenever I want.</span>
         </label>
         
         <button 
           type="submit"
-          style="width: 100%; padding: 0.75rem; background: #ff6b35; color: white; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; font-family: inherit; transition: opacity 0.2s ease;"
-          onmouseover="this.style.opacity='0.9'"
-          onmouseout="this.style.opacity='1'"
+          style="width: 100%; padding: 13px 28px; background: #111111; color: white; border: none; border-radius: 0; font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: background 0.2s ease;"
+          onmouseover="this.style.background='#C2651A'"
+          onmouseout="this.style.background='#111111'"
         >
           Subscribe
         </button>
@@ -50,15 +47,14 @@ title: Blog
     </div>
   </aside>
   
-  <!-- Main content (right) -->
   <div style="flex: 1; min-width: 0;">
-    <h1 style="font-size: 3.5rem; margin-bottom: 3rem; color: #ff6b35;">Blog</h1>
+    <h1 style="font-family: 'DM Serif Display', Georgia, serif; font-style: normal; font-size: 3.6rem; font-weight: 400; letter-spacing: -0.02em; margin-bottom: 3rem; color: #111111;">Blog</h1>
 
     <div id="post-container">
     {% for post in paginator.posts %}
     <article style="margin-bottom: 4rem;">
       <h2 style="margin-bottom: 1.5rem; text-transform: none !important;">
-        <a href="{{ post.url | relative_url }}" style="color: #ff6b35; text-decoration: none;">
+        <a href="{{ post.url | relative_url }}" style="font-family: 'DM Serif Display', Georgia, serif; font-size: 1.6rem; font-weight: 400; color: #C2651A; text-decoration: none; line-height: 1.25; transition: color 0.2s ease;">
           {{ post.title }}
         </a>
       </h2>
@@ -66,7 +62,6 @@ title: Blog
       <hr style="margin: 3rem 0 1.5rem 0; border: none; border-top: 1.5px solid #000; width: 100%;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem;">
         <div style="display: flex; gap: 14px; align-items: center;">
-          <!-- X -->
           <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url | relative_url }}&text={{ post.title | uri_escape }}"
              target="_blank" rel="noopener noreferrer" title="Share on X"
              style="color:#000; text-decoration:none;">
@@ -74,7 +69,6 @@ title: Blog
               <path d="M22.54 0H17.7L12 8.46 6.3 0H1.46L9.89 11.9 0 24h4.84l7.16-9.76L19.16 24H24L14.11 11.9 22.54 0z"/>
             </svg>
           </a>
-          <!-- LinkedIn -->
           <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ post.url | relative_url }}"
              target="_blank" rel="noopener noreferrer" title="Share on LinkedIn"
              style="color:#000; text-decoration:none;">
@@ -82,7 +76,6 @@ title: Blog
               <path d="M19 0h-14C2.2 0 0 2.2 0 5v14c0 2.8 2.2 5 5 5h14c2.8 0 5-2.2 5-5V5c0-2.8-2.2-5-5-5zM7 20H4V9h3v11zm-1.5-12.3C4.6 7.7 4 7.1 4 6.3S4.6 5 5.5 5 7 5.6 7 6.3 6.4 7.7 5.5 7.7zM20 20h-3v-5.5c0-1.5-.5-2.5-1.8-2.5-1 0-1.6.7-1.8 1.4-.1.2-.1.5-.1.8V20h-3s.1-9 0-11h3v1.6c.4-.7 1.1-1.8 2.7-1.8 2 0 3.5 1.3 3.5 4.1V20z"/>
             </svg>
           </a>
-          <!-- Copy link -->
           <a href="#" onclick="navigator.clipboard.writeText('{{ site.url }}{{ post.url | relative_url }}'); alert('Link copied!'); return false;"
              title="Copy link" style="color:#000; text-decoration:none;">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="20" height="20">
@@ -90,7 +83,7 @@ title: Blog
             </svg>
           </a>
         </div>
-        <p style="text-transform: uppercase; font-size: 0.9rem; color: #555; letter-spacing: 0.05em; font-weight: 600; margin: 0;">
+        <p style="font-family: 'IBM Plex Sans', sans-serif; text-transform: uppercase; font-size: 0.78rem; color: #777777; letter-spacing: 0.1em; font-weight: 600; margin: 0;">
           {{ post.date | date: "%B %d, %Y" }}
         </p>
       </div>
@@ -98,22 +91,19 @@ title: Blog
     {% endfor %}
     </div>
 
-    <!-- Loading indicator -->
     <div id="loading-indicator" style="display: none; text-align: center; padding: 2rem; color: #555; font-size: 0.9rem;">
       Loading more posts...
     </div>
 
-    <!-- Pagination (fallback for no-JS) -->
     {% if paginator.total_pages > 1 %}
-    <div id="pagination-links" style="display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+    <div id="pagination-links" style="display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(0,0,0,0.18);">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}" style="color: #ff6b35; text-decoration: none; font-weight: 600;">← Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | relative_url }}" style="font-family: 'IBM Plex Sans', sans-serif; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; text-decoration: none; color: #111111;">← Newer Posts</a>
       {% else %}
         <span></span>
       {% endif %}
-      
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}" id="next-page-link" style="color: #ff6b35; text-decoration: none; font-weight: 600;">Older Posts →</a>
+        <a href="{{ paginator.next_page_path | relative_url }}" id="next-page-link" style="font-family: 'IBM Plex Sans', sans-serif; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; text-decoration: none; color: #111111;">Older Posts →</a>
       {% endif %}
     </div>
     {% endif %}
@@ -124,48 +114,35 @@ title: Blog
 <script>
 (function() {
   'use strict';
-  
-  // Configuration
   const SCROLL_THRESHOLD = 300;
   const container = document.getElementById('post-container');
   const loadingIndicator = document.getElementById('loading-indicator');
   const paginationLinks = document.getElementById('pagination-links');
-  
-  // State
   let isLoading = false;
   let hasMorePages = true;
   let nextPageUrl = '{% if paginator.next_page %}{{ paginator.next_page_path | relative_url }}{% endif %}';
-  
-  if (paginationLinks) {
-    paginationLinks.style.display = 'none';
-  }
-  
+  if (paginationLinks) paginationLinks.style.display = 'none';
   function isNearBottom() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const windowHeight = window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
     return (documentHeight - (scrollTop + windowHeight)) < SCROLL_THRESHOLD;
   }
-  
   function extractArticles(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
     return Array.from(doc.querySelectorAll('#post-container article'));
   }
-  
   function extractNextPageUrl(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
     const nextLink = doc.querySelector('#next-page-link');
     return nextLink ? nextLink.getAttribute('href') : null;
   }
-  
   function loadNextPage() {
     if (isLoading || !hasMorePages || !nextPageUrl) return;
-    
     isLoading = true;
     loadingIndicator.style.display = 'block';
-    
     fetch(nextPageUrl)
       .then(response => {
         if (!response.ok) throw new Error('Failed to load page');
@@ -173,28 +150,17 @@ title: Blog
       })
       .then(html => {
         const articles = extractArticles(html);
-        
         if (articles.length === 0) {
           hasMorePages = false;
           loadingIndicator.style.display = 'none';
           return;
         }
-        
         articles.forEach(article => container.appendChild(article));
-        
         const newNextPageUrl = extractNextPageUrl(html);
-        if (newNextPageUrl) {
-          nextPageUrl = newNextPageUrl;
-        } else {
-          hasMorePages = false;
-        }
-        
+        if (newNextPageUrl) { nextPageUrl = newNextPageUrl; } else { hasMorePages = false; }
         loadingIndicator.style.display = 'none';
         isLoading = false;
-        
-        if (isNearBottom() && hasMorePages) {
-          setTimeout(loadNextPage, 100);
-        }
+        if (isNearBottom() && hasMorePages) setTimeout(loadNextPage, 100);
       })
       .catch(error => {
         console.error('Error loading posts:', error);
@@ -204,25 +170,15 @@ title: Blog
         hasMorePages = false;
       });
   }
-  
-  function handleScroll() {
-    if (isNearBottom()) loadNextPage();
-  }
-  
+  function handleScroll() { if (isNearBottom()) loadNextPage(); }
   let scrollTimeout;
   function throttledScroll() {
     if (scrollTimeout) return;
-    scrollTimeout = setTimeout(function() {
-      handleScroll();
-      scrollTimeout = null;
-    }, 100);
+    scrollTimeout = setTimeout(function() { handleScroll(); scrollTimeout = null; }, 100);
   }
-  
   if (nextPageUrl) {
     window.addEventListener('scroll', throttledScroll);
-    setTimeout(function() {
-      if (isNearBottom()) loadNextPage();
-    }, 100);
+    setTimeout(function() { if (isNearBottom()) loadNextPage(); }, 100);
   }
 })();
 </script>
