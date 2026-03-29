@@ -169,8 +169,8 @@ nav a:hover,
 .hero-text { flex: 1; min-width: 300px; }
 
 .hero-image img {
-  width: 240px;
-  align-self: flex-start;
+  width: 240px !important;
+  height: auto;
   border-radius: 0;
 }
 
