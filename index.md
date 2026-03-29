@@ -11,7 +11,7 @@ title: Home
 
 </div>
 
-<div class="hero-image">
+<div class="hero-image" style="max-width: 240px; flex-shrink: 0;">
 <img src="/assets/css/images/Westley-Overcash.jpg" alt="Westley Overcash - Copywriter, Editor, Educator - I write the stories your audience retells.">
 </div>
 
