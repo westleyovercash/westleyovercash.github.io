@@ -54,7 +54,7 @@ title: Blog
     {% for post in paginator.posts %}
     <article style="margin-bottom: 4rem;">
       <h2 style="margin-bottom: 1.5rem; text-transform: none !important;">
-        <a href="{{ post.url | relative_url }}" style="font-family: 'DM Serif Display', Georgia, serif; font-size: 1.6rem; font-weight: 400; color: #C2651A; text-decoration: none; line-height: 1.25; transition: color 0.2s ease;">
+        <a href="{{ post.url | relative_url }}" style="font-family: 'DM Serif Display', Georgia, serif; font-size: 1.6rem; font-weight: 400; color: #111111; text-decoration: none; line-height: 1.25; transition: color 0.2s ease;" onmouseover="this.style.color='#C2651A'" onmouseout="this.style.color='#111111'">
           {{ post.title }}
         </a>
       </h2>
