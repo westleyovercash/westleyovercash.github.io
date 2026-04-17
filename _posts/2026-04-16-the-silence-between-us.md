@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The silence between us
-date: 2026-04-15
+date: 2026-04-16
 ---
 I went to visit Babi Jana again. Her hair whiter than ever, lips tucked in behind her teeth. 
 
