@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Future perfect
-date: 2026-04-21
+date: 2026-04-22
 ---
 All the other kids watched cartoons. I tuned in to *Lifestyles of the Rich and Famous*. 
 
