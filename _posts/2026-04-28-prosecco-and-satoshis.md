@@ -5,6 +5,6 @@ date: 2026-04-28
 ---
 Summer sat quietly in a chair in the corner. It was her wedding day. Yet she was here team building. 
 
-While her new husband slang back Prosecco, talked satoshis and digital shop, Sherry sipped mint tea with the grace of a queen.
+While her new husband slang back Prosecco, talked satoshis and digital shop, Summer sipped mint tea with the grace of a queen.
 
 I wondered if her mind was here or somewhere else.
