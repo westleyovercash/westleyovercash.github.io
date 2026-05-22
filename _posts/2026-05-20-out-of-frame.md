@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Out of frame
-date: 2026-05-21
+date: 2026-05-20
 ---
 It was our favorite kind of day—the kind where we didn't have to sit at our desks. 
 
