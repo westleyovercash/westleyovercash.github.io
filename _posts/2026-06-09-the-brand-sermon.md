@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The brand sermon
-date: 2026-06-05
+date: 2026-06-09
 ---
 The recruiter asked me to come right in for a chat with the top guy. It made me feel important again.
 
