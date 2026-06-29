@@ -51,7 +51,8 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 
 <hr style="margin: 0.5rem 0 2rem 0;">
 
-## Sample works—from when originality was craft
+## Sample works — from when originality was craft
+{: .portfolio-section-label}
 
 <div class="portfolio-grid" markdown="1">
 
