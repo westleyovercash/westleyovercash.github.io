@@ -51,7 +51,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 
 <hr style="margin: 0.5rem 0 2rem 0;">
 
-## Places where my words live
+## Sample works—from when originality was craft.
 
 <div class="portfolio-grid" markdown="1">
 
