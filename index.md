@@ -123,7 +123,7 @@ I send occasional letters expanding on these stories. Leave your email to get yo
 * [Artificial Intelligence Is Returning Business to Traditional Soft Skills](https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link)
 
 ### Social media
-* [15K followers on Instagram](http://instagram.com/wessencecom/)
+* [14K followers on Instagram](http://instagram.com/wessencecom/)
 
 </div>
 
