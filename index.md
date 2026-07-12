@@ -41,7 +41,7 @@ I send occasional letters expanding on these vignettes. Leave your email to get 
   
   <label style="display: block; font-size: 0.85rem; margin-bottom: 1rem; color: #666;">
     <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px;">
-    I consent to these emails and can let go whenever I want.
+    I consent to these emails and can eject whenever I want.
   </label>
   
   <input type="submit" value="Subscribe">
