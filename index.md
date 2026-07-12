@@ -17,7 +17,7 @@ title: Home
 
 </div>
 
-Every single word must earn its place. That’s when your pitch deck stops sounding like every other pitch deck. Your medical app’s benefits become instantly clear. How your fintech product works doesn’t require an explanation from AI.
+Every word earns its place. That’s when your pitch deck stops sounding like every other pitch deck. Your medical app’s benefits become instantly clear. How your fintech product works doesn’t require an explanation from AI.
 
 From mercurial entrepreneurs and Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
