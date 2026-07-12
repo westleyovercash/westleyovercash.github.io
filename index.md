@@ -34,14 +34,14 @@ You can [get in touch](/contact), or see how I tell stories on my daily blog cal
 
 <div class="newsletter-box" style="margin-top: 2rem; margin-bottom: 1.5rem;" markdown="1">
 
-I send occasional letters expanding on these stories. Leave your email to get your copy.
+I send occasional letters expanding on these vignettes. Leave your email to get your copy.
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/westley" method="post" target="popupwindow">
   <input type="email" name="email" placeholder="Enter your email" required>
   
   <label style="display: block; font-size: 0.85rem; margin-bottom: 1rem; color: #666;">
     <input type="checkbox" name="gdpr" required style="width: auto; margin-right: 8px;">
-    I consent to these emails and can say "bye" whenever I want.
+    I consent to these emails and can let go whenever I want.
   </label>
   
   <input type="submit" value="Subscribe">
