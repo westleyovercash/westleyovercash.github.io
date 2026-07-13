@@ -21,7 +21,9 @@ Every word earns its place. That’s when your pitch deck stops sounding like ev
 
 From mercurial entrepreneurs and Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-You can [get in touch](/contact), or see how I tell stories on my daily blog called [On Noticing Things](/blog). It ranges from culture and technology to work and what makes us human. Here are my most recent:
+You can [get in touch](/contact), or see how I tell stories on my daily blog called [On Noticing Things](/blog): vignettes and occasional long-form stories on the tiny moments that make life full.
+
+. Here are my most recent:
 
 <ul class="recent-posts">
 {% for post in site.posts limit:3 %}
