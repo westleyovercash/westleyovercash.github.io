@@ -1,9 +1,13 @@
 ---
-layout: page
-title: "About"
+layout: default
+title: About
 permalink: /about/
 ---
-We yearn for words that make us feel.
+<div class="hero-section" markdown="1">
+<div class="hero-text" markdown="1">
+# We yearn for words<br/>that make us feel.
+</div>
+</div>
 
 Not just the words, but the breathing room in between them.
 
