@@ -23,7 +23,7 @@ From mercurial entrepreneurs and Czech startups to F500 brands, I turn their com
 
 You can [get in touch](/contact), or see how I tell stories on my daily blog [On Noticing Things](/blog)—vignettes and occasional long-form stories on the tiny moments that make life full.
 
-. Here are my most recent:
+Here are my most recent:
 
 <ul class="recent-posts">
 {% for post in site.posts limit:3 %}
