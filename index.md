@@ -114,19 +114,6 @@ I send occasional letters expanding on these vignettes. Leave your email to get 
 * [No more Happy Meals](https://drive.google.com/file/d/1ALvVlaKHFnMSGHF-L7BAi654ye60iO6t/view?usp=sharing)
 * [Stop interrupting](https://drive.google.com/file/d/1yPQqDH-upSxqr6QobgBy4rbpHV5kG55D/view?usp=sharing)
 
-### Press releases
-* [SALESDOCk expands to Benelux](https://drive.google.com/file/d/1pwISRCPCL2GyfnK7VjUuL4kjfGkIpmjQ/view?usp=sharing)
-* [My guide to writing surefire publicity announcements](https://drive.google.com/file/d/0B5XxCEn6SiJ5N2tOcDctWWt5R0k/view?usp=sharing&resourcekey=0-uRJZxtvdDJR0Z4AuY6TzPA)
-
-### Podcasting
-* [What I sound like](https://drive.google.com/file/d/1l877T9pqRdJqUUhVgxbMXZMBkcsb10Be/view?usp=share_link)
-
-### Translations
-* [Artificial Intelligence Is Returning Business to Traditional Soft Skills](https://drive.google.com/file/d/1L2Cf2OKvOyv5vbA1prcvax72u73qwSNs/view?usp=share_link)
-
-### Social media
-* [14K followers on Instagram](http://instagram.com/wessencecom/)
-
 </div>
 
 </div>
