@@ -9,7 +9,17 @@ permalink: /about/
 </div>
 </div>
 
-Not just the words, but the breathing room in between them.
+<div markdown="1">
+Not just the words, but the
+</div>
+
+<div style="margin-top:3.2rem;" markdown="1">
+breathing room
+</div>
+
+<div style="margin-top:3.2rem;" markdown="1">
+in between them.
+</div>
 
 That's why I write.
 
