@@ -228,7 +228,6 @@ nav a:hover,
   padding: 0;
 }
 
-/* No borders on li — the link underline is enough separation */
 .portfolio-col li {
   font-size: 1rem;
   margin-bottom: 0.75rem;
@@ -325,7 +324,6 @@ footer {
   letter-spacing: 0.04em;
 }
 
-/* Footer links — plain, no ochre underline */
 footer a {
   color: var(--text-light);
   text-decoration: none;
@@ -340,6 +338,8 @@ footer a:hover {
   h1 { font-size: 2.6rem; }
   .recent-posts a { font-size: 1.2rem; }
   nav { padding: 0 20px; }
+  .site-title { font-size: 0.75rem; letter-spacing: 0.04em; }
+  nav a { margin-left: 1.1rem; font-size: 0.7rem; }
   main { padding: 0 24px 4rem 24px; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .hero-section { flex-direction: column-reverse; }
