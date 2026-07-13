@@ -3,21 +3,15 @@ layout: default
 title: About
 permalink: /about/
 ---
-<div class="hero-section" markdown="1">
-<div class="hero-text" markdown="1">
-# We yearn for words<br/>that make us feel.
-</div>
-</div>
-
 <div markdown="1">
 Not just the words, but the
 </div>
 
-<div style="margin-top:3.2rem;" markdown="1">
+<div style="margin-top:5.5rem;" markdown="1">
 breathing room
 </div>
 
-<div style="margin-top:3.2rem;" markdown="1">
+<div style="margin-top:0.6rem;" markdown="1">
 in between them.
 </div>
 
