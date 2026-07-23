@@ -3,7 +3,7 @@ layout: post
 title: Closing time
 date: 2026-07-23
 ---
-Once a week a crane hoists the graffiti-laden green bubble into the air and releases its contents. A parade of shattering glass erupts. 
+Once a week a man with a crane hoists the graffiti-laden green bubble into the air and releases its contents. A parade of shattering glass erupts. 
 
 Most nights the waiter from the pizzeria chucks a crate's worth of bottles into the green bubble. The rapid fire of bottles smashing forms a 30-second marcato. The sound of cars and passersby returns.  
 
