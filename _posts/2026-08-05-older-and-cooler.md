@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Older and cooler
-date: 2026-08-06
+date: 2026-08-05
 ---
 They turned to me, eyes peering out from under their mops. The one on the right stood only as tall as my shoulder. 
 
