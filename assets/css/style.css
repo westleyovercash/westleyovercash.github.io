@@ -174,7 +174,7 @@ nav a:hover,
 .hero-text { flex: 1; min-width: 300px; }
 
 .hero-image img {
-  width: 300px !important;
+  width: 280px !important;
   height: auto;
   border-radius: 0;
   filter: contrast(1.2) brightness(1.03);
