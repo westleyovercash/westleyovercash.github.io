@@ -177,6 +177,7 @@ nav a:hover,
   width: 240px !important;
   height: auto;
   border-radius: 0;
+  filter: contrast(1.2) brightness(1.03);
 }
 
 /* --- Recent Posts --- */
