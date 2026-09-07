@@ -9,14 +9,14 @@ permalink: /about/
 </div>
 </div>
 
-Not just the words, but the breathing room in between them.
+That's why I write. 
 
-That's why I write.
+It's taken over a decade of practice and pushback to create my writing style. Since then, they've done some sightseeing.  
 
-On the number 9 tram in Prague, a man bragged to his friend about writing the best report of his career. Yet he couldn't recall a single line of it. A word-prediction machine had written it.
+My ghostwritten words have been tested with CEOs of the banks sitting in your Apple Wallet. They convinced the reclusive inventor of the world's most famous toy to endorse a client. They made a grumpy founder of a regulated stablecoin company admit, "I love it!" And they got a pop star to divulge his secret for the best scrambled eggs. 
 
-"If you can't beat 'em, join 'em," he said.
+I write the stories your audience retells—from mercurial entrepreneurs and Czech startups to F500 brands.
 
-I love the craft too much to join them. If you're reading this, we already have something in common.
+If you’re reading this, we already have something in common.
 
-I'm only a quick [email](/contact) or call away. We can start talking about the story your audience will retell.
+I'm only a quick [email](/contact) or call away. 
