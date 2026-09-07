@@ -1,25 +1,25 @@
 title: Westley Overcash
 email: wes@wessence.com
-description: I write the stories your audience retells.
+description: I write the stories your audience retells. Comms strategy and ghostwriting for founders, startups, and F500 brands.
 url: "https://wessence.com"
 baseurl: ""
-
 author: 
   name: Westley Overcash
-  twitter: westleyovercash
+  twitter: wessencecom
+social:
+  name: Westley Overcash
+  links:
+    - "https://www.linkedin.com/in/westleyovercash/"
+    - "https://www.instagram.com/wessencecom"
 twitter:
-  username: westleyovercash
+  username: wessencecom
   card: summary_large_image
 image: /assets/css/images/Westley-Overcash.jpg
-
 timezone: Europe/Prague
 future: false
-
 markdown: kramdown
-
 paginate: 10
 paginate_path: "/blog/page:num/"
-
 collections:
   portfolio:
     output: true
@@ -27,19 +27,16 @@ collections:
   writing:
     output: true
     permalink: /writing/:name/
-
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-
 defaults:
   - scope:
       path: "_posts"
