@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conditioning  
-date: 2026-09-08
+date: 2026-09-07
 tags: [family, observation]
 ---
 The watch crested high atop his wrist, sitting on a piece of flesh not painted with tattoos. Perhaps the desire to wear one like it came from his mom, whose fingers have always been crowded with gold rings that kiss her knuckles. 
