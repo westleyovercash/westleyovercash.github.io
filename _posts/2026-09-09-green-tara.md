@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Green Tara  
-date: 2026-09-08
+date: 2026-09-09
 ---
 Tara was the human form of a bump on a log. The velour of her brand new green Honda cushioned what others thought of us.
 
