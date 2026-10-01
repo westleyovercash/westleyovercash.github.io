@@ -3,7 +3,7 @@ layout: post
 title: Covert flavors
 date: 2026-10-01
 ---
-I ordered my usual hot and sour soup and Sichuan chicken. The owner's son scribbled hanzi with one hand, while with the other pressing the buttons on a calculator that made cat sounds.
+I ordered my usual hot and sour soup and Sichuan chicken. The owner's son scribbled hanzi with one hand and, with the other, pressed buttons on a calculator that made cat sounds.
 
 I tried to peer into the kitchen. The owner's husband smiles whenever he sees me. The food always tastes better that way. Squinting against the cool white light coming from the faux chandeliers, I studied, for the thousandth time, the oversized painting of the Alps on the back wall.
 
