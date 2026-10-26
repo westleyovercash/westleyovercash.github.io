@@ -1,0 +1,36 @@
+{%- comment -%}
+  Lists curated posts from _data/collections.yml.
+  Usage: {% include collection.html name="prague" %}
+{%- endcomment -%}
+{%- assign picks = site.data.collections[include.name] -%}
+<ol class="collection">
+{%- for pick in picks -%}
+  {%- assign pick_slug = pick | slugify -%}
+  {%- assign found = false -%}
+  {%- for post in site.posts -%}
+    {%- assign post_slug = post.title | slugify -%}
+    {%- if post_slug == pick_slug -%}
+      {%- assign found = true %}
+  <li class="collection-item">
+    <a class="collection-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="collection-date">{{ post.date | date: "%B %d, %Y" }}</span>
+    <p class="collection-excerpt">{{ post.content | strip_html | normalize_whitespace | truncatewords: 32 }}</p>
+  </li>
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- unless found %}
+  <!-- collection.html: no post titled "{{ pick }}" -->
+  {%- endunless -%}
+{%- endfor %}
+</ol>
+
+<style>
+  .collection { list-style: none; padding: 0; margin: 3rem 0; }
+  .collection-item { margin: 0 0 3rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border); }
+  .collection-item:last-child { border-bottom: none; }
+  .collection-title { font-family: "Playfair Display", Georgia, serif; font-size: 1.6rem; line-height: 1.25; color: var(--text); text-decoration: none; }
+  .collection-title:hover { color: var(--brand-orange); }
+  .collection-date { display: block; font-family: "IBM Plex Sans", sans-serif; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-light); margin: 0.5rem 0 1rem; }
+  .collection-excerpt { margin: 0; }
+</style>
