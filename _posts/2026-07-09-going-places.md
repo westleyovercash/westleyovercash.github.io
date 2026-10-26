@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Going places
-date: 2026-07-10
+date: 2026-07-09
 ---
 I couldn't wait to get to the future if it looked like the inside of this hotel. Through its open belly, monorail trains would glide in and out. My electric train set back at home couldn't do anything like that. 
 
