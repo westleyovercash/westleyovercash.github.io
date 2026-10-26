@@ -21,9 +21,9 @@ Every word earns its place. That’s when your pitch deck stops sounding like ev
 
 From mercurial entrepreneurs and Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-You can [get in touch](/contact), or see how I tell stories on my daily blog [On Noticing Things](/blog)—vignettes and occasional long-form stories on the tiny moments we overlook.
+You can [get in touch](/contact), or see how I tell stories on my daily blog called [On Noticing Things](/blog). These vignettes and occasional long-form stories surface the tiny moments we overlook. If you're new to my writing, let collections like [Strangers in Prague](/prague/), [In plain sight](/in-plain-sight/), and [Endings](/endings/) guide you.
 
-Here are my most recent:
+Or head right into the most recent posts:
 
 <ul class="recent-posts">
 {% for post in site.posts limit:3 %}
