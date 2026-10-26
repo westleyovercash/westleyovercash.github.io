@@ -15,7 +15,7 @@
     <a class="collection-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <span class="collection-date">{{ post.date | date: "%B %d, %Y" }}</span>
     <p class="collection-excerpt">{{ post.content | strip_html | normalize_whitespace | truncatewords: 32 }}</p>
-           <a class="collection-more" href="{{ post.url | relative_url }}">Read the story →</a>
+    <a class="collection-more" href="{{ post.url | relative_url }}">Read the story →</a>
   </li>
       {%- break -%}
     {%- endif -%}
@@ -34,4 +34,6 @@
   .collection-title:hover { color: var(--brand-orange); }
   .collection-date { display: block; font-family: "IBM Plex Sans", sans-serif; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-light); margin: 0.5rem 0 1rem; }
   .collection-excerpt { margin: 0; }
+  .collection-more { display: inline-block; margin-top: 1rem; font-family: "IBM Plex Sans", sans-serif; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; color: var(--text); }
+  .collection-more:hover { color: var(--brand-orange); }
 </style>
