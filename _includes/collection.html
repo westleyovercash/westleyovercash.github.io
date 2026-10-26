@@ -15,6 +15,7 @@
     <a class="collection-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <span class="collection-date">{{ post.date | date: "%B %d, %Y" }}</span>
     <p class="collection-excerpt">{{ post.content | strip_html | normalize_whitespace | truncatewords: 32 }}</p>
+           <a class="collection-more" href="{{ post.url | relative_url }}">Read the story →</a>
   </li>
       {%- break -%}
     {%- endif -%}
