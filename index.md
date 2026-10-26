@@ -53,7 +53,7 @@ I send occasional letters expanding on these vignettes. Leave your email to get 
 
 <hr style="margin: 0.5rem 0 2rem 0;">
 
-## Sample works | Before word-prediction machines existed
+## Sample works (before word-prediction machines existed)
 {: .portfolio-section-label}
 
 <div class="portfolio-grid" markdown="1">
