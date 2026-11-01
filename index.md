@@ -21,7 +21,7 @@ Every word earns its place. That’s when your pitch deck stops sounding like ev
 
 From mercurial entrepreneurs and Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-I start by noticing the emotions that drive decisions and the small things that get overlooked. Then I shape a strategy and story around those details. With 200+ vignettes, my daily blog On Noticing Things shows you the kind of things I notice. 
+I start by noticing the emotions that drive decisions and the small things that get overlooked. Then I shape a strategy and story around those details. With 200+ vignettes, my daily blog [On Noticing Things](blog) shows you the kind of things I notice. 
 
 And the small things your clients are noticing, too.
 
