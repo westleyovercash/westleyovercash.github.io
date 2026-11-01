@@ -21,7 +21,11 @@ Every word earns its place. That’s when your pitch deck stops sounding like ev
 
 From mercurial entrepreneurs and Czech startups to F500 brands, I turn their complex ideas into stories that want to be shared. 
 
-You can [get in touch](/contact), or see how I tell stories on my daily blog called [On Noticing Things](/blog). These vignettes and occasional long-form stories surface the tiny moments we overlook. If you're new to my writing, let collections like [The defector](/the-defector/), [In plain sight](/in-plain-sight/), and [Endings](/endings/) guide you.
+I start by noticing the emotions that drive decisions and the small things that get overlooked. Then I shape a strategy and story around those details. With 200+ vignettes, my daily blog On Noticing Things shows you the kind of things I notice. 
+
+And the small things your clients are noticing, too.
+
+If you're new to my writing, let collections like [The defector](/the-defector/), [In plain sight](/in-plain-sight/), and [Endings](/endings/) guide you.
 
 Or head right into the most recent posts:
 
