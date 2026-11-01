@@ -15,8 +15,6 @@ It's taken over a decade of practice and pushback to create my writing style. Si
 
 They've been tested with CEOs of the banks sitting in your Apple Wallet. They convinced the reclusive inventor of the world's most famous toy to endorse a client. They made the grumpy founder of a regulated fintech company admit, "I love it!" And they got a pop star to divulge his secret for the best scrambled eggs. 
 
-I write the stories your audience retells—from mercurial entrepreneurs and Czech startups to F500 brands.
-
-If you’re reading this, we already have something in common.
+Before the words, I created a strategy. 
 
 Are you noticing what your clients are noticing? Let's see. I'm only a quick [email](/contact) or call away.
