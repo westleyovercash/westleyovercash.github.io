@@ -19,4 +19,4 @@ I write the stories your audience retells—from mercurial entrepreneurs and Cze
 
 If you’re reading this, we already have something in common.
 
-I'm only a quick [email](/contact) or call away.
+Are you noticing what your clients are noticing? Let's see. I'm only a quick email or call away.I'm only a quick [email](/contact) or call away.
